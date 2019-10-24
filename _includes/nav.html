@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-success">
   <div class="container">
-    <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
+    <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a>
     <!-- <a class="navbar-brand" href="#">
       <img src="./logo.png" width="120" alt="" />
     </a> -->
@@ -19,7 +19,7 @@
       <ul class="navbar-nav ml-auto">
           {% for link in site.toc %} 
           <li class="nav-item">
-              <a class="nav-link" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+              <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
             </li>
           {% endfor %}
       </ul>
