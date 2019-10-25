@@ -1,4 +1,4 @@
-title: codingINDIAN
+title: codingINDIAN.com
 slogan: all you need to kNow
 logo: "custom – 1@3x.png"
 
@@ -22,76 +22,8 @@ defaults:
     layout: post
     author: Sharad Raj
 
-plugins: [jekyll-sitemap,jekyll-feed,jekyll-seo-tag,jemoji, jekyll-paginate]
+plugins: [jekyll-sitemap,jekyll-feed,jekyll-seo-tag,jemoji,jekyll-paginate,kramdown]
 
 markdown: kramdown
 paginate: 5
 paginate_path: "/page:num"
-
-author:
-  name: Sharad Raj
-  description: I'm a passionate <strong>developer and student</strong>, learning to be a giant.
-  description-2: I was select as one of the 250 students across India for Google Indian Challenge Scholarship 2018. <br><br> Currently doing freelancing and side projects in API development, Python and Full-stack web dev. Looking forward to learn Flask.
-  hire: Want to hire me! Just drop a mail
-  address: Barabanki, India
-  website: https://sharadcodes.github.io
-  phone: +91-7054-667-667
-  email: dev_sharad@outlook.com
-  contact:
-  - title: linkedin
-    icon: fab
-    url: https://www.linkedin.com/in/srsmaurya
-  - title: github
-    icon: fab
-    url: https://github.com/sharadcodes
-  - title: stack-overflow
-    icon: fab
-    url: https://stackoverflow.com/story/iamsharadraj
-  - title: twitter
-    icon: fab
-    url: https://twitter.com/iamsharadraj
-  - title: envelope
-    icon: fas
-    url: mailto:dev_sharad@outlook.com
-  languages:
-  - title: HTML5
-    level: 91
-    color: success
-  - title: CSS3
-    level: 81
-    color: success
-  - title: JavaScript
-    level: 95    
-    color: success
-  - title: JQuery
-    level: 84
-    color: success    
-  - title: ES6
-    level: 64
-    color: success    
-  - title: NODEjs
-    level: 81
-    color: success
-  - title: GatsbyJS
-    level: 56
-    color: success
-  - title: ReactJS
-    level: 69
-    color: success    
-  - title: Python
-    level: 73
-    color: success
-  - title: C
-    level: 75
-    color: success
-  - title: C++
-    level: 72
-    color: success              
-
-toc:
-  - title: Home
-    url: /
-  - title: About
-    url: /about
-  - title: Portfolio
-    url: /portfolio

@@ -1,0 +1,23 @@
+name: Sharad Raj
+description: I'm a passionate <strong>developer and student</strong>, learning to be a giant.
+hire: Want to hire me! Just drop a mail
+address: Barabanki, India
+website: https://sharadcodes.github.io
+phone: +91-7054-667-667
+email: dev_sharad@outlook.com
+contact:
+  - title: linkedin
+    icon: fab
+    url: https://www.linkedin.com/in/srsmaurya
+  - title: github
+    icon: fab
+    url: https://github.com/sharadcodes
+  - title: stack-overflow
+    icon: fab
+    url: https://stackoverflow.com/story/iamsharadraj
+  - title: twitter
+    icon: fab
+    url: https://twitter.com/iamsharadraj
+  - title: envelope
+    icon: fas
+    url: mailto:dev_sharad@outlook.com
