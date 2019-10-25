@@ -41,7 +41,7 @@ collections: # A list of collections the CMS should be able to edit
         file: "_data/nav.yml"
         fields:
           - label: "Navigation Items"
-            name: "items"
+            name: "toc"
             widget: "list"
             fields:
               - {label: Title, name: title, widget: string}
