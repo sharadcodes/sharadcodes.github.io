@@ -44,7 +44,7 @@
 						{% if latest_post.image %}
 						<img
 							class="card-img-top"
-							src="{{ site.baseurl }}/assets/uploads/{{ latest_post.image }}"
+							src="{{ site.baseurl }}/{{ latest_post.image }}"
 							alt="Image for {{ latest_post.title | capitalize }}"
 						/>
 						{% endif %}
@@ -69,7 +69,7 @@
 						{% if post.image %}
 						<img
 							class="card-img-top"
-							src="{{ site.baseurl }}/assets/uploads/{{ post.image }}"
+							src="{{ site.baseurl }}/{{ post.image }}"
 							alt="Image for {{ post.title | capitalize }}"
 						/>
 						{% endif %}
@@ -93,7 +93,7 @@
 						{% if post.image %}
 						<img
 							class="card-img-top"
-							src="{{ site.baseurl }}/assets/uploads/{{ post.image }}"
+							src="{{ site.baseurl }}/{{ post.image }}"
 							alt="Image for {{ post.title | capitalize }}"
 						/>
 						{% endif %}
