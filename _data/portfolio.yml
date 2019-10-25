@@ -4,3 +4,8 @@ projects:
     img_alt: Anjani Books
     link: 'https://anjanibooks.com'
     title: Anjani Books
+  - about: This is game
+    img: /assets/uploads/331875.jpg
+    img_alt: Game
+    link: 'https://agmvs.org.in/'
+    title: Game
