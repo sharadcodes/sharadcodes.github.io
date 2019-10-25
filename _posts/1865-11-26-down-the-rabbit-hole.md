@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Down The Rabbit Hole
-date: 1865-11-26 10:18:00
-author: lewis
 categories: lewis
+author: lewis
+image: /assets/uploads/331875.jpg
+date: '2019-09-27 12:00:00'
 ---
 
 Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, 'and what is the use of a book,' thought Alice 'without pictures or conversation?'
