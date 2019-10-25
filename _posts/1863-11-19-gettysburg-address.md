@@ -3,7 +3,7 @@ layout: post
 title: Gettysburg Address
 categories: abraham
 author: abraham
-image: /assets/uploads/jedi.jpg
+image: /assets/uploads/331875.jpg
 date: '2019-10-02 04:11:20'
 ---
 
