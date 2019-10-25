@@ -59,8 +59,8 @@ collections: # A list of collections the CMS should be able to edit
             name: "projects"
             widget: "list"
             fields:
+              - {label: Title, name: title, widget: string, required: true}
               - {label: Image, name: img, widget: image, required: false}
               - {label: Image Alt Text, name: img_alt, widget: string, required: true}
-              - {label: Title, name: title, widget: string, required: true}
-              - {label: About, name: about, widget: string, required: true}                         
+              - {label: About, name: about, widget: string, required: true}
               - {label: Link, name: link, widget: string, required: true}
