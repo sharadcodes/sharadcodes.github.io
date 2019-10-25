@@ -46,3 +46,21 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Url, name: url, widget: string}
+  - name: "portfolio"
+    label: "Portfolio"
+    editor:
+      preview: false
+    files:
+      - label: "Projects"
+        name: "projects"
+        file: "_data/portfolio.yml"
+        fields:
+          - label: "Project list"
+            name: "projects"
+            widget: "list"
+            fields:
+              - {label: Image, name: img, widget: image, required: false}
+              - {label: Image Alt Text, name: img_alt, widget: string, required: true}
+              - {label: Title, name: title, widget: string, required: true}
+              - {label: About, name: about, widget: string, required: true}                         
+              - {label: Link, name: link, widget: string, required: true}

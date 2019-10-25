@@ -25,16 +25,10 @@
 				{% for p in site.data.portfolio.projects %}
 				<div class="col-md-4 mb-5">
 					<div class="card h-100">
-						{% if p.img.local %}
+						{% if p.img %}
 						<img
 							class="card-img-top"
-							src="{{ site.baseurl }}{{ p.img.local }}"
-							alt="{{ p.img_alt }}"
-						/>
-						{% else if p.img.web %}
-						<img
-							class="card-img-top"
-							src="{{ p.img.web }}"
+							src="{{ p.img }}"
 							alt="{{ p.img_alt }}"
 						/>
 						{% endif %}

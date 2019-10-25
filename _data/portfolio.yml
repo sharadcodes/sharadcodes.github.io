@@ -1,25 +1,7 @@
 # local fiels in img is to be used when you have an image in the folder- portfolio_images otherwise for any src link use web field
 projects:
   - img:
-      local: jedi.jpg
-      web:
-    img_alt: Something
-    title: AGMVS
-    about: AKASH GRAMIN MAHILA VIKASH SAMITI is an NGO in Bihar, Bhagalpur district
-    link: https://agmvs.org.in
-
-  - img:
-      local:
-      web: https://placehold.it/300x200
     img_alt: Anjani Books
     title: Anjani Books
     about: Anjani Books is an Online plaform for books
     link: https://anjanibooks.com
-
-  - img:
-      local:
-      web: https://placehold.it/300x200
-    img_alt: Anjani Books
-    title: Anjani Books
-    about: Anjani Books is an Online plaform for books
-    link: https://anjanibooks.com    
