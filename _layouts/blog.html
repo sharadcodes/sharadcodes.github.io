@@ -125,11 +125,16 @@
 						<div class="card-body">
 							<div class="input-group">
 								<input
-									type="text"
 									class="form-control"
-									placeholder="Search for..."
+									id="in_Default"
+									type="text"
+									placeholder="Search.."
+									name="search"
+									autocomplete="off"
 								/>
 							</div>
+							<hr/>
+							<ol id="results-container">ol>
 						</div>
 					</div>
 
@@ -176,5 +181,15 @@
 			<!-- /.row -->
 		</div>
 		{% include footer.html %} {% include scripts.html %}
+		<!-- SCRIPT FOR SEARCH START -->
+		<script src="{{ site.baseurl }}/assets/js/search.js"></script>
+		<script>
+		var sjs = SimpleJekyllSearch({
+		searchInput: document.getElementById('in_Default'),
+		resultsContainer: document.getElementById('results-container'),
+		json: '{{ site.baseurl }}/search.json'
+		})
+		</script>
+		<!-- SCRIPT FOR SEARCH END -->
 	</body>
 </html>
