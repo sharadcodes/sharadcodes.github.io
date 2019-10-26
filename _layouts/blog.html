@@ -6,12 +6,25 @@
 
 		<!-- Featured Header -->
 		<style>
-				.bg-img {
-				background: url("{{ site.baseurl }}/assets/uploads/{{site.data.featured.image}}") #3B3B3B !important;
-				background-repeat: no-repeat!important;
-				background-position: center!important;
-				background-size: cover!important;
-				}
+		.bg-img {
+		position: relative;
+		background: rgba(0, 0, 0, 0.021);
+		z-index: 1;
+		}
+		.bg-img:after {
+		content: "";
+		position: absolute;
+		background: url("{{ site.baseurl }}/assets/uploads/{{site.data.featured.image}}");
+		background-repeat: no-repeat;
+		background-size: cover;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: -1;
+		opacity: 1;
+		filter: blur(5px)
+		}
 		</style>		
 		
 		<header class="py-5 bg-img">
