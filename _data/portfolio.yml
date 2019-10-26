@@ -19,16 +19,23 @@ projects:
     img_alt: Screenshot
     link: 'https://sharadcodes.github.io/jekyll-theme-milo/'
     title: Jekyll Theme Milo
-  - about: Library Management System developed in JS and MongoDB
-    img: /assets/uploads/lms.jpeg
-    img_alt: LMS
-    link: 'https://lms-pro.herokuapp.com/books.html'
-    title: LMS
   - about: Collect the Infinity Stones in this amazing JavaScript game
     img: /assets/uploads/ais.png
     img_alt: Snap
     link: 'https://sharadcodes.github.io/the-game-of-infinity-stones/'
     title: Game Of Infinity Stones
+  - about: Library Management System developed in JS and MongoDB
+    img: /assets/uploads/lms.jpeg
+    img_alt: LMS
+    link: 'https://lms-pro.herokuapp.com/books.html'
+    title: LMS
+  - about: >-
+      A just for fun project using MongoDB Atlas and JS, to ask questions
+      secretly.
+    img: /assets/uploads/askmee.png
+    img_alt: Snap
+    link: 'https://askmee.netlify.com/ask.html'
+    title: Ask Mee Platform
   - about: My first game in JavaScript
     img: /assets/uploads/rps.png
     img_alt: Snap
@@ -44,10 +51,3 @@ projects:
     img_alt: Screenshot
     link: 'https://sharadcodes.github.io/bootblog/'
     title: Jekyll Theme Bootblog
-  - about: >-
-      A just for fun project using MongoDB Atlas and JS, to ask questions
-      secretly.
-    img: /assets/uploads/askmee.png
-    img_alt: Snap
-    link: 'https://askmee.netlify.com/ask.html'
-    title: Ask Mee Platform
