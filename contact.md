@@ -1,6 +1,6 @@
 ---
-title: "Contact Me :loudspeaker:"
-subtitle: ""
+title: "Contact Me"
+subtitle: ":loudspeaker:"
 layout: page_with_sidebar
 ---
 
