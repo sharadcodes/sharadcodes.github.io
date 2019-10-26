@@ -34,3 +34,13 @@ projects:
     img_alt: Snap
     link: 'https://sharadcodes.github.io/the-game-of-infinity-stones/'
     title: Game Of Infinity Stones
+  - about: My first game in JavaScript
+    img: /assets/uploads/rps.png
+    img_alt: Snap
+    link: 'https://sharadcodes.github.io/rock-paper-scissors-game/'
+    title: Rock Paper Scissors
+  - about: 'This was my summer training project developed in Java, Swing, MySQL'
+    img: /assets/uploads/gstb.png
+    img_alt: Snap
+    link: '#'
+    title: GST Based Billing System
