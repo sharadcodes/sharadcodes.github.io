@@ -3,7 +3,30 @@
 	{% include head.html %}
 	<body>
 		{% include nav.html %}
-		<header class="bg-success bg-dark py-5 mb-5">
+		<style>
+			.bg-img {
+				position: relative;
+				background: #3b3b3b;
+				z-index: 1;
+			}
+			.bg-img:after {
+				content: "";
+				margin: 2vh 0vh 2vh 0vh;
+				position: absolute;
+				background: url("{{ site.baseurl }}{{page.image}}") #3b3b3b;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				z-index: -1;
+				opacity: 1;
+				filter: blur(10px) brightness(50%);
+			}
+		</style>
+		<header class="bg-img py-5 mb-5">
 			<div class="container h-100">
 				<div class="row h-100 align-items-center">
 					<div class="col-lg-12">
