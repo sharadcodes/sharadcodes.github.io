@@ -14,3 +14,8 @@ projects:
     img_alt: Screenshot
     link: 'https://sharadcodes.github.io/jekyll-theme-milo/'
     title: Jekyll Theme Milo
+  - about: Library Management System developed in JS and MongoDB
+    img: /assets/uploads/lms.jpeg
+    img_alt: LMS
+    link: 'https://lms-pro.herokuapp.com/books.html'
+    title: LMS
