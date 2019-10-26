@@ -1,6 +1,6 @@
 ---
 title: "Contact Me"
-subtitle: "Reach me :loudspeaker: anytime 8 to 10"
+subtitle: ":loudspeaker: Anytime bw morning 8 to eve 10"
 layout: page_with_sidebar
 ---
 
