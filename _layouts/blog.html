@@ -8,22 +8,23 @@
 		<style>
 		.bg-img {
 		position: relative;
-		background: rgba(0, 0, 0, 0.021);
+		background: #30AF43;
 		z-index: 1;
 		}
 		.bg-img:after {
 		content: "";
 		position: absolute;
-		background: url("{{ site.baseurl }}/assets/uploads/{{site.data.featured.image}}");
+		background: url("{{ site.baseurl }}/assets/uploads/{{site.data.featured.image}}") #3B3B3B;
 		background-repeat: no-repeat;
 		background-size: cover;
+		background-position: center;
 		top: 0;
 		left: 0;
 		right: 0;
 		bottom: 0;
 		z-index: -1;
 		opacity: 1;
-		filter: blur(5px)
+		filter: brightness(60%)
 		}
 		</style>		
 		
