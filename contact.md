@@ -23,5 +23,5 @@ layout: page_with_sidebar
 		<label for="query">Your message</label>
 		<textarea name="Message" class="form-control" id="query" rows="3" placeholder="Make me a webapp, website, app ..."></textarea>
     </div>
-    <button type="submit" class="btn btn-danger block">Send Message</button>
+    <button type="submit" class="btn btn-danger btn-block">Send Message</button>
 </form>
