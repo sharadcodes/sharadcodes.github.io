@@ -1,25 +1,57 @@
 <!-- Bootstrap core JavaScript -->
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/main.js"></script>
 
 <script>
-	function LoadCSS(cssURL) {
-		// 'cssURL' is the stylesheet's URL, i.e. /css/styles.css
-		return new Promise(function(resolve, reject) {
-			var link = document.createElement("link");
-			link.rel = "stylesheet";
-			link.href = cssURL;
-			document.head.appendChild(link);
-			link.onload = function() {
-				resolve();
-				console.log("CSS has loaded!");
-			};
-		});
+	var element = document.getElementById("dlmode");
+	function toggle() {
+		if (element.classList) {
+			if (element.getAttribute("state") == "light") {
+				element.innerText = "DARK MODE";
+				element.setAttribute("state", "dark");
+				element.classList.toggle("btn-dark");
+				document.getElementById("darkcss").disabled = false;
+				document.cookie = "dark_mode=true";
+			} else {
+				element.innerText = "LIGHT MODE";
+				element.setAttribute("state", "light");
+				element.classList.toggle("btn-dark");
+				document.getElementById("darkcss").disabled = true;
+				document.cookie = "dark_mode=false";
+			}
+		}
 	}
 
-	LoadCSS("{{site.baseurl}}/assets/css/dark.css").then(function() {
-		console.log("Another function is triggered after CSS had been loaded.");
-		return DoAfterCSSHasLoaded();
+	document.addEventListener("DOMContentLoaded", function() {
+		if (getCookie("dark_mode") == "true") {
+			element.innerText = "DARK MODE";
+			element.setAttribute("state", "dark");
+			document.getElementById("darkcss").disabled = false;
+			document.cookie = "dark_mode=true";
+		}
+		if (getCookie("dark_mode") == "false") {
+			element.innerText = "LIGHT MODE";
+			element.setAttribute("state", "light");
+			element.classList.toggle("btn-dark");
+			document.getElementById("darkcss").disabled = true;
+			document.cookie = "dark_mode=false";
+		}
 	});
+
+	function getCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(";");
+		for (var i = 0; i < ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == " ") {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
 </script>
