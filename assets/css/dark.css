@@ -1,0 +1,17 @@
+body {
+	background: #242424 !important;
+	color: #fcfcfc !important;
+}
+
+.card,
+.card-body,
+.card-footer,
+.card-header,
+.page-link {
+	/* background: #333333 !important; */
+	background: #3b3b3b !important;
+}
+
+.card {
+	border: 0px !important;
+}
