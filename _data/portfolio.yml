@@ -9,6 +9,11 @@ projects:
     img_alt: AGMVS Image
     link: 'https://agmvs.org.in'
     title: Akash Gramin Mahila Vikash Samiti
+  - about: 'This was my summer training project developed in Java, Swing, MySQL'
+    img: /assets/uploads/gstb.png
+    img_alt: Snap
+    link: '#'
+    title: GST Based Billing System
   - about: A Jekyll powered theme developed by me
     img: /assets/uploads/jm.jpeg
     img_alt: Screenshot
@@ -19,16 +24,6 @@ projects:
     img_alt: LMS
     link: 'https://lms-pro.herokuapp.com/books.html'
     title: LMS
-  - about: A Github like Jekyll theme with Syntax highlighting.
-    img: /assets/uploads/simplifico.png
-    img_alt: Simplifico snap
-    link: 'https://sharadcodes.github.io/simplifico/blog/'
-    title: Jekyll Theme Simplifico
-  - about: Bootstrap based Jekyll theme
-    img: /assets/uploads/bootblog.png
-    img_alt: Screenshot
-    link: 'https://sharadcodes.github.io/bootblog/'
-    title: Jekyll Theme Bootblog
   - about: Collect the Infinity Stones in this amazing JavaScript game
     img: /assets/uploads/ais.png
     img_alt: Snap
@@ -39,8 +34,13 @@ projects:
     img_alt: Snap
     link: 'https://sharadcodes.github.io/rock-paper-scissors-game/'
     title: Rock Paper Scissors
-  - about: 'This was my summer training project developed in Java, Swing, MySQL'
-    img: /assets/uploads/gstb.png
-    img_alt: Snap
-    link: '#'
-    title: GST Based Billing System
+  - about: A Github like Jekyll theme with Syntax highlighting.
+    img: /assets/uploads/simplifico.png
+    img_alt: Simplifico snap
+    link: 'https://sharadcodes.github.io/simplifico/blog/'
+    title: Jekyll Theme Simplifico
+  - about: Bootstrap based Jekyll theme
+    img: /assets/uploads/bootblog.png
+    img_alt: Screenshot
+    link: 'https://sharadcodes.github.io/bootblog/'
+    title: Jekyll Theme Bootblog
