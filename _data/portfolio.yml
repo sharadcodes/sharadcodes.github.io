@@ -44,3 +44,10 @@ projects:
     img_alt: Screenshot
     link: 'https://sharadcodes.github.io/bootblog/'
     title: Jekyll Theme Bootblog
+  - about: >-
+      A just for fun project using MongoDB Atlas and JS, to ask questions
+      secretly.
+    img: /assets/uploads/askmee.png
+    img_alt: Snap
+    link: 'https://askmee.netlify.com/ask.html'
+    title: Ask Mee Platform
