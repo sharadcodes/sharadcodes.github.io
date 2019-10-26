@@ -9,3 +9,8 @@ projects:
     img_alt: AGMVS Image
     link: 'https://agmvs.org.in'
     title: Akash Gramin Mahila Vikash Samiti
+  - about: A Jekyll powered theme developed by me
+    img: /assets/uploads/jm.jpeg
+    img_alt: Screenshot
+    link: 'https://sharadcodes.github.io/jekyll-theme-milo/'
+    title: Jekyll Theme Milo
