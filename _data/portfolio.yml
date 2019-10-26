@@ -19,3 +19,18 @@ projects:
     img_alt: LMS
     link: 'https://lms-pro.herokuapp.com/books.html'
     title: LMS
+  - about: A Github like Jekyll theme with Syntax highlighting.
+    img: /assets/uploads/simplifico.png
+    img_alt: Simplifico snap
+    link: 'https://sharadcodes.github.io/simplifico/blog/'
+    title: Jekyll Theme Simplifico
+  - about: Bootstrap based Jekyll theme
+    img: /assets/uploads/bootblog.png
+    img_alt: Screenshot
+    link: 'https://sharadcodes.github.io/bootblog/'
+    title: Jekyll Theme Bootblog
+  - about: Collect the Infinity Stones in this amazing JavaScript game
+    img: /assets/uploads/ais.png
+    img_alt: Snap
+    link: 'https://sharadcodes.github.io/the-game-of-infinity-stones/'
+    title: Game Of Infinity Stones
