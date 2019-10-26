@@ -5,7 +5,16 @@
 		{% include nav.html %}
 
 		<!-- Featured Header -->
-		<header class="bg-success bg-dark py-5">
+		<style>
+				.bg-img {
+				background: url("{{ site.baseurl }}/assets/uploads/{{site.data.featured.image}}") #3B3B3B !important;
+				background-repeat: no-repeat!important;
+				background-position: center!important;
+				background-size: cover!important;
+				}
+		</style>		
+		
+		<header class="py-5 bg-img">
 			<div class="container h-100">
 				<div class="row h-100 align-items-center">
 					<div class="col-lg-12">
