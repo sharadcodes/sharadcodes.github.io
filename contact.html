@@ -1,8 +1,26 @@
 ---
-title: 'Contact Me :loudspeaker:'
-subtitle: ''
+title: "Contact Me :loudspeaker:"
+subtitle: ""
 layout: page_with_sidebar
 ---
 
-
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus in commodi ipsa inventore tenetur saepe eum expedita obcaecati provident soluta?
+<form name="CONTACT FORM" method="POST" data-netlify="true">
+	<div class="form-group">
+		<label for="name">Name</label>
+		<input type="text" class="form-control" id="name" placeholder="Captain America" />
+	</div>
+	<div class="form-group">
+		<label for="email">Email address</label>
+		<input
+			type="email"
+			class="form-control"
+			id="email"
+			placeholder="captain@avengers.com"
+		/>
+	</div>
+	<div class="form-group">
+		<label for="query">Your message</label>
+		<textarea class="form-control" id="query" rows="3" placeholder="Make me a webapp, website, app ..."></textarea>
+    </div>
+    <button type="submit" class="btn btn-danger block">Send Message</button>
+</form>
