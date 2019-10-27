@@ -1,5 +1,5 @@
 ---
 title: My Portfolio
-subtitle: 'Some of the works done by  :point_right: me  :trollface:' 
+subtitle: 'Some of my works'
 layout: portfolio
 ---
