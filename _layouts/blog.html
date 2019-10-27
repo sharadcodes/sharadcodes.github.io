@@ -102,8 +102,7 @@
 							>
 						</div>
 						<div class="card-footer text-muted">
-							Posted on {{ latest_post.date | date_to_string }} by  :point_right:
-							{{ latest_post.author }}
+							Posted on {{ latest_post.date | date_to_string }} by {{ latest_post.author }}
 						</div>
 					</div>
 					{% endfor %} {% for post in paginator.posts offset:1 %}
@@ -126,7 +125,7 @@
 							>
 						</div>
 						<div class="card-footer text-muted">
-							Posted on {{ post.date | date_to_string }} by  :point_right: {{ post.author }}
+							Posted on {{ post.date | date_to_string }} by {{ post.author }}
 						</div>
 					</div>
 
@@ -150,7 +149,7 @@
 							>
 						</div>
 						<div class="card-footer text-muted">
-							Posted on {{ post.date | date_to_string }} by  :point_right: {{ post.author }}
+							Posted on {{ post.date | date_to_string }} by {{ post.author }}
 						</div>
 					</div>
 
