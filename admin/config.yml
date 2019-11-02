@@ -73,7 +73,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "wallpapers"
         file: "_data/wall.yml"
         fields:
-          - label: "File list"
+          - label: "Files"
             name: "files"
             widget: "list"
             fields:
