@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to see the deleted message of whatsapp.
+title: How to see the deleted message of Whatsapp.
 categories: ANDROID
 author: Sharad Raj
 image: /assets/uploads/wh.png
