@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to see the notifications you missed in android.
+title: How to see the deleted message of whatsapp.
 categories: ANDROID
 author: Sharad Raj
 image: /assets/uploads/wh.png
