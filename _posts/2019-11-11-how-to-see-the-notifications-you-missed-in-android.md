@@ -16,15 +16,12 @@ Go to your home screen and long press.
 
 ## Step 2
 
-- - -
 
 Now go to Widgets and find the widget named Settings.
 
 ![](/assets/uploads/wa2.png)
 
 ## Step 3
-
-- - -
 
 Long press on it and place it in the home screen.
 
@@ -36,8 +33,6 @@ Here you have to choose **Notification Log**
 
 ## Step 4
 
-- - -
-
 If you have done this much.
 
 Your home screen will be having an icon like this.
@@ -45,8 +40,6 @@ Your home screen will be having an icon like this.
 ![](/assets/uploads/wa4.png)
 
 ## Step 5
-
-- - -
 
 Open it by clicking on it.
 
