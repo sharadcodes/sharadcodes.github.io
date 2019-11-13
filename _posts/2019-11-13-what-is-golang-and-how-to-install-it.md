@@ -63,3 +63,19 @@ Now wait for the installer to load, after some time it will show something like 
 ![](/assets/uploads/wingo2.png)
 
 Click on next.
+
+Now accept the license by ticking the check box and clicking next.
+
+![](/assets/uploads/wingo3.png)
+
+Now it will ask for the folder in which the Go lang should be installed. 
+
+By default it is `C:\Go\`
+
+Leave it as default and click Next
+
+![](/assets/uploads/wingo4.png)
+
+Now after this click on install button:
+
+![](/assets/uploads/wingo5.png)
