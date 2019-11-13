@@ -10,20 +10,34 @@ What is Golang, the ins ans outs as well as its installation on both Linux and W
 
 Let's get started
 
----
+- - -
 
 Well Go as the word suggests it is developed by Google. Go was developed in 2007 by Robert Griesemer, Rob Pike, and Ken Thompson.
 
 They describe it as
 
->“Go was born out of frustration with existing languages and environments for systems programming.”
+> “Go was born out of frustration with existing languages and environments for systems programming.”
 
 Or in a nutshell it is an procedural, open-source, super clean, blazing fast, flexible and an easy to maintain programming language.
 
----
+It is also on server side as well as used for generating websites using the famous static site named **HUGO**.
 
-## Go Installation
+Without further wait lets quickly jump on to the installation section.
 
-### Step 1
+I will be covering Windows, Linux and Mac installation so that everyone is covered.
 
-First of all open this link: https://golang.org/doc/install
+- - -
+
+## Go Installation for Windows
+
+### Step 1: Downloading the Go lang msi package
+
+First of all open this link: https://golang.org/dl/ 
+
+This will open a page like the one shown below in the screenshot.
+
+![](/assets/uploads/gowin1.png)
+
+Click on the link highlighted using in the red box. This will start download of the msi file packgae of golang for Windows.
+
+### Step 2: Installing the Go lang msi package
