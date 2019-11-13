@@ -6,7 +6,7 @@ author: Sharad Raj
 image: jedi.png
 date: '2019-11-13 12:00:00'
 ---
-What is Golang, the ins ans outs as well as its installation on both Linux and Windows will be covered in this article.
+What is Golang, the ins ans outs as well as its installation on Windows will be covered in this article. However I will expand this article to linux installation as well.
 
 Let's get started
 
@@ -20,9 +20,25 @@ They describe it as
 
 Or in a nutshell it is an procedural, open-source, super clean, blazing fast, flexible and an easy to maintain programming language.
 
-Without further wait lets quickly jump on to the installation section.
+>So what can the Go lang do? 
 
-I will be covering Windows, Linux and Mac installation so that everyone is covered.
+Well to answer this question here is a list of tech giants and how they use GO.
+
+1. Google: Google uses it to write many of its internal services, the source for Chrome, Android SDK etc are written in Go.
+
+2. Medium: Their Neo4j database is having services written in Go for managing.
+
+3. Uber: The rides you book are baing managed by service written in Go
+
+And many more giants like BBC, Docker etc.
+
+Hugo is a popular static site generator written in go.
+
+```
+
+Now without further wait lets quickly jump on to the installation section.
+
+I will be covering Windows for now.
 
 - - -
 
