@@ -30,9 +30,20 @@ I will be covering Windows, Linux and Mac installation so that everyone is cover
 
 ## Go Installation for Windows
 
-### Step 1: Downloading the Go lang msi package
+### Step 1: Downloading the Go lang MSI installer
 
-First of all open this link: https://golang.org/dl/ 
+\`\``bash\
+System requirements are\
+\
+1. Windows 7, Server 2008R2 or later\
+2. Architecture: amd64, 386\
+\`\``
+
+The Go project provides two installation options for Windows users (besides installing from source): a zip archive that requires you to set some environment variables and an MSI installer that configures your installation automatically
+
+We will go with the MSI installer as it is easy for a beginner.
+
+First of all open this link: \[https://golang.org/dl/](https://golang.org/dl/)
 
 This will open a page like the one shown below in the screenshot.
 
@@ -40,4 +51,4 @@ This will open a page like the one shown below in the screenshot.
 
 Click on the link highlighted using in the red box. This will start download of the msi file packgae of golang for Windows.
 
-### Step 2: Installing the Go lang msi package
+### Step 2: Installing the Go lang
