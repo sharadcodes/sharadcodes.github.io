@@ -20,8 +20,6 @@ They describe it as
 
 Or in a nutshell it is an procedural, open-source, super clean, blazing fast, flexible and an easy to maintain programming language.
 
-It is also on server side as well as used for generating websites using the famous static site named **HUGO**.
-
 Without further wait lets quickly jump on to the installation section.
 
 I will be covering Windows, Linux and Mac installation so that everyone is covered.
