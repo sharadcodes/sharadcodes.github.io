@@ -28,9 +28,9 @@ Well to answer this question here is a list of tech giants and how they use GO.
 
 2. Medium: Their Neo4j database is having services written in Go for managing.
 
-3. Uber: The rides you book are being managed by service written in Go
+3. Uber: The rides you book are being managed by services written in Go
 
-And many more giants like BBC, Docker etc.
+And many more giants like BBC, Docker etc use GO as their go to language.
 
 Hugo is a popular static site generator written in go.
 
