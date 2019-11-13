@@ -34,6 +34,7 @@ And many more giants like BBC, Docker etc use GO as their go to language.
 
 Hugo is a popular static site generator written in go.
 
+
 ```
 
 Now without further wait lets quickly jump on to the installation section.
@@ -51,6 +52,7 @@ System requirements are:
 1. Windows 7, Server 2008R2 or later
 2. Architecture: amd64, 386
 ```
+
 
 The Go project provides two installation options for Windows users (besides installing from source): a zip archive that requires you to set some environment variables and an MSI installer that configures your installation automatically
 
