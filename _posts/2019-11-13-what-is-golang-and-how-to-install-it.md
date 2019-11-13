@@ -20,26 +20,23 @@ They describe it as
 
 Or in a nutshell it is a procedural, open-source, super clean, blazing fast, flexible and an easy to maintain programming language.
 
->So what can the Go lang do? 
+> So what can the Go lang do? 
 
 Well to answer this question here is a list of tech giants and how they use GO.
 
 1. Google: Google uses it to write many of its internal services, the source for Chrome, Android SDK etc are written in Go.
-
 2. Medium: Their Neo4j database is having services written in Go for managing.
-
 3. Uber: The rides you book are being managed by services written in Go
 
 And many more giants like BBC, Docker etc use GO as their go to language.
 
 Hugo is a popular static site generator written in go.
 
-
----
+- - -
 
 Now without further wait lets quickly jump on to the installation section.
 
-I will be covering Windows for now.
+I will be covering Windows installation for now.
 
 - - -
 
@@ -52,7 +49,6 @@ System requirements are:
 1. Windows 7, Server 2008R2 or later
 2. Architecture: amd64, 386
 ```
-
 
 The Go project provides two installation options for Windows users (besides installing from source): a zip archive that requires you to set some environment variables and an MSI installer that configures your installation automatically
 
@@ -108,5 +104,6 @@ You will see the window like the one below this after the successful install, cl
 
 ![](/assets/uploads/wingo8.png)
 
----
+- - -
+
 Woo hooo, that's it the installation part is completed. :smile:
