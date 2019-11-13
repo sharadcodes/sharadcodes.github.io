@@ -14,7 +14,7 @@ projects:
       (Can't share the repo link due to some reasons)
     img: /assets/uploads/gstb.png
     img_alt: Snap
-    link: 'https://github.com/sharadcodes/GSTBillingSystem'
+    link: '#'
     title: GST Based Billing System
   - about: A Jekyll powered theme developed by me
     img: /assets/uploads/jm.jpeg
