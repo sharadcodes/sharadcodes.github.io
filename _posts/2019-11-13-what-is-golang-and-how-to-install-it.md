@@ -6,7 +6,7 @@ author: Sharad Raj
 image: jedi.png
 date: '2019-11-13 12:00:00'
 ---
-What is Golang, the ins ans outs as well as its installation on Windows will be covered in this article. However I will expand this article to linux installation as well.
+What is Golang, a quick intro as well as its installation on Windows will be covered in this article. However I will expand this article to linux installation as well.
 
 Let's get started
 
