@@ -126,8 +126,6 @@ If you see the output on cmd like the screenshot below. It means you are good to
 
 ![](/assets/uploads/wingo9.png)
 
-![]()
-
 - - -
 
 Huge thanks  :heart: to Hitesh Sir for giving the oppurtunity to share something with the community.
