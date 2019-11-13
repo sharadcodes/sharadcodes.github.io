@@ -79,3 +79,16 @@ Leave it as default and click Next
 Now after this click on install button:
 
 ![](/assets/uploads/wingo5.png)
+
+Now it will prompt you to allow the admin rights so click on next on that prompt:
+
+![](/assets/uploads/wingo7.jpeg)
+
+Now if everything is right it will take approx 1 minute to install.
+
+You will see the window like the one below this after the successful install, click on finish.
+
+![](/assets/uploads/wingo8.png)
+
+---
+Woo hooo, that's it the installation part is completed. :smile:
