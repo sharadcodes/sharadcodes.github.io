@@ -46,6 +46,6 @@ This will open a page like the one shown below in the screenshot.
 
 ![](/assets/uploads/gowin1.png)
 
-Click on the link highlighted using in the red box. This will start download of the msi file packgae of golang for Windows.
+Click on the link highlighted using in the red box. This will start download of MSI installer for GO.
 
-### Step 2: Installing the Go lang
+### Step 2: Installing GO using MSI installer
