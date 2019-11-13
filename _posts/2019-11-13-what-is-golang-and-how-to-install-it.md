@@ -109,3 +109,25 @@ You will see the window like the one below this after the successful install, cl
 - - -
 
 Woo hooo, that's it the installation part is completed. :smile:
+
+- - -
+
+## Testing GO installation
+
+Your system must be ready to run GO now but a test is always good.
+
+So quickly open up your command prompt and type
+
+```bash
+go
+```
+
+If you see the output on cmd like the screenshot below. It means you are good to GO :thumbsup:
+
+![](/assets/uploads/wingo9.png)
+
+![]()
+
+- - -
+
+Huge thanks  :heart: to Hitesh Sir for giving the oppurtunity to share something with the community.
