@@ -57,3 +57,9 @@ If you are on Windows 8,8.1 or 10 you might get a dialog like this.
 ![](/assets/uploads/wingo1.png)
 
 **Just click on Run**
+
+Now wait for the installer to load, after some time it will show something like this as shown in the below screenshot.
+
+![](/assets/uploads/wingo2.png)
+
+Click on next.
