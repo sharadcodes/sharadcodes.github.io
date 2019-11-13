@@ -3,7 +3,7 @@ layout: post
 title: What is Golang and how to install it
 categories: GOLANG
 author: Sharad Raj
-image: jedi.png
+image: /assets/uploads/golang.png
 date: '2019-11-13 12:00:00'
 ---
 What is Golang, a quick intro as well as its installation on Windows will be covered in this article. However I will expand this article to linux installation as well.
