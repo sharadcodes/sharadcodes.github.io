@@ -18,7 +18,7 @@ They describe it as
 
 > “Go was born out of frustration with existing languages and environments for systems programming.”
 
-Or in a nutshell it is an procedural, open-source, super clean, blazing fast, flexible and an easy to maintain programming language.
+Or in a nutshell it is a procedural, open-source, super clean, blazing fast, flexible and an easy to maintain programming language.
 
 >So what can the Go lang do? 
 
