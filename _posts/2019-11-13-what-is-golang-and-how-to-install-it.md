@@ -35,7 +35,7 @@ And many more giants like BBC, Docker etc use GO as their go to language.
 Hugo is a popular static site generator written in go.
 
 
-```
+---
 
 Now without further wait lets quickly jump on to the installation section.
 
