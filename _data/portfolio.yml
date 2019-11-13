@@ -9,10 +9,12 @@ projects:
     img_alt: AGMVS Image
     link: 'https://agmvs.org.in'
     title: Akash Gramin Mahila Vikash Samiti
-  - about: 'This was my summer training project developed in Java, Swing, MySQL'
+  - about: >-
+      This was my summer training project developed in Java, Swing, MySQL.
+      (Can't share the repo link due to some reasons)
     img: /assets/uploads/gstb.png
     img_alt: Snap
-    link: '#'
+    link: 'https://github.com/sharadcodes/GSTBillingSystem'
     title: GST Based Billing System
   - about: A Jekyll powered theme developed by me
     img: /assets/uploads/jm.jpeg
@@ -24,7 +26,7 @@ projects:
     img_alt: Snap
     link: 'https://sharadcodes.github.io/the-game-of-infinity-stones/'
     title: Game Of Infinity Stones
-  - about: Library Management System developed in JS and MongoDB
+  - about: Library Management System developed in JS and MongoDB (Under Development)
     img: /assets/uploads/lms.jpeg
     img_alt: LMS
     link: 'https://lms-pro.herokuapp.com/books.html'
