@@ -10,6 +10,13 @@ projects:
     link: 'https://anjanibooks.com'
     title: Anjani Books
   - about: >-
+      This was my summer training project developed in Java, Swing, MySQL.
+      (Can't share the repo link due to some reasons)
+    img: /assets/uploads/gstb.png
+    img_alt: Snap
+    link: 'https://www.codingindian.codes/assets/uploads/gstb.png'
+    title: GST Based Billing System
+  - about: >-
       An API that returns the links of the feed images of any public account.
       Have Fun !
     img: /assets/uploads/twitter_api.png
@@ -28,13 +35,6 @@ projects:
     img_alt: CSV to TABLE
     link: 'https://sharadcodes.github.io/cdn/csv_to_table/'
     title: CSV to TABLE
-  - about: >-
-      This was my summer training project developed in Java, Swing, MySQL.
-      (Can't share the repo link due to some reasons)
-    img: /assets/uploads/gstb.png
-    img_alt: Snap
-    link: 'https://www.codingindian.codes/assets/uploads/gstb.png'
-    title: GST Based Billing System
   - about: Collect the Infinity Stones in this amazing JavaScript game
     img: /assets/uploads/ais.png
     img_alt: Snap
