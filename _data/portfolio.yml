@@ -10,6 +10,13 @@ projects:
     link: 'https://anjanibooks.com'
     title: Anjani Books
   - about: >-
+      An API that returns the links of the feed images of any public account.
+      Have Fun !
+    img: /assets/uploads/twitter_api.png
+    img_alt: Twitter Feed Images Scrapping API
+    link: 'https://sharadcodes-twee-api.herokuapp.com/'
+    title: Twitter Feed Images Scrapping API
+  - about: >-
       This was my summer training project developed in Java, Swing, MySQL.
       (Can't share the repo link due to some reasons)
     img: /assets/uploads/gstb.png
@@ -65,10 +72,3 @@ projects:
     img_alt: Screenshot
     link: 'https://sharadcodes.github.io/bootblog/'
     title: Jekyll Theme Bootblog
-  - about: >-
-      An API that returns the links of the feed images of any public account.
-      Have Fun !
-    img: /assets/uploads/twitter_api.png
-    img_alt: Twitter Feed Images Scrapping API
-    link: 'https://sharadcodes-twee-api.herokuapp.com/'
-    title: Twitter Feed Images Scrapping API
