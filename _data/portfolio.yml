@@ -1,14 +1,4 @@
 projects:
-  - about: Get array of specifice type of files or all files in the specific folder.
-    img_alt: Github Repo Files Extractor
-    link: 'https://sharadcodes.github.io/cdn/ghub_files/'
-    title: Github Repo Files Extractor
-  - about: >-
-      A tiny library for generating a table dynamically using CSV files. A table
-      is generated dynamically from a CSV file on the server.
-    img_alt: CSV to TABLE
-    link: 'https://sharadcodes.github.io/cdn/csv_to_table/'
-    title: CSV to TABLE
   - about: AGMVS is an NGO from Bihar
     img: /assets/uploads/agmvs.png
     img_alt: AGMVS Image
@@ -26,6 +16,18 @@ projects:
     img_alt: Snap
     link: 'https://www.codingindian.codes/assets/uploads/gstb.png'
     title: GST Based Billing System
+  - about: Get array of specifice type of files or all files in the specific folder.
+    img: /assets/uploads/js.png
+    img_alt: Github Repo Files Extractor
+    link: 'https://sharadcodes.github.io/cdn/ghub_files/'
+    title: Github Repo Files Extractor
+  - about: >-
+      A tiny library for generating a table dynamically using CSV files. A table
+      is generated dynamically from a CSV file on the server.
+    img: /assets/uploads/js.png
+    img_alt: CSV to TABLE
+    link: 'https://sharadcodes.github.io/cdn/csv_to_table/'
+    title: CSV to TABLE
   - about: Collect the Infinity Stones in this amazing JavaScript game
     img: /assets/uploads/ais.png
     img_alt: Snap
