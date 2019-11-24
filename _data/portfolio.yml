@@ -16,13 +16,6 @@ projects:
     img_alt: Twitter Feed Images Scrapping API
     link: 'https://sharadcodes-twee-api.herokuapp.com/'
     title: Twitter Feed Images Scrapping API
-  - about: >-
-      This was my summer training project developed in Java, Swing, MySQL.
-      (Can't share the repo link due to some reasons)
-    img: /assets/uploads/gstb.png
-    img_alt: Snap
-    link: 'https://www.codingindian.codes/assets/uploads/gstb.png'
-    title: GST Based Billing System
   - about: Get array of specifice type of files or all files in the specific folder.
     img: /assets/uploads/js.png
     img_alt: Github Repo Files Extractor
@@ -35,6 +28,13 @@ projects:
     img_alt: CSV to TABLE
     link: 'https://sharadcodes.github.io/cdn/csv_to_table/'
     title: CSV to TABLE
+  - about: >-
+      This was my summer training project developed in Java, Swing, MySQL.
+      (Can't share the repo link due to some reasons)
+    img: /assets/uploads/gstb.png
+    img_alt: Snap
+    link: 'https://www.codingindian.codes/assets/uploads/gstb.png'
+    title: GST Based Billing System
   - about: Collect the Infinity Stones in this amazing JavaScript game
     img: /assets/uploads/ais.png
     img_alt: Snap
