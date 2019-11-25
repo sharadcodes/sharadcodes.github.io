@@ -46,14 +46,14 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Url, name: url, widget: string}
-  - name: "portfolio"
-    label: "Portfolio"
+  - name: "collections"
+    label: "Collections"
     editor:
       preview: false
     files:
       - label: "Projects"
         name: "projects"
-        file: "_data/portfolio.yml"
+        file: "_data/projects_data.yml"
         fields:
           - label: "Project list"
             name: "projects"
