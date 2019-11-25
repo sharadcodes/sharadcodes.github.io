@@ -40,6 +40,11 @@ projects:
     img_alt: Snap
     link: 'https://sharadcodes.github.io/the-game-of-infinity-stones/'
     title: Game Of Infinity Stones
+  - about: A minimal Dark Theme for Jekyll
+    img: /assets/uploads/1.png
+    img_alt: Dark Reader Jekyll Theme
+    link: 'https://github.com/sharadcodes/jekyll-theme-dark-reader'
+    title: Dark Reader Jekyll Theme
   - about: A Jekyll powered theme developed by me
     img: /assets/uploads/jm.jpeg
     img_alt: Screenshot
@@ -72,8 +77,3 @@ projects:
     img_alt: Screenshot
     link: 'https://sharadcodes.github.io/bootblog/'
     title: Jekyll Theme Bootblog
-  - about: A minimal Dark Theme for Jekyll
-    img: /assets/uploads/1.png
-    img_alt: Dark Reader Jekyll Theme
-    link: 'https://github.com/sharadcodes/jekyll-theme-dark-reader'
-    title: Dark Reader Jekyll Theme
