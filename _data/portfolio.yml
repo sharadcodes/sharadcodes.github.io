@@ -72,3 +72,8 @@ projects:
     img_alt: Screenshot
     link: 'https://sharadcodes.github.io/bootblog/'
     title: Jekyll Theme Bootblog
+  - about: A minimal Dark Theme for Jekyll
+    img: /assets/uploads/1.png
+    img_alt: Dark Reader Jekyll Theme
+    link: 'https://github.com/sharadcodes/jekyll-theme-dark-reader'
+    title: Dark Reader Jekyll Theme
