@@ -4,11 +4,6 @@ projects:
     img_alt: AGMVS Image
     link: 'https://agmvs.org.in'
     title: Akash Gramin Mahila Vikash Samiti
-  - about: Anjani Books is an Online platform for purchasing old and new books
-    img: /assets/uploads/abooks.png
-    img_alt: Anjani Books
-    link: 'https://anjanibooks.com'
-    title: Anjani Books
   - about: >-
       This was my summer training project developed in Java, Swing, MySQL.
       (Can't share the repo link due to some reasons)
