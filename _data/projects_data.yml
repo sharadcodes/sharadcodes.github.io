@@ -11,6 +11,11 @@ projects:
     img_alt: Snap
     link: 'https://www.codingindian.codes/assets/uploads/gstb.png'
     title: GST Based Billing System
+  - about: 'A Java Swing Based RSS, Atom Feed reader made for Dark Mode Lovers'
+    img: /assets/uploads/dark_feeder.png
+    img_alt: Dark Feeder
+    link: 'https://sharadcodes.github.io/Dark_Feeder/'
+    title: Dark Feeder
   - about: >-
       An API that returns the links of the feed images of any public account.
       Have Fun !
