@@ -1,38 +1,36 @@
 <head>
-	<meta charset="utf-8" />
-	<meta
-		name="viewport"
-		content="width=device-width, initial-scale=1, shrink-to-fit=no"
-	/>
-	<meta name="title" content="codingINDIAN | Blog">
-	<meta name="description" content="I’m a passionate developer and student, learning to be a giant. love making projects, having fun  and enjoy playing video games. I am most skilled in ReactJS, NodeJS, ExpressJS and Drinking Cold Coffee. I was select as one of the student receiving the Google India Challenge Scholarship in the year 2018. I’m currently doing freelancing and side projects in API development using NodeJS & Python.">	
-	<meta name="author" content="Sharad Raj Singh Maurya" />
-	<meta name="theme-color" content="#00ff00">
-	<title>{{ site.title }} | {{ page.title }}</title>
-	{% seo %}
-	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" />
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet"> 
-	<link
-		rel="stylesheet"
-		id="darkcss"
-		href="{{ site.baseurl }}/assets/css/dark.css"
-	/>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-	{% if page.title == "Blog" %}
-	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<title>{{ site.title }} | {{ page.title }}</title>
+<meta name="title" content="codingINDIAN | Blog">
+<meta name="description" content="I’m a passionate developer and student, learning to be a giant. love making projects, having fun  and enjoy playing video games. I am most skilled in ReactJS, NodeJS, ExpressJS and Drinking Cold Coffee. I was select as one of the student receiving the Google India Challenge Scholarship in the year 2018. I’m currently doing freelancing and side projects in API development using NodeJS & Python.">	
+<meta name="author" content="Sharad Raj Singh Maurya" />
+{% seo %}
+<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=' | append: site.github.build_revision | relative_url }}">
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
+<![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+{% if page.title == "Posts" %}
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
-	<script>
-		if (window.netlifyIdentity) {
-			window.netlifyIdentity.on("init", user => {
-				if (!user) {
-					window.netlifyIdentity.on("login", () => {
-						document.location.href = "/admin/";
-					});
-				}
-			});
-		}
-	</script>
-	{% endif %}
+<script>
+    if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+            if (!user) {
+                window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                });
+            }
+        });
+    }
+</script>
+{% endif %}
 </head>

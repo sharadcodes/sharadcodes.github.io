@@ -1,0 +1,32 @@
+---
+title: Stuff I've build
+layout: default
+---
+
+
+<style>
+img {
+    width: 100%;
+    margin-top: 1rem;
+}
+a{
+    font-size: 1.2rem;
+    border-left: 10px solid #f8cc04;
+    padding-left: 1rem;
+}
+p{
+    color: white;
+    font-size: 1rem;
+}
+</style>
+
+
+{% for p in site.data.projects_data.projects %}
+    <a target="_blank" href="{{ p.link }}">
+    {{p.title}}
+    <br/>
+    <!-- <img src="{{ p.img }}"> -->
+    <p> {{p.about}} </p>
+    </a>
+    <hr />
+{% endfor %}
