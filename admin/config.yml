@@ -64,17 +64,17 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Image Alt Text, name: img_alt, widget: string, required: true}
               - {label: About, name: about, widget: string, required: true}
               - {label: Link, name: link, widget: string, required: true}
-  - name: "wallpapers"
-    label: "Wallpapers"
-    editor:
-      preview: false
-    files:
-      - label: "Wallpapers"
-        name: "wallpapers"
-        file: "_data/wall.yml"
-        fields:
-          - label: "Files"
-            name: "files"
-            widget: "list"
-            fields:
-              - {label: Image, name: img, widget: image, required: true}
+  # - name: "wallpapers"
+  #   label: "Wallpapers"
+  #   editor:
+  #     preview: false
+  #   files:
+  #     - label: "Wallpapers"
+  #       name: "wallpapers"
+  #       file: "_data/wall.yml"
+  #       fields:
+  #         - label: "Files"
+  #           name: "files"
+  #           widget: "list"
+  #           fields:
+  #             - {label: Image, name: img, widget: image, required: true}
