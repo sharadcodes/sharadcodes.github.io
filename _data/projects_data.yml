@@ -1,4 +1,9 @@
 projects:
+  - about: World's smallest static site generator developed in Python
+    img: /assets/uploads/my_py_site.png
+    img_alt: my_py_site
+    link: github.com/sharadcodes/my_py_site
+    title: my_py_site
   - about: AGMVS is an NGO from Bihar
     img: /assets/uploads/agmvs.png
     img_alt: AGMVS Image
