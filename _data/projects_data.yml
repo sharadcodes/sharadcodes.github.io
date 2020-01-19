@@ -4,18 +4,16 @@ projects:
     img_alt: my_py_site
     link: 'https://github.com/sharadcodes/my_py_site'
     title: my_py_site
+  - about: A JSP & Servlet based forum web app for asking and answering question
+    img: /assets/uploads/dev_chat.png
+    img_alt: Dev Chat Dashboard Image
+    link: 'https://ddevchat.herokuapp.com'
+    title: Dev Chat (Forum)
   - about: AGMVS is an NGO from Bihar
     img: /assets/uploads/agmvs.png
     img_alt: AGMVS Image
     link: 'https://agmvs.org.in'
     title: Akash Gramin Mahila Vikash Samiti
-  - about: >-
-      This was my summer training project developed in Java, Swing, MySQL.
-      (Can't share the repo link due to some reasons)
-    img: /assets/uploads/gstb.png
-    img_alt: Snap
-    link: 'https://www.codingindian.codes/assets/uploads/gstb.png'
-    title: GST Based Billing System
   - about: 'A Java Swing Based RSS, Atom Feed reader made for Dark Mode Lovers'
     img: /assets/uploads/dark_feeder.png
     img_alt: Dark Feeder
@@ -33,6 +31,13 @@ projects:
     img_alt: Github Repo Files Extractor
     link: 'https://sharadcodes.github.io/cdn/ghub_files/'
     title: Github Repo Files Extractor
+  - about: >-
+      This was my summer training project developed in Java, Swing, MySQL.
+      (Can't share the repo link due to some reasons)
+    img: /assets/uploads/gstb.png
+    img_alt: Snap
+    link: 'https://www.codingindian.codes/assets/uploads/gstb.png'
+    title: GST Based Billing System
   - about: >-
       A tiny library for generating a table dynamically using CSV files. A table
       is generated dynamically from a CSV file on the server.
