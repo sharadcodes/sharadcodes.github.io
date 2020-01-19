@@ -12,7 +12,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
-      - {label: "Layout", name: "layout", widget: "select", default: "post", options: ['post', 'page', 'default'], required: true}
+      - {label: "Layout", name: "layout", widget: "select", default: "post", options: ['post', 'page', 'page_with_sidebar'], required: true}
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
       - {label: "Categories", name: "categories", widget: "string", required: true}
       - {label: "Author", name: "author", widget: "string", default: "Sharad Raj", required: true}
@@ -64,3 +64,17 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Image Alt Text, name: img_alt, widget: string, required: true}
               - {label: About, name: about, widget: string, required: true}
               - {label: Link, name: link, widget: string, required: true}
+  - name: "wallpapers"
+    label: "Wallpapers"
+    editor:
+      preview: false
+    files:
+      - label: "Wallpapers"
+        name: "wallpapers"
+        file: "_data/wall.yml"
+        fields:
+          - label: "Files"
+            name: "files"
+            widget: "list"
+            fields:
+              - {label: Image, name: img, widget: image, required: true}
