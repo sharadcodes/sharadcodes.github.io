@@ -1,5 +1,5 @@
 projects:
-  - about: World's smallest static site generator developed in Python
+  - about: World's smallest static site generator developed by me in Python
     img: /assets/uploads/my_py_site.png
     img_alt: my_py_site
     link: github.com/sharadcodes/my_py_site
