@@ -68,12 +68,14 @@ The contents of this file can be accessed from templates which are inside `templ
 ```
 
 In the above config you for accessing the value of `title` inside `site` you will do
+
 ```python
 {{data.site.title}}
 ```
 in the templates. **data** is global and it is needed for accessing the values of `config.json` file
 
 Similarly for looping over an array of objects like `social` you will do
+
 ```python
 {% for i in data.social %}
   {{ i.site }}
