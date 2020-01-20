@@ -69,15 +69,15 @@ The contents of this file can be accessed from templates which are inside `templ
 
 In the above config you for accessing the value of `title` inside `site` you will do
 
-```python
-{{data.site.title}}
+```bash
+{{ data.site.title }}
 ```
 
 in the templates. **data** is global and it is needed for accessing the values of `config.json` file
 
 Similarly for looping over an array of objects like `social` you will do
 
-```python
+```bash
 {% for i in data.social %}
   {{ i.site }}
   {{ i.id }}
@@ -157,7 +157,7 @@ The meta information about files is inside `data.collections` object which is an
 
 To access list of articles inside `posts` folder you will do
 
-```
+```bash
 {% for i in data.site.collections %}
   {{i.url}}
   {{i.title}}
