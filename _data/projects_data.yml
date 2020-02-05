@@ -1,4 +1,18 @@
 projects:
+  - about: >-
+      A web based class assignment management webapp built in Python & Flask
+      using MongoDB.
+    img: /assets/uploads/digiclassj.png
+    img_alt: Digi Class Dash Image
+    link: 'https://digi-class.herokuapp.com'
+    title: Digi Class
+  - about: >-
+      A Minimal note taking PWA app that uses IndexDB to store notes in the
+      browser. 
+    img: /assets/uploads/minimal_notes.png
+    img_alt: Minimal Notes Home Image
+    link: 'https://sharadcodes.github.io/minimal-notes/'
+    title: Minimal Notes
   - about: World's smallest static site generator developed by me in Python
     img: /assets/uploads/my_py_site.png
     img_alt: my_py_site
