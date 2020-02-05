@@ -1,82 +1,9 @@
-<style>
-	@font-face {
-		font-family: "League gothic";
-		src: url("https://sharadcodes.github.io/fonts/ci/lg.eot");
-		src: url("https://sharadcodes.github.io/fonts/ci/lg.woff") format("woff"),
-			url("https://sharadcodes.github.io/fonts/ci/lg.ttf") format("truetype"),
-			url("https://sharadcodes.github.io/fonts/ci/lg.svg") format("svg");
-	}
+<nav>
+  <a href="/{{site.baseurl}}" id="logo">{{site.title}}</a>
+  <div class="end">
 
-	.bg-success,
-	.btn-success {
-		background: #00ff00 !important;
-		color: black !important;
-	}
-	#hacker a,
-	#hacker {
-		background: #242424 !important;
-		color: #00ff00 !important;
-	}
-	#topp {
-		font-family: "League gothic", "IBM plex mono", monospace !important;
-		font-size: calc(10vw);
-	}
-	a {
-		outline: none;
-	}
-
-	nav ul a {
-		color: #242424 !important;
-	}
-	nav ul a:hover {
-		text-decoration: underline !important;
-	}
-</style>
-
-<div class="bg-success container-fluid text-center p-3" id="hacker">
-	<a class="" id="topp" href="{{ site.baseurl }}/">
-		{{ site.title }}
-	</a>
-</div>
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-success">
-	<div class="container">
-		<a class="navbar-brand" href="{{ site.baseurl }}/"></a>
-		<!-- <a class="navbar-brand" href="#">
-      <img src="{{site.logo}}" width="120" alt="" />
-    </a> -->
-		<button
-			class="navbar-toggler"
-			type="button"
-			data-toggle="collapse"
-			data-target="#navbarResponsive"
-			aria-controls="navbarResponsive"
-			aria-expanded="false"
-			aria-label="Toggle navigation"
-		>
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarResponsive">
-			<ul class="navbar-nav mr-auto ml-auto">
-				{% for link in site.data.nav.toc %}
-				<li class="nav-item">
-					<a class="nav-link" href="{{ site.baseurl }}{{ link.url }}">{{
-						link.title
-					}}</a>
-				</li>
-				{% endfor %}
-				<li class="nav-item">
-					<button
-						type="button"
-						id="dlmode"
-						state="dark"
-						class="btn btn-light btn-dark"
-						onclick="toggle()"
-					>
-						DARK MODE
-					</button>
-				</li>
-			</ul>
-		</div>
-	</div>
+    {% for i in site.data.nav.toc %}
+    <a href="{{site.baseurl}}{{i.url}}">{{i.title}}</a>
+    {% endfor %}
+  </div>
 </nav>

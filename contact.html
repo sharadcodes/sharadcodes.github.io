@@ -1,64 +1,78 @@
 ---
 title: "Contact Me"
-layout: default
+layout: "page"
 ---
 
-<style>
-form input, textarea{
-	width: 97%;
-	background: transparent;
-	color: white;
-	padding: 10px;
-	border: 1px solid grey;
-	border-radius: 5px;
-}
-
-input:focus ,textarea:focus{
-	border-color: #74A815;
-	color: #74A815;
-}
-
-#smsg{
-	color: white;
-	border: 1px solid #5d910b;
-	background: linear-gradient(#93bd20, #659e10);
-	border-radius: 2px;
-	box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 3px 7px rgba(0,0,0,.7);
-	background-color: #93bd20;
-	padding: 10px 12px;
-	margin-top: 6px;
-	text-align:center;
-	font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: normal;
-	color: white;
-	text-shadow: 0px 1px 0px rgba(0,0,0,.2);
-	font-size: 14px;
-}
-
-#smsg:hover{
-	background: linear-gradient(#749619, #527f0e);
-	background-color: #659e10;
-	border: 1px solid #527f0e;
-	box-shadow: inset 0px 1px 1px rgba(0,0,0,.2), 0px 1px 0px rgba(0,0,0,.0);
-}
-</style>
-
-
-<form name="CONTACT FORM" method="POST" data-netlify="true">
-<label for="name">Name</label>
-<br>
-<input type="text" name="Name" placeholder="Your Name" />
-<br>
-<br>
-<label for="email">Email address</label>
-<br>
-<input type="email"  placeholder="Your Email" name="Email"/>
-<br>
-<br>	
-<label for="query">Your message</label>
-<br>
-<textarea name="Message" rows="3" placeholder="Your message"></textarea>
-<br>
-<br>
-<button id="smsg" type="submit">Send Message</button>
+<form name="CONTACT FORM" method="POST">
+  <input type="hidden" name="form-name" value="CONTACT FORM" />
+  <label for="name">Name</label>
+  <input
+    type="text"
+    class="form-control"
+    name="Name"
+    id="name"
+    placeholder="Captain America"
+  />
+  <label for="email">Email address</label>
+  <input
+    type="email"
+    class="form-control"
+    id="email"
+    placeholder="captain@avengers.com"
+    name="Email"
+  />
+  <label for="query">Your message</label>
+  <br />
+  <textarea
+    name="Message"
+    class="form-control"
+    id="query"
+    rows="3"
+    placeholder="Make me a webapp, website, app ..."
+  ></textarea>
+  <br />
+  <button type="submit" class="btn btn-danger btn-block">Send Message</button>
 </form>
+
+<style>
+  label {
+    font-weight: bold;
+  }
+  input {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    margin: 1rem 0rem;
+  }
+  textarea {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 0.5rem;
+    margin: 1rem 0rem;
+  }
+  textarea,
+  input {
+    border: 1px solid gray;
+    border-radius: 0px;
+    padding: 10px;
+  }
+  textarea:focus,
+  input:focus {
+    border-color: #0ab372;
+  }
+  button {
+    background: #0c4b33;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    border: 2px dashed #fff;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+  }
+  button:hover {
+    background: #1f644b;
+  }
+</style>
