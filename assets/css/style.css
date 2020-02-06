@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
 * {
   padding: 0px;
   margin: 0px;
@@ -56,6 +58,8 @@ nav {
 nav a {
   color: #fff;
   text-decoration: none;
+  font-family: Roboto, Corbel, Avenir, "Lucida Grande", "Lucida Sans",
+    sans-serif;  
 }
 
 nav a:hover {
