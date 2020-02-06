@@ -545,7 +545,7 @@ code {
   color: #a5d6ab !important;
 }
 
-.dark-mode strong {
+.dark-mode #bio strong {
   background-color: #64c488;
   color: #0c3c26;
 }
