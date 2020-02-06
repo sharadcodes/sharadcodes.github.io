@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html%}
+  <body>
+    {% include nav.html %}
+    <div class="bar">
+      <h1>{{page.title}}</h1>
+    </div>
+
+    <main id="main">
+      <div class="blog_posts">
+        {% for note in site.notes %}
+        <div class="post">
+          <a href="{{note.url}}" class="post_title">{{note.title}}</a>
+          <p class="post_meta">
+            Posted by <strong>{{note.author}}</strong> on {{note.date |
+            date_to_string}}
+          </p>
+          <!-- <div class="post_exrept">{{ note.content | truncatewords: 10 }}</div> -->
+          <a href="{{site.baseurl}}{{note.url}}" class="post_read_more">Read More</a>
+        </div>
+        {% endfor %}
+      </div>
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

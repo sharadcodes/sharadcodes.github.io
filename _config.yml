@@ -14,11 +14,20 @@ collections:
   uploads:
     title: Uploads
     output: true
+  notes:
+    title: Notes
+    output: true    
 
 defaults:
 - scope:
     path: _posts
   values:
+    layout: post
+    author: Sharad Raj
+- scope:
+    path: _notes
+  values:
+    permalink: notes/:categories/:year/:month/:day/:title:output_ext
     layout: post
     author: Sharad Raj
 
