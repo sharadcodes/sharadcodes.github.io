@@ -540,3 +540,12 @@ code {
 .dark-mode textarea {
   background-color: #323232 !important;
 }
+
+.dark-mode #bio {
+  color: #a5d6ab !important;
+}
+
+.dark-mode strong {
+  background-color: #64c488;
+  color: #0c3c26;
+}
