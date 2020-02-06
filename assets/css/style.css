@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
 
 * {
   padding: 0px;
@@ -59,7 +59,7 @@ nav a {
   color: #fff;
   text-decoration: none;
   font-family: Roboto, Corbel, Avenir, "Lucida Grande", "Lucida Sans",
-    sans-serif;  
+    sans-serif;
 }
 
 nav a:hover {
@@ -217,7 +217,7 @@ footer a {
 }
 
 @media screen and (max-width: 950px) {
-  .blog_posts{
+  .blog_posts {
     padding-right: 3rem;
   }
 }
@@ -244,7 +244,7 @@ footer a {
   .post_content {
     padding: 1rem 2rem;
   }
-  footer{
+  footer {
     padding: 2rem 2rem;
   }
 }
@@ -506,3 +506,37 @@ code {
   color: #0086f7;
   font-weight: bold;
 } /* Literal.Number.Integer.Long */
+
+/* dark mode */
+
+.dark-mode {
+  background-color: #181a1b !important;
+}
+.dark-mode .post_content * {
+  color: #fff !important;
+}
+.dark-mode .post_content a {
+  color: #61b36c !important;
+}
+.dark-mode .post_content a:hover {
+  background-color: #61b36c !important;
+  color: #181a1b !important
+  ;
+}
+.dark-mode .p_title,
+.dark-mode .project p {
+  color: #b1dfcd !important;
+}
+
+.dark-mode .project {
+  background-color: #191b1a !important;
+}
+
+.dark-mode .project img {
+  filter: brightness(60%) !important;
+}
+
+.dark-mode input,
+.dark-mode textarea {
+  background-color: #323232 !important;
+}

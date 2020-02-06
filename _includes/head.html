@@ -4,4 +4,55 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>{{site.title}}</title>
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css" />
+  <script>
+    function setCookie(cname, cvalue, exdays) {
+      var d = new Date();
+      d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
+      var expires = "expires=" + d.toUTCString();
+      document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+    function getCookie(cname) {
+      var name = cname + "=";
+      var decodedCookie = decodeURIComponent(document.cookie);
+      var ca = decodedCookie.split(";");
+      for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == " ") {
+          c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+          return c.substring(name.length, c.length);
+        }
+      }
+      return "";
+    }
+    function checkCookie(cookie_name) {
+      var cookie_name = getCookie(cookie_name);
+      var res = false;
+      if (cookie_name != "") {
+        if (cookie_name === "dark") {
+          document.querySelector("body").classList.toggle("dark-mode");
+        } else {
+          document.querySelector("body").classList.remove("dark-mode");
+        }
+      } else {
+        setCookie("mode", "light", 1);
+      }
+    }
+
+    function dark() {
+      if (getCookie("mode") != "") {
+        if (getCookie("mode") == "light") {
+          setCookie("mode", "dark");
+          checkCookie("mode");
+        } else {
+          setCookie("mode", "light");
+          checkCookie("mode");
+        }
+      } else {
+        setCookie("mode", "dark");
+        checkCookie("mode");
+      }
+    }
+  </script>
 </head>
