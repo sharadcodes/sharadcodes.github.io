@@ -9,7 +9,7 @@
 
     <main id="main">
       <div class="blog_posts">
-        {% for note in site.notes %}
+        {% if site.notes.size > 0 %} {% for note in site.notes %}
         <div class="post">
           <a href="{{note.url}}" class="post_title">{{note.title}}</a>
           <p class="post_meta">
@@ -17,11 +17,17 @@
             date_to_string}}
           </p>
           <!-- <div class="post_exrept">{{ note.content | truncatewords: 10 }}</div> -->
-          <a href="{{site.baseurl}}{{note.url}}" class="post_read_more">Read More</a>
+          <a href="{{site.baseurl}}{{note.url}}" class="post_read_more"
+            >Read More</a
+          >
         </div>
-        {% endfor %}
+        {% endfor %} {% else %}
+        <div style="height: 40vh;"></div>
+
+        {% endif %}
       </div>
     </main>
+
     {% include footer.html %}
   </body>
 </html>
