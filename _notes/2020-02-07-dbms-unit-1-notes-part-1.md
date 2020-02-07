@@ -48,13 +48,13 @@ Complete definition and description of the database is known as database schema.
 
 OR
 
-The logical structure of the database (e.g., set ofcustomers and accounts and the relationship between them)
+The logical structure of the database (e.g., set of customers and accounts and the relationship between them)
 
 *Second definition is taken from Silberschatz, Korth and Sudarshanc © 1997*
 
 #### 1.0.6 DBMS
 
-It is a collection of programs that enables to create and maintain database. It is a general purpose Software system that facilitates the process of defining, constructing and manipulating data bases for various applications.
+It is a collection of programs that enables to create and maintain database. It is a application Software system that facilitates the process of defining, constructing and manipulating data bases for various applications.
 
 There were many problems in the traditional file system and to overcome them **DBMS** came into existence.
 
