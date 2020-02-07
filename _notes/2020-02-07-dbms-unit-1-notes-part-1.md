@@ -50,7 +50,7 @@ OR
 
 The logical structure of the database (e.g., set of customers and accounts and the relationship between them)
 
-*Second definition is taken from Silberschatz, Korth and Sudarshanc © 1997*
+*Second definition has been taken from Silberschatz, Korth and Sudarshanc © 1997*
 
 #### 1.0.6 DBMS
 
