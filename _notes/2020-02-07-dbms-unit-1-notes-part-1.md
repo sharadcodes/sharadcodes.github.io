@@ -6,7 +6,7 @@ author: Sharad Raj
 date: 2020-02-07
 ---
 
-I've divided the Unit 1 in 5 parts and I'll be covering them every other day.
+I've divided the Unit 1 in 3 parts and I'll be covering them every other day.
 
 Also I'll only cover those topics which are mentioned in the syllabus, so if you need something then you can reach me through email or contact page on this website.
 
@@ -20,6 +20,9 @@ Good luck ! :)
 
 ## Chapter 1: Introduction to Database System
 
+**What will be covered in this chapter ?**
+
+Basic definitions, advantage of DB systems, DB systems vs File systems, View of Data.
 
 ### 1.0 Basic Definitions
 
@@ -76,3 +79,25 @@ There were many problems in the traditional file system and to overcome them **D
 #### 1.0.7 RDBMS
 
 To be added by 11 pm
+
+
+
+
+
+
+
+
+
+---
+
+**What will be covered in the next chapter ?**
+
+* Database System Concepts and Architecture
+  1. Data Models
+  2. Schemas and Instances
+  3. Three schema architecture
+  4. Data independencies
+
+---
+
+Thank you !!
