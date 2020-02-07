@@ -2,34 +2,28 @@ title: codingINDIAN
 slogan: all you need to kNow
 logo: "custom – 1@3x.png"
 
-#baseurl: ""
+# baseurl: ""
 url: "https://www.codingindian.codes"
 
 timezone: UTC
 
 collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
   notes:
-    title: Notes
-    output: true    
+    output: true
+    permalink: notes/:categories/:year/:month/:day/:title:output_ext
 
 defaults:
-- scope:
-    path: _posts
-  values:
-    layout: post
-    author: Sharad Raj
-- scope:
-    path: _notes
-  values:
-    permalink: notes/:categories/:year/:month/:day/:title:output_ext
-    layout: post
-    author: Sharad Raj
+  - scope:
+      path: _posts
+    values:
+      layout: post
+      author: Sharad Raj
+  - scope:
+      path: _notes
+    values:
+      layout: post
+      author: Sharad Raj
+      permalink: notes/:categories/:year/:month/:day/:title:output_ext      
 
 plugins:
   - jekyll-sitemap
