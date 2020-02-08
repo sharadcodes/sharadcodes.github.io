@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: note
 title: DBMS UNIT 1 NOTES PART 1
 categories: DBMS
 author: Sharad Raj
@@ -78,10 +78,34 @@ There were many problems in the traditional file system and to overcome them **D
 
 #### 1.0.7 RDBMS
 
-To be added by tomorrow ...
+**Definition:** A database system made up of files with data elements in two-dimensional array (rows and columns). This database system has the capability to recombine data elements to form different relations resulting in a great flexibility of data usage.
 
-I'm too tired, :( zZZZZZZ
+* **The Relational DB Concept was proposed by Dr. Codd in 1970**
+* *The relational model contains the following components:*
+  1. Collection of objects or relations
+  2. Set of operations to act on the relations
+  3. Data integrity for accuracy and consistency
 
+* *Relational Database Management System (RDBMS) consists of:*
+  1. A set of tables
+  2. A schema:
+     * is a description of data in terms of data model
+     * defines tables and their attributes (field or column)
+
+* **Examples of RDBMS**
+  * Client/Server Databases
+    * MySQL (open-source)
+    * Oracle
+    * SQLServer (Microsoft)
+  * Personal Databases
+    * MS Access
+    * MS Excel
+  * Embedded Databases
+    * SQlite
+
+##### 1.0.7.1 RDBMS vs Traditional File System
+
+Wait for 12 pm....
 
 ---
 

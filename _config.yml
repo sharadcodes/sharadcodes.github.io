@@ -21,7 +21,7 @@ defaults:
   - scope:
       path: _notes
     values:
-      layout: post
+      layout: note
       author: Sharad Raj
       permalink: notes/:categories/:year/:month/:day/:title:output_ext      
 
