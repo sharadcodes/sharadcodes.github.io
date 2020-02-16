@@ -1,5 +1,13 @@
 projects:
   - about: >-
+      An online platform to save url links. It has features like categories,
+      sharing categories with other users and much more. Tech stack includes
+      Python, Flask and MongoDB.
+    img: /assets/uploads/linkshare.png
+    img_alt: LINKSHARE Home Dash
+    link: 'https://linkkshare.herokuapp.com'
+    title: LINKSHARE
+  - about: >-
       A web based class assignment management webapp built in Python & Flask
       using MongoDB.
     img: /assets/uploads/digiclassj.png
