@@ -63,14 +63,19 @@ herokuapp_pinger
     **ALSO ANY NUMBER OF HOSTS CAN BE SPECIFIED IN THE `hosts_list.txt` file**
 
 4. Setup crontab like this: 
+
    ```bash
    * * * * * /home/your_user_name/herokuapp_pinger/pinger.sh
    ```
+
    You should change the crontab schedule according to your needs as 
-```
-* * * * *
-```
-will run the script every minute
+
+   ```
+   * * * * *
+   ```
+
+   will run the script every minute
+
 
 ---
 
