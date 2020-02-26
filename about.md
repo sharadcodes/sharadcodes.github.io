@@ -12,4 +12,4 @@ I was selected as one of the student receiving the **Intel AI Edge Scholarship**
 I'm currently developing a visual interface for the Ciphers in Cryptography. Here's the link: [click here](https://sharadcodes.github.io/crypto/). 
 
 
-Contact me anytime for any Open Source Projects, Opportunities, Tech Talk :D or in case you need help :D .
+Contact me anytime for Opportunities, Open Source Projects & Ideas or in case you need help :D
