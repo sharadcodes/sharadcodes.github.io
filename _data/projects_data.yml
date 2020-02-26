@@ -1,4 +1,9 @@
 projects:
+  - about: 'Online Face Recognition Based Attendance System using OpenCV2 , Flask , JS'
+    img: /assets/uploads/afr2.png
+    img_alt: AFR DASH IMAGE
+    link: 'https://frbas-sharad.herokuapp.com'
+    title: Face Recognition Based Online Attendance System
   - about: >-
       An online platform to save url links. It has features like categories,
       sharing categories with other users and much more. Tech stack includes
