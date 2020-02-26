@@ -1,5 +1,8 @@
 projects:
-  - about: 'Online Face Recognition Based Attendance System using OpenCV2 , Flask , JS'
+  - about: >-
+      (Under Development) This project uses OpenCV2 for Face Detection using
+      Haar feature-based cascade classifiers , Flask for SSR  and JS for
+      handling video stream and sending captured image to the server.
     img: /assets/uploads/afr2.png
     img_alt: AFR DASH IMAGE
     link: 'https://frbas-sharad.herokuapp.com'
