@@ -15,6 +15,9 @@ skills:
     title: C
     img: /assets/uploads/icons8-c-programming-240.png
   - level: pro
+    title: C++
+    img: /assets/uploads/icons8-c-240.png
+  - level: pro
     title: Python
     img: /assets/uploads/icons8-python-240.png
   - level: pro
