@@ -6,6 +6,9 @@ skills:
     title: CSS
     img: /assets/uploads/002-css.png
   - level: pro
+    title: JSON
+    img: /assets/uploads/009-json.png
+  - level: pro
     title: JavaScript
     img: /assets/uploads/003-js.png
   - level: pro
@@ -14,6 +17,9 @@ skills:
   - level: pro
     title: Java
     img: /assets/uploads/java.png
+  - level: pro
+    title: JSP
+    img: /assets/uploads/007-jsp-open-file-format-with-java-logo.png
   - level: pro
     title: NodeJS
     img: /assets/uploads/004-nodejs.png
