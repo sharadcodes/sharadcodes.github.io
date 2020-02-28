@@ -13,15 +13,16 @@
         margin: 1rem auto 2rem auto;
         text-align: center;
         line-height: 23px;
+        padding: 0px 2rem;
       }
-      main img {
+      main #dp {
         max-width: 180px;
         border-radius: 100%;
         box-shadow: 0px 2px 5px #0c4b0c;
       }
       main p {
-        padding: 5px 2rem;
         text-align: left;
+        padding: 5px 0rem;
       }
       strong {
         background: #031603;
@@ -42,14 +43,44 @@
       }
       .dark-mode main a:hover {
         color: #0C3C26;
-      }      
+      }
+      .skill_logo {
+        width: 100 !important;
+        width: 100px !important;
+        border-radius: 0px !important;
+        cursor: pointer;
+      }
+      .skills{
+        display: grid;
+        grid-gap: 2rem;
+        grid-template-columns: minmax(auto-fit, minmax(100px, 1fr));
+      }
     </style>
 
     <main id="bio">
-      <img src="{{site.baseurl}}/assets/uploads/profile.jpg" alt="" />
+      <img id="dp" src="{{site.baseurl}}/assets/uploads/profile.jpg" alt="" />
       <p>
         {{content}}
       </p>
+
+      <div id="skills">
+        <h3 style="font-size: 1.4rem;">MY TECH STACK</h3>
+        {% for skill in site.data.skills_data.skills %}
+          {% if skill.level == "pro" %}
+            <img class="skill_logo" src="{{ skill.img }}" alt="{{ skill.title }}" title="{{ skill.title }}">
+          {% endif %}
+        {% endfor %}
+        
+        <br />
+        <h3 style="font-size: 1.4rem;">FAMILIAR WITH</h3>
+        {% for skill in site.data.skills_data.skills %}          
+          {% if skill.level == "fam" %}
+            <img class="skill_logo" src="{{ skill.img }}" alt="{{ skill.title }}" title="{{ skill.title }}">
+          {% endif %}
+        {% endfor %}
+
+      </div>
+
     </main>
 
     {% include footer.html %}
