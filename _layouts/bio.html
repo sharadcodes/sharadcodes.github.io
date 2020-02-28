@@ -44,16 +44,16 @@
       .dark-mode main a:hover {
         color: #0C3C26;
       }
-      .skill_logo {
-        width: 100 !important;
-        width: 100px !important;
-        border-radius: 0px !important;
-        cursor: pointer;
-      }
       .skills{
         display: grid;
-        grid-gap: 2rem;
-        grid-template-columns: minmax(auto-fit, minmax(100px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        column-gap: 2rem;
+      }
+      .skill_logo {
+        width: 100px !important;
+        height: 100px !important;
+        border-radius: 0px !important;
+        cursor: pointer;
       }
     </style>
 
@@ -63,22 +63,21 @@
         {{content}}
       </p>
 
-      <div id="skills">
-        <h3 style="font-size: 1.4rem;">MY TECH STACK</h3>
+      <h3 style="font-size: 1.4rem;">MY TECH STACK</h3>
+      <div class="skills">
         {% for skill in site.data.skills_data.skills %}
           {% if skill.level == "pro" %}
             <img class="skill_logo" src="{{ skill.img }}" alt="{{ skill.title }}" title="{{ skill.title }}">
           {% endif %}
         {% endfor %}
-        
-        <br />
-        <h3 style="font-size: 1.4rem;">FAMILIAR WITH</h3>
+      </div>
+      <h3 style="font-size: 1.4rem;">FAMILIAR WITH</h3>
+      <div class="skills">
         {% for skill in site.data.skills_data.skills %}          
           {% if skill.level == "fam" %}
             <img class="skill_logo" src="{{ skill.img }}" alt="{{ skill.title }}" title="{{ skill.title }}">
           {% endif %}
         {% endfor %}
-
       </div>
 
     </main>
