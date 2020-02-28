@@ -44,3 +44,6 @@ skills:
   - level: fam
     title: PHP
     img: /assets/uploads/006-php.png
+  - level: fam
+    title: LaTeX
+    img: /assets/uploads/latex.png
