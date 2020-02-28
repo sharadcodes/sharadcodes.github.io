@@ -6,9 +6,6 @@ skills:
     title: CSS
     img: /assets/uploads/002-css.png
   - level: pro
-    title: JSON
-    img: /assets/uploads/009-json.png
-  - level: pro
     title: JavaScript
     img: /assets/uploads/003-js.png
   - level: pro
@@ -41,6 +38,9 @@ skills:
   - level: pro
     title: MongoDB
     img: /assets/uploads/icons8-mongodb-240.png
+  - level: pro
+    title: JSON
+    img: /assets/uploads/009-json.png
   - level: fam
     title: GatsbyJS
     img: /assets/uploads/gatsby.png
