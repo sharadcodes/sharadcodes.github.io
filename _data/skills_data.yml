@@ -41,7 +41,7 @@ skills:
   - level: pro
     title: JSON
     img: /assets/uploads/009-json.png
-  - level: pro
+  - level: fam
     title: OpenCV
     img: /assets/uploads/opencv.png
   - level: fam
@@ -62,7 +62,7 @@ skills:
   - level: fam
     title: WordPress
     img: /assets/uploads/wordpress.png
-  - level: pro
+  - level: fam
     title: Bootstrap
     img: /assets/uploads/boots.png
   - level: fam
