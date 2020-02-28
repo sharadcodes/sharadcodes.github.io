@@ -50,6 +50,6 @@ skills:
   - level: fam
     title: LaTeX
     img: /assets/uploads/latex.png
-  - level: pro
-    title: Sqlite
+  - level: fam
+    title: SQlite
     img: /assets/uploads/sq_lite.jpg
