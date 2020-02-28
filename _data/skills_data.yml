@@ -18,8 +18,7 @@ skills:
     title: NodeJS
     img: /assets/uploads/004-nodejs.png
   - title: ReactJS
-    img: >-
-      https://res.cloudinary.com/practicaldev/image/fetch/c_scale,fl_progressive,q_auto,w_180/f_auto/https://dev-to-uploads.s3.amazonaws.com/uploads/badge/badge_image/26/react-sticker.png
+    img: /assets/uploads/icons8-react-160.png
     level: pro
   - level: pro
     title: MongoDB
