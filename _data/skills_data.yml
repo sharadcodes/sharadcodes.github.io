@@ -42,14 +42,20 @@ skills:
     title: MongoDB
     img: /assets/uploads/icons8-mongodb-240.png
   - level: fam
+    title: GatsbyJS
+    img: /assets/uploads/gatsby.png
+  - level: fam
     title: Ruby
     img: /assets/uploads/005-ruby.png
-  - level: fam
-    title: PHP
-    img: /assets/uploads/006-php.png
   - level: fam
     title: LaTeX
     img: /assets/uploads/latex.png
   - level: fam
     title: SQlite
     img: /assets/uploads/sqlite.png
+  - level: fam
+    title: PHP
+    img: /assets/uploads/006-php.png
+  - level: fam
+    title: WordPress
+    img: /assets/uploads/wordpress.png
