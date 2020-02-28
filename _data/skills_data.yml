@@ -27,6 +27,9 @@ skills:
     img: /assets/uploads/icons8-react-160.png
     level: pro
   - level: pro
+    title: MySQL
+    img: /assets/uploads/icons8-mysql-logo-250.png
+  - level: pro
     title: MongoDB
     img: /assets/uploads/icons8-mongodb-240.png
   - level: fam
