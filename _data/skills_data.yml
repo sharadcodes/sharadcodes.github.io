@@ -21,6 +21,9 @@ skills:
     title: Python
     img: /assets/uploads/icons8-python-240.png
   - level: pro
+    title: Flask
+    img: /assets/uploads/flask.png
+  - level: pro
     title: Java
     img: /assets/uploads/java.png
   - level: pro
