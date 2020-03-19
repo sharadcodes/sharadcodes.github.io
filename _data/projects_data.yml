@@ -6,6 +6,21 @@ projects:
       A PWA developed for tracking the COVID19 Daily reports. It has features
       like Maps, Status of spread in the country, Doughnut charts etc.
     link: 'https://novel-coronavirus-reports.netlify.com/'
+  - title: Image 2 PDF Action
+    img: /assets/uploads/imgp.png
+    img_alt: Image 2 PDF Action
+    about: >-
+      Action for converting images stored in a folder to pdfs according to the
+      specified page size and saving the output pdfs to the specified folder.
+    link: 'https://github.com/marketplace/actions/image-2-pdf-action'
+  - title: Image Resizer Action
+    about: >-
+      An action for resizing images according to the given resolution for
+      resizing , the folder of original images and the output folder for resized
+      images.
+    link: 'https://github.com/marketplace/actions/image-resizer-action'
+    img_alt: Image Resizer Action
+    img: /assets/uploads/imgrs.png
   - about: >-
       (Under Development) This project uses OpenCV2 for Face Detection using
       Haar feature-based cascade classifiers , Flask for SSR  and JS for
