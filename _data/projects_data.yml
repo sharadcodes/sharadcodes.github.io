@@ -1,4 +1,11 @@
 projects:
+  - title: COVID-19 DAILY REPORTS
+    img: /assets/uploads/cvd19.png
+    img_alt: COVID-19 DAILY REPORTS
+    about: >-
+      A PWA developed for tracking the COVID19 Daily reports. It has features
+      like Maps, Status of spread in the country, Doughnut charts etc.
+    link: 'https://novel-coronavirus-reports.netlify.com/'
   - about: >-
       (Under Development) This project uses OpenCV2 for Face Detection using
       Haar feature-based cascade classifiers , Flask for SSR  and JS for
