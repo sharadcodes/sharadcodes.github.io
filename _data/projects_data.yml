@@ -1,7 +1,7 @@
 projects:
   - title: COVID19-STATS SEARCH ENGINE
     link: 'https://covid19search.netlify.com/'
-    img: /assets/uploads/cvd19src.png
+    img: /assets/uploads/covidsrch.png
     img_alt: COVID19-STATS SEARCH ENGINE SCREENSHOT
     about: >-
       A Stats Search Engine to get latest statistics of COVID19 for your country
