@@ -1,4 +1,11 @@
 projects:
+  - title: COVID19-STATS SEARCH ENGINE
+    link: 'https://covid19search.netlify.com/'
+    img: /assets/uploads/cvd19src.png
+    img_alt: COVID19-STATS SEARCH ENGINE SCREENSHOT
+    about: >-
+      A Stats Search Engine to get latest statistics of COVID19 for your country
+      easily
   - title: COVID-19 DAILY REPORTS
     img: /assets/uploads/cvd19.png
     img_alt: COVID-19 DAILY REPORTS
