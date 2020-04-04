@@ -3,7 +3,7 @@ layout: post
 title: "So what is Neuron ?"
 categories: DEEP-LEARNING
 author: Sharad Raj
-date: '2020-04-04 09:00:00'
+date: '2020-04-04'
 ---
 
 Hey, welcome to the series of deep learning.
