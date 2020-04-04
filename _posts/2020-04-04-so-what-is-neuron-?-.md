@@ -6,10 +6,7 @@ author: Sharad Raj
 date: '2020-04-04'
 ---
 
-Hey, welcome to the series of deep learning.
-
-This is the first post in the series if I'll get time because It's better to give quality content instead of quantity content.
-
+Hey, welcome to the first post in the series of deep learning.
 So let's begin :)
 
 ---
@@ -29,3 +26,5 @@ Each and every neuron in a neural network has:
 ---
 
 ## So how this neuron works ?
+
+God knows
