@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "So what is Neuron ?"
-categories: DEEP LEARNING
+categories: DEEP-LEARNING
 author: Sharad Raj
-image: ''
 date: '2020-04-04 09:00:00'
 ---
 
