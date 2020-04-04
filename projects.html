@@ -4,73 +4,62 @@ layout: "projects"
 ---
 
 <style>
-    #projects{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 2rem;
-        margin: 3rem 3rem;
-    }
-    .project{
-        padding: 1rem;
-        box-shadow: 0px 5px 16px rgba(0,0,0,0.3);
-        border-radius: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        transition-duration: .3s;
-    }
-    .project img{
-        width: 100%;
-    }
-    .project .p_title{
-        font-weight: bold;
-        font-size: 1.4rem;
-        margin: 0 0 1rem 0;
-    }
-    .project p {
-        margin: 1rem 0;
-    }
-    .project .link { 
-        background: #0c4b33;
-        color: #fff;
-        border: none;
-        cursor: pointer;
-        border-radius: 10px;
-        transition-duration: 0.4s;
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: 14px;
-    }
-    .project .link:hover {
-        background: #1f644b;
-    }
+  #projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 2rem;
+    margin: 3rem 3rem;
+  }
+  .project {
+    padding: 1rem;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition-duration: 0.3s;
+  }
+  .project img {
+    width: 100%;
+  }
+  .project .p_title {
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin: 0 0 1rem 0;
+  }
+  .project p {
+    margin: 1rem 0;
+  }
+  .project .link {
+    background: #0c4b33;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .project .link:hover {
+    background: #1f644b;
+  }
 
-    .project:hover{
-        box-shadow: 0px 15px 30px rgba(0,0,0,0.5);
-    }
-
-    @media screen and (max-width: 900px){
-        #projects {
-            grid-template-columns: 1fr 1fr;
-        }
-    }
-    @media screen and (max-width: 650px){
-        #projects {
-            grid-template-columns: 1fr;
-            margin: 3rem 2rem;
-        }
-    }    
+  .project:hover {
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.4);
+  }
 </style>
 
 <div id="projects">
-{% for p in site.data.projects_data.projects %}
-    <div class="project">
-        <img src="{{p.img}}" alt="{{p.img_alt}}">
-        <p class="p_title">{{p.title}}</p>
-        <p>{{p.about}}</p>
-        <a class="link" href="{{p.link}}" target="_blank">Find out more</a>
-    </div>
-{% endfor %}
+  {% for p in site.data.projects_data.projects %}
+  <div class="project">
+    <img src="{{p.img}}" alt="{{p.img_alt}}" />
+    <p class="p_title">{{p.title}}</p>
+    <p>{{p.about}}</p>
+    <a class="link" href="{{p.link}}" target="_blank">Find out more</a>
+  </div>
+  {% endfor %}
 </div>
