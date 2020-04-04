@@ -18,12 +18,12 @@ defaults:
     values:
       layout: post
       author: Sharad Raj
-  - scope:
-      path: _notes
-    values:
-      layout: note
-      author: Sharad Raj
-      permalink: notes/:categories/:year/:month/:day/:title:output_ext      
+  # - scope:
+  #     path: _notes
+  #   values:
+  #     layout: note
+  #     author: Sharad Raj
+  #     permalink: notes/:categories/:year/:month/:day/:title:output_ext      
 
 plugins:
   - jekyll-sitemap
