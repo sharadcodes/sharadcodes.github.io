@@ -112,7 +112,7 @@ projects:
       secretly.
     img: /assets/uploads/askmee.png
     img_alt: Snap
-    link: https://askmee.netlify.com/ask.html
+    link: "#!"
     title: Ask Mee Platform
   - about: My first game in JavaScript
     img: /assets/uploads/rps.png
