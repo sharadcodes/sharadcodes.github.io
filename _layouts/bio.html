@@ -27,7 +27,6 @@
       strong {
         background: #031603;
         color: #b2e7b2;
-        font-family: "Consolas", "Courier", "IBM Plex Mono", monospace;
         padding: 2px;
         font-size: 0.8rem;
       }
@@ -65,7 +64,7 @@
         {{content}}
       </p>
 
-      <h3 style="font-size: 1.4rem;">MY TECH STACK</h3>
+      <h3 style="font-size: 1.4rem; margin: 2rem 0;">MY TECH STACK</h3>
       <div class="skills">
         {% for skill in site.data.skills_data.skills %}
           {% if skill.level == "pro" %}
@@ -73,7 +72,7 @@
           {% endif %}
         {% endfor %}
       </div>
-      <h3 style="font-size: 1.4rem;">FAMILIAR WITH</h3>
+      <h3 style="font-size: 1.4rem; margin: 2rem 0;">FAMILIAR WITH</h3>
       <div class="skills">
         {% for skill in site.data.skills_data.skills %}          
           {% if skill.level == "fam" %}
