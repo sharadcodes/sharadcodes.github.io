@@ -1,4 +1,14 @@
 projects:
+  - about: An open source web component for your daily podcast needs
+    title: Shar Pod AudioPlayer
+    img: /assets/uploads/shar_pod.png
+    link: https://github.com/sharadcodes/Shar-Pod-AudioPlayer
+    img_alt: Shar Pod AudioPlayer
+  - title: Shar Audio Player Plugin
+    img: /assets/uploads/shar.png
+    img_alt: Shar Audio Player Plugin
+    about: A minimal audio player written in Vanilla JS
+    link: https://github.com/sharadcodes/Shar-Player
   - title: COVID19-STATS SEARCH ENGINE
     link: https://sharadcodes.github.io/c-data/
     img: /assets/uploads/covidsrch.png
