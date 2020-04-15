@@ -1,143 +1,131 @@
 projects:
   - title: COVID19-STATS SEARCH ENGINE
-    link: 'https://covid19search.netlify.com/'
+    link: https://sharadcodes.github.io/c-data/
     img: /assets/uploads/covidsrch.png
     img_alt: COVID19-STATS SEARCH ENGINE SCREENSHOT
-    about: >-
-      A Stats Search Engine to get latest statistics of COVID19 for your country
-      easily
+    about: A Stats Search Engine to get latest statistics of COVID19 for your
+      country easily
   - title: COVID-19 DAILY REPORTS
     img: /assets/uploads/cvd19.png
     img_alt: COVID-19 DAILY REPORTS
-    about: >-
-      A PWA developed for tracking the COVID19 Daily reports. It has features
+    about: A PWA developed for tracking the COVID19 Daily reports. It has features
       like Maps, Status of spread in the country, Doughnut charts etc.
-    link: 'https://novel-coronavirus-reports.netlify.com/'
+    link: https://novel-coronavirus-reports.netlify.com/
   - title: Image 2 PDF Action
     img: /assets/uploads/imgp.png
     img_alt: Image 2 PDF Action
-    about: >-
-      Action for converting images stored in a folder to pdfs according to the
+    about: Action for converting images stored in a folder to pdfs according to the
       specified page size and saving the output pdfs to the specified folder.
-    link: 'https://github.com/marketplace/actions/image-2-pdf-action'
+    link: https://github.com/marketplace/actions/image-2-pdf-action
   - title: Image Resizer Action
-    about: >-
-      An action for resizing images according to the given resolution for
+    about: An action for resizing images according to the given resolution for
       resizing , the folder of original images and the output folder for resized
       images.
-    link: 'https://github.com/marketplace/actions/image-resizer-action'
+    link: https://github.com/marketplace/actions/image-resizer-action
     img_alt: Image Resizer Action
     img: /assets/uploads/imgrs.png
-  - about: >-
-      (Under Development) This project uses OpenCV2 for Face Detection using
+  - about: (Under Development) This project uses OpenCV2 for Face Detection using
       Haar feature-based cascade classifiers , Flask for SSR  and JS for
       handling video stream and sending captured image to the server.
     img: /assets/uploads/afr2.png
     img_alt: AFR DASH IMAGE
-    link: 'https://frbas-sharad.herokuapp.com'
+    link: https://frbas-sharad.herokuapp.com
     title: Face Recognition Based Online Attendance System
-  - about: >-
-      An online platform to save url links. It has features like categories,
+  - about: An online platform to save url links. It has features like categories,
       sharing categories with other users and much more. Tech stack includes
       Python, Flask and MongoDB.
     img: /assets/uploads/linkshare.png
     img_alt: LINKSHARE Home Dash
-    link: 'https://linkkshare.herokuapp.com'
+    link: https://linkkshare.herokuapp.com
     title: LINKSHARE
-  - about: >-
-      A web based class assignment management webapp built in Python & Flask
+  - about: A web based class assignment management webapp built in Python & Flask
       using MongoDB.
     img: /assets/uploads/digiclassj.png
     img_alt: Digi Class Dash Image
-    link: 'https://digi-class.herokuapp.com'
+    link: https://digi-class.herokuapp.com
     title: Digi Class
-  - about: >-
-      A Minimal note taking PWA app that uses IndexDB to store notes in the
-      browser. 
+  - about: "A Minimal note taking PWA app that uses IndexDB to store notes in the
+      browser. "
     img: /assets/uploads/minimal_notes.png
     img_alt: Minimal Notes Home Image
-    link: 'https://sharadcodes.github.io/minimal-notes/'
+    link: https://sharadcodes.github.io/minimal-notes/
     title: Minimal Notes
   - about: World's smallest static site generator developed by me in Python
     img: /assets/uploads/my_py_site.png
     img_alt: my_py_site
-    link: 'https://github.com/sharadcodes/my_py_site'
+    link: https://github.com/sharadcodes/my_py_site
     title: my_py_site
   - about: A JSP & Servlet based forum web app for asking and answering question
     img: /assets/uploads/dev_chat.png
     img_alt: Dev Chat Dashboard Image
-    link: 'https://ddevchat.herokuapp.com'
+    link: https://ddevchat.herokuapp.com
     title: Dev Chat (Forum)
   - about: AGMVS is an NGO from Bihar
     img: /assets/uploads/agmvs.png
     img_alt: AGMVS Image
-    link: 'https://agmvs.org.in'
+    link: https://agmvs.org.in
     title: Akash Gramin Mahila Vikash Samiti
-  - about: 'A Java Swing Based RSS, Atom Feed reader made for Dark Mode Lovers'
+  - about: A Java Swing Based RSS, Atom Feed reader made for Dark Mode Lovers
     img: /assets/uploads/dark_feeder.png
     img_alt: Dark Feeder
-    link: 'https://sharadcodes.github.io/Dark_Feeder/'
+    link: https://sharadcodes.github.io/Dark_Feeder/
     title: Dark Feeder
-  - about: >-
-      An API that returns the links of the feed images of any public account.
+  - about: An API that returns the links of the feed images of any public account.
       Have Fun !
     img: /assets/uploads/twitter_api.png
     img_alt: Twitter Feed Images Scrapping API
-    link: 'https://sharadcodes-twee-api.herokuapp.com/'
+    link: https://sharadcodes-twee-api.herokuapp.com/
     title: Twitter Feed Images Scrapping API
   - about: Get array of specifice type of files or all files in the specific folder.
     img: /assets/uploads/js.png
     img_alt: Github Repo Files Extractor
-    link: 'https://sharadcodes.github.io/cdn/ghub_files/'
+    link: https://sharadcodes.github.io/cdn/ghub_files/
     title: Github Repo Files Extractor
-  - about: >-
-      This was my summer training project developed in Java, Swing, MySQL.
+  - about: This was my summer training project developed in Java, Swing, MySQL.
       (Can't share the repo link due to some reasons)
     img: /assets/uploads/gstb.png
     img_alt: Snap
-    link: 'https://www.codingindian.codes/assets/uploads/gstb.png'
+    link: https://www.codingindian.codes/assets/uploads/gstb.png
     title: GST Based Billing System
-  - about: >-
-      A tiny library for generating a table dynamically using CSV files. A table
-      is generated dynamically from a CSV file on the server.
+  - about: A tiny library for generating a table dynamically using CSV files. A
+      table is generated dynamically from a CSV file on the server.
     img: /assets/uploads/js.png
     img_alt: CSV to TABLE
-    link: 'https://sharadcodes.github.io/cdn/csv_to_table/'
+    link: https://sharadcodes.github.io/cdn/csv_to_table/
     title: CSV to TABLE
   - about: Collect the Infinity Stones in this amazing JavaScript game
     img: /assets/uploads/ais.png
     img_alt: Snap
-    link: 'https://sharadcodes.github.io/the-game-of-infinity-stones/'
+    link: https://sharadcodes.github.io/the-game-of-infinity-stones/
     title: Game Of Infinity Stones
   - about: A minimal Dark Theme for Jekyll
     img: /assets/uploads/1.png
     img_alt: Dark Reader Jekyll Theme
-    link: 'https://github.com/sharadcodes/jekyll-theme-dark-reader'
+    link: https://github.com/sharadcodes/jekyll-theme-dark-reader
     title: Dark Reader Jekyll Theme
   - about: A Jekyll powered theme developed by me
     img: /assets/uploads/jm.jpeg
     img_alt: Screenshot
-    link: 'https://sharadcodes.github.io/jekyll-theme-milo/'
+    link: https://sharadcodes.github.io/jekyll-theme-milo/
     title: Jekyll Theme Milo
-  - about: >-
-      A just for fun project using MongoDB Atlas and JS, to ask questions
+  - about: A just for fun project using MongoDB Atlas and JS, to ask questions
       secretly.
     img: /assets/uploads/askmee.png
     img_alt: Snap
-    link: 'https://askmee.netlify.com/ask.html'
+    link: https://askmee.netlify.com/ask.html
     title: Ask Mee Platform
   - about: My first game in JavaScript
     img: /assets/uploads/rps.png
     img_alt: Snap
-    link: 'https://sharadcodes.github.io/rock-paper-scissors-game/'
+    link: https://sharadcodes.github.io/rock-paper-scissors-game/
     title: Rock Paper Scissors
   - about: A Github like Jekyll theme with Syntax highlighting.
     img: /assets/uploads/simplifico.png
     img_alt: Simplifico snap
-    link: 'https://sharadcodes.github.io/simplifico/blog/'
+    link: https://sharadcodes.github.io/simplifico/blog/
     title: Jekyll Theme Simplifico
   - about: Bootstrap based Jekyll theme
     img: /assets/uploads/bootblog.png
     img_alt: Screenshot
-    link: 'https://sharadcodes.github.io/bootblog/'
+    link: https://sharadcodes.github.io/bootblog/
     title: Jekyll Theme Bootblog
