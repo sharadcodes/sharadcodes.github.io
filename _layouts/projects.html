@@ -13,13 +13,13 @@
             <div class="project">
               <img
                 src="{{project.img}}"
-                alt=""
+                alt="{{project.img_alt}}"
               />
               <h2>{{project.title}}</h2>
               <p>
                 {{project.about}}
               </p>
-              <a href="#">View Project</a>
+              <a target="_blank" href="{{project.link}}">View Project</a>
             </div>
             {% endfor %}
           </div>
