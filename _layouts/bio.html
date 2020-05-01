@@ -2,51 +2,12 @@
 <html lang="en">
   {% include head.html%}
   <body>
-    {% include nav.html %}
-    <div class="bar">
-      <h1>{{page.title}}</h1>
-    </div>
-
     <style>
-      main {
-        max-width: 650px;
-        margin: 1rem auto 2rem auto;
-        text-align: center;
-        line-height: 23px;
-        padding: 0px 2rem;
-      }
-      main #dp {
-        max-width: 180px;
-        border-radius: 100%;
-        box-shadow: 0px 2px 5px #0c4b0c;
-      }
-      main p {
-        text-align: left;
-        padding: 5px 0rem;
-      }
-      strong {
-        background: #031603;
-        color: #b2e7b2;
-        padding: 2px;
-        font-size: 0.8rem;
-      }
-      main a { 
-        color: #0c3c26 
-      }
-      main a:hover {
-        background: #64c488;
-        color: #0c3c26;
-      }
-      .dark-mode main a {
-        color: #64C488;
-      }
-      .dark-mode main a:hover {
-        color: #0C3C26;
-      }
-      .skills{
+      .skills {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         column-gap: 2rem;
+        row-gap: 2rem;
       }
       .skill_logo {
         width: 100px !important;
@@ -58,31 +19,43 @@
       }
     </style>
 
-    <main id="bio">
-      <img id="dp" src="{{site.baseurl}}/assets/uploads/profile.jpg" alt="" />
-      <p>
-        {{content}}
-      </p>
+    <div class="site-wrapper">
+      {% include left.html %}
+      <div class="right">
+        {% include nav.html %}
+        <main class="page">
+          <h1>{{page.title}}</h1>
+          <div class="content">
+            {{content}}
 
-      <h3 style="font-size: 1.4rem; margin: 2rem 0;">MY TECH STACK</h3>
-      <div class="skills">
-        {% for skill in site.data.skills_data.skills %}
-          {% if skill.level == "pro" %}
-            <img class="skill_logo" src="{{ skill.img }}" alt="{{ skill.title }}" title="{{ skill.title }}">
-          {% endif %}
-        {% endfor %}
+            <h2 style="margin: 3rem 0; text-align: center;">MY TECH STACK</h2>
+            <div class="skills">
+              {% for skill in site.data.skills_data.skills %} {% if skill.level
+              == "pro" %}
+              <img
+                class="skill_logo"
+                src="{{ skill.img }}"
+                alt="{{ skill.title }}"
+                title="{{ skill.title }}"
+              />
+              {% endif %} {% endfor %}
+            </div>
+            <h2 style="margin: 3rem 0; text-align: center;">FAMILIAR WITH</h2>
+            <div class="skills">
+              {% for skill in site.data.skills_data.skills %} {% if skill.level
+              == "fam" %}
+              <img
+                class="skill_logo"
+                src="{{ skill.img }}"
+                alt="{{ skill.title }}"
+                title="{{ skill.title }}"
+              />
+              {% endif %} {% endfor %}
+            </div>
+          </div>
+        </main>
       </div>
-      <h3 style="font-size: 1.4rem; margin: 2rem 0;">FAMILIAR WITH</h3>
-      <div class="skills">
-        {% for skill in site.data.skills_data.skills %}          
-          {% if skill.level == "fam" %}
-            <img class="skill_logo" src="{{ skill.img }}" alt="{{ skill.title }}" title="{{ skill.title }}">
-          {% endif %}
-        {% endfor %}
-      </div>
-
-    </main>
-
+    </div>
     {% include footer.html %}
   </body>
 </html>

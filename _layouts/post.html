@@ -2,26 +2,19 @@
 <html lang="en">
   {% include head.html%}
   <body>
-    {% include nav.html %}
-    <div class="bar">
-      <h1>Blog / {{page.categories[0] | capitalize }} / {{page.title}}</h1>
-    </div>
-
-    <main>
-      <div class="post_content">
-        <h3 class="post_title">
-          {{page.title}}
-        </h3>
-        <p class="post_meta">
-          Posted by <strong>{{page.author}}</strong> on {{ page.date |
-          date_to_string }}
-        </p>
-        <div class="content">
-          {{page.content}}
-        </div>
+    <div class="site-wrapper">
+      {% include left.html %}
+      <div class="right">
+        {% include nav.html %}
+        <main class="page">
+          <h1>{{page.title}}</h1>
+          <small>Posted on {{page.date | date_to_string}} by <b>{{page.author}}</b></small>
+          <div class="content">
+            {{content}}
+          </div>
+        </main>
       </div>
-    </main>
-
+    </div>
     {% include footer.html %}
   </body>
 </html>

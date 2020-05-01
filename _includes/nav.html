@@ -1,10 +1,7 @@
 <nav>
-  <a href="/{{site.baseurl}}" id="logo">{{site.title}}</a>
-  <div class="end">
-
-    {% for i in site.data.nav.toc %}
-    <a href="{{site.baseurl}}{{i.url}}">{{i.title}}</a>
-    {% endfor %}
-    <a onclick="dark()" href="#!">🌓</a>
-  </div>
+  {% for i in site.data.nav.toc %}
+  <a href="{{site.baseurl}}{{i.url}}">{{i.title}}</a>
+  {% endfor %}
 </nav>
+
+<!-- <a onclick="dark()" href="#!">🌓</a> -->

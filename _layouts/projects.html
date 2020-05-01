@@ -2,15 +2,30 @@
 <html lang="en">
   {% include head.html%}
   <body>
-    {% include nav.html %}
-    <div class="bar">
-      <h1>{{page.title}}</h1>
+    <div class="site-wrapper">
+      {% include left.html %}
+      <div class="right">
+        {% include nav.html %}
+        <main class="projects" id="projects">
+          <h1>{{page.title}}</h1>
+          <div class="pgrid">
+            {% for project in site.data.projects_data.projects %}
+            <div class="project">
+              <img
+                src="{{project.img}}"
+                alt=""
+              />
+              <h2>{{project.title}}</h2>
+              <p>
+                {{project.about}}
+              </p>
+              <a href="#">View Project</a>
+            </div>
+            {% endfor %}
+          </div>
+        </main>
+      </div>
     </div>
-
-    <main>
-      {{content}}
-    </main>
-
     {% include footer.html %}
   </body>
 </html>

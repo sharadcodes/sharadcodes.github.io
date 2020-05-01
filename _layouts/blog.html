@@ -2,26 +2,29 @@
 <html lang="en">
   {% include head.html%}
   <body>
-    {% include nav.html %}
-    <div class="bar">
-      <h1>{{page.title}}</h1>
-    </div>
+    <div class="site-wrapper">
+      {% include left.html %}
+      <div class="right">
+        {% include nav.html %}
+        <main class="posts">
+          <h1>{{page.title}}</h1>
+          
+          {% for post in site.posts %}
 
-    <main id="main">
-      <div class="blog_posts">
-        {% for post in site.posts %}
-        <div class="post">
-          <a href="{{post.url}}" class="post_title">{{post.title}}</a>
-          <p class="post_meta">
-            Posted by <strong>{{post.author}}</strong> on {{post.date |
-            date_to_string}}
-          </p>
-          <!-- <div class="post_exrept">{{ post.content | truncatewords: 10 }}</div> -->
-          <a href="{{site.baseurl}}{{post.url}}" class="post_read_more">Read More</a>
-        </div>
-        {% endfor %}
+          <div class="post">
+            <a href="{{post.url}}"><h2>{{post.title}}</h2></a>
+            <small>Published by {{post.date | date_to_string}} by {{post.author}}</small>
+            <!-- <p>
+              {{ post.content | truncate: 60 }}
+            </p> -->
+            <!-- <p></p>
+            <a href="{{post.url}}">Read More</a> -->
+          </div>
+          {% endfor %}
+
+        </main>
       </div>
-    </main>
+    </div>
     {% include footer.html %}
   </body>
 </html>
