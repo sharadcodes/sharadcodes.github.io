@@ -6,17 +6,19 @@ website: https://sharadcodes.github.io
 phone: +91-7054-667-667
 email: dev_sharad@outlook.com
 contact:
-  - title: Linkedin
+  - title: linkedin
     url: https://www.linkedin.com/in/srsmaurya
-  - title: Github
+  - title: github
     url: https://github.com/sharadcodes
-  - title: Dribbble
-    url: https://dribbble.com/dev_sharad    
-  - title: Twitter
+  # - title: dribbble
+  #   url: https://dribbble.com/dev_sharad    
+  - title: twitter
     url: https://twitter.com/iamsharadraj    
-  - title: Dev
+  - title: dev
     url: https://dev.to/sharadcodes
-  - title: StackOverflow
-    url: https://stackoverflow.com/story/iamsharadraj
-  - title: Email
+  - title: telegram
+    url: https://t.me/iamsharadraj
+  # - title: stackOverflow
+  #   url: https://stackoverflow.com/story/iamsharadraj
+  - title: email
     url: mailto:dev_sharad@outlook.com
