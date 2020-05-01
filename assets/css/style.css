@@ -1,15 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=Roboto+Condensed:wght@700&family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=Roboto:wght@300;400;700&display=swap");
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
   text-decoration: none;
 }
 
 /* 
-font-family: 'Roboto Condensed', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'PT Sans Narrow', sans-serif;
 */
@@ -17,6 +15,7 @@ font-family: 'PT Sans Narrow', sans-serif;
 body {
   padding: 35px 15px;
   color: #333;
+  font-family: "Roboto", sans-serif;
 }
 
 h1,
@@ -33,10 +32,22 @@ hr {
 }
 
 blockquote {
-  border-left: 5px solid #777777;
+  border-left: 5px solid #b8b8b8;
   padding: 1rem;
-  font-size: 18px;
-  background-color: lightgray;
+  font-size: 25px;
+  line-height: 140%;
+  background-color: #e0e0e0;
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #777777;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+td {
+  border: 1px solid #777;
+  padding: 5px;
 }
 
 .site-wrapper {
@@ -97,7 +108,7 @@ nav a:hover {
   border-bottom: 1px solid rgb(36, 95, 163);
   font-weight: bold;
   padding: 3px;
-font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 
 .page a:hover {
@@ -121,7 +132,7 @@ font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .page .content ul,
-.page .content li {
+.page .content ol {
   margin-left: 1.8rem;
 }
 

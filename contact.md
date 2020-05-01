@@ -11,14 +11,14 @@ layout: "page"
     class="form-control"
     name="Name"
     id="name"
-    placeholder="Captain America"
+    placeholder="Your name"
   />
   <label for="email">Email address</label>
   <input
     type="email"
     class="form-control"
     id="email"
-    placeholder="captain@avengers.com"
+    placeholder="Your email"
     name="Email"
   />
   <label for="query">Your message</label>
@@ -28,8 +28,8 @@ layout: "page"
     class="form-control"
     id="query"
     rows="3"
-    placeholder="Make me a webapp, website, app ..."
-  ></textarea>
+    placeholder="Your message ..."
+    ></textarea>
   <br />
   <button type="submit" class="btn btn-danger btn-block">Send Message</button>
 </form>
@@ -43,8 +43,10 @@ layout: "page"
     max-width: 100%;
     min-width: 100%;
     margin: 1rem 0rem;
+    font-family: 'Roboto', sans-serif;
   }
   textarea {
+    font-family: 'Roboto', sans-serif;
     width: 100%;
     max-width: 100%;
     min-width: 100%;
@@ -59,25 +61,25 @@ layout: "page"
   }
   textarea:focus,
   input:focus {
-    border-color: #0ab372;
-    outline-color: #0ab372;
+    outline-color: #777;
   }
   button {
-    background: #0c4b33;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background: #666;
     color: #fff;
     border: none;
-    padding: 10px 20px;
-    font-size: 1.2rem;
+    padding: 10px;
+    font-size: 1rem;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 4px;
     transition-duration: 0.4s;
-    box-shadow: 0px 1px 2px #0ab372;
+    box-shadow: 0px 1px 2px #777;
     outline-color: transparent;
     transition-duration: 0.2s;
     border: 2px solid transparent;
   }
   button:hover {
-    background: #1f644b;
+    background: #888;
   }
   button:active {
     box-shadow: none;
