@@ -211,13 +211,16 @@ footer {
     flex-direction: column;
   }
   .left img {
-    width: 100%;
+    width: 50%;
+    margin-bottom: 0rem;
   }
   .left h3 {
     font-size: 2rem;
+    margin-top: 1rem;
   }
   .left p {
     margin: 1rem 0;
+    font-size: 14px;
   }
 
   nav {
