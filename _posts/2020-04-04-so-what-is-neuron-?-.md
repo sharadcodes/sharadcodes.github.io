@@ -22,9 +22,3 @@ Each and every neuron in a neural network has:
 * Each input has corresponding weights i.e. x1 has w1, x2 has w2 ... xn has wn.
 * A non-linear function to predict.
 * A single output.
-
----
-
-## So how this neuron works ?
-
-God knows
