@@ -8,7 +8,7 @@ date: 2020-05-30T12:00:00.000Z
 ---
 Most of us use `ls` just the way it is provided by default but today we are going to add some flavour to the boring `ls` using `exa`, as they say `exa` is a modern version of `ls`.
 
-But wait a minute before we begin the setup let's see what is the difference between the ls before it and afterwards.
+But wait a minute before we begin the setup let's see what is the difference between the ls before and afterwards.
 
 **Before exa**
 
