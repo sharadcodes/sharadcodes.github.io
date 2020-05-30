@@ -10,11 +10,11 @@ Most of us use `ls` just the way it is provided by default but today we are goin
 
 But wait a minute before we begin the setup lets see what is the difference bewteen the ls before it and afterwards.
 
-Before exa
+**Before exa**
 
 ![Before exa](/assets/uploads/term_bf_exa.png "Before exa")
 
-After exa
+**After exa**
 
 ![After exa](/assets/uploads/term_af_exa..png "After exa")
 
