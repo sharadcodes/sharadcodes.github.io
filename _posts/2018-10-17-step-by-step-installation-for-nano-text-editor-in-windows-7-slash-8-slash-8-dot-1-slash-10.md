@@ -58,7 +58,7 @@ in the Windows search of Cortana.
 ![Image of step](/assets/uploads/nano-12.png)
 
 # STEP 13
-![Image of step](/assets/uplodas/nano-13.png)
+![Image of step](/assets/uploads/nano-13.png)
 
 # STEP 14
 ![Image of step](/assets/uploads/nano-14.png)
