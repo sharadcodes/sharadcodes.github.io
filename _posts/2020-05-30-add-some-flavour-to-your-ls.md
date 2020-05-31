@@ -16,7 +16,7 @@ But wait a minute before we begin the setup let's see what is the difference bet
 
 **After exa**
 
-![After exa](/assets/uploads/term_af_exa..png "After exa")
+![After exa](/assets/uploads/term_af_exa.png "After exa")
 
 **So Let's begin !!!**
 
