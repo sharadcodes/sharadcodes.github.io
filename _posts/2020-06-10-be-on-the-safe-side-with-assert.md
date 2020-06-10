@@ -1,6 +1,6 @@
 ---
 title: Be on the safe side with assert.
-date: 2020-06-06T00:00:00.000Z
+date: 2020-06-10T00:00:00.000Z
 tags:
   - assert
   - tips
