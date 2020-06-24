@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=Roboto:wght@300;400;700&display=swap");
 
+:root {
+  --dmodetxt: #f1f1f1;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -492,45 +496,71 @@ code {
 
 /* dark mode */
 
-.dark-mode {
-  background-color: #181a1b !important;
-}
-.dark-mode .post_content * {
-  color: #fff !important;
-}
-.dark-mode .post_content a {
-  color: #61b36c !important;
-}
-.dark-mode .post_content a:hover {
-  background-color: #61b36c !important;
-  color: #181a1b !important
-  ;
-}
-.dark-mode .p_title,
-.dark-mode .project p {
-  color: #b1dfcd !important;
+/* toggle */
+
+.dmode {
+  text-align: right;
+  margin-bottom: 1rem;
 }
 
-.dark-mode .project {
-  background-color: #191b1a !important;
+.dmode img {
+  cursor: pointer;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
 }
 
-.dark-mode .project img {
-  filter: brightness(60%) !important;
+.darkmode img.dmode {
+  filter: invert() !important;
 }
 
-.dark-mode input,
-.dark-mode textarea {
-  background-color: #323232 !important;
+/* end */
+
+.darkmode {
+  background: #000;
 }
 
-.dark-mode #bio {
-  color: #a5d6ab !important;
+.darkmode nav a:hover {
+  color: var(--dmodetxt);
+  border-bottom: 1px solid var(--dmodetxt) !important;
 }
 
-.dark-mode #bio strong {
-  background-color: #64c488;
-  color: #0c3c26;
+.darkmode .left *,
+.darkmode footer,
+.darkmode nav a {
+  color: var(--dmodetxt);
+}
+
+.darkmode .post * {
+  color: var(--dmodetxt) !important;
+}
+
+.darkmode .page small,
+.darkmode .page div,
+.darkmode .page p,
+.darkmode main{
+  color: var(--dmodetxt) !important;
+}
+
+.darkmode .projects a {
+  color: var(--dmodetxt) !important;
+}
+.darkmode .projects a:hover {
+  color: #aaa !important;
+}
+
+.darkmode div.left > div {
+  filter: invert();
+}
+
+.darkmode blockquote {
+  background: #222;
+}
+
+.darkmode input,
+textarea {
+  background: #000 !important;
+  color: var(--dmodetxt) !important;
 }
 
 /* lightbox */
