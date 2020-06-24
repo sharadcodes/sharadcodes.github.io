@@ -30,7 +30,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jemoji
-  - jekyll-paginate
+  # - jekyll-paginate
   - kramdown
 
 markdown: kramdown
