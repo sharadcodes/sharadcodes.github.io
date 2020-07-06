@@ -1,4 +1,9 @@
 projects:
+  - title: SharNote
+    img_alt: SharNote
+    link: https://pypi.org/project/sharnote
+    about: A command line utility in Python for taking notes.
+    img: /assets/uploads/sharnote.png
   - title: Sentim REST API
     img_alt: Sentim REST API
     link: https://sentim-api.herokuapp.com/
