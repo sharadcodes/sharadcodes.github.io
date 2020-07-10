@@ -48,7 +48,13 @@ blockquote {
 table {
   width: 100%;
   border-collapse: collapse;
+  margin: 1.4rem 0;
 }
+th {
+  background-color: #333;
+  color: #fff;
+}
+th,
 td {
   border: 1px solid #777;
   padding: 5px;
@@ -538,7 +544,7 @@ code {
 .darkmode .page small,
 .darkmode .page div,
 .darkmode .page p,
-.darkmode main{
+.darkmode main {
   color: var(--dmodetxt) !important;
 }
 
