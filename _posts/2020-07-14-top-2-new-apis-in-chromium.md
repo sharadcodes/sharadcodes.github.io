@@ -6,7 +6,7 @@ author: Sharad Raj
 image: ""
 date: 2020-07-14 12:00:00
 ---
-# 1- Screen Wake Lock API
+## 1- Screen Wake Lock API
 
 ### Supported in
 
@@ -14,7 +14,7 @@ date: 2020-07-14 12:00:00
 
 This API helps to prevent devices from dimming, locking or turning off the screen when your web application needs to keep running.
 
-# 2- Web NFC
+## 2- Web NFC
 
 ### Supported in
 
