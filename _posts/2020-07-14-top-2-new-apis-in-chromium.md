@@ -10,7 +10,7 @@ date: 2020-07-14 12:00:00
 
 ### Supported in
 
-* ** Chrome 84-86**
+* **Chrome 84-86**
 
 This API helps to prevent devices from dimming, locking or turning off the screen when your web application needs to keep running.
 
