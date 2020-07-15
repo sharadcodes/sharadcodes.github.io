@@ -123,9 +123,3 @@ projects:
     img_alt: Dark Reader Jekyll Theme
     link: https://github.com/sharadcodes/jekyll-theme-dark-reader
     title: Dark Reader Jekyll Theme
-  - about: A just for fun project using MongoDB Atlas and JS, to ask questions
-      secretly.
-    img: /assets/uploads/askmee.png
-    img_alt: Snap
-    link: "#!"
-    title: Ask Mee Platform
