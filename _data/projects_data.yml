@@ -105,7 +105,7 @@ projects:
       (Can't share the repo link due to some reasons)
     img: /assets/uploads/gstb.png
     img_alt: Snap
-    link: https://www.codingindian.codes/assets/uploads/gstb.png
+    link: https://sharadcodes.github.io/assets/uploads/gstb.png
     title: GST Based Billing System
   - about: A tiny library for generating a table dynamically using CSV files. A
       table is generated dynamically from a CSV file on the server.
