@@ -41,9 +41,6 @@ skills:
   - level: pro
     title: GraphQL
     img: /assets/uploads/graphql.png
-  - level: pro
-    title: JSON
-    img: /assets/uploads/009-json.png
   - level: fam
     title: OpenCV
     img: /assets/uploads/opencv.png
