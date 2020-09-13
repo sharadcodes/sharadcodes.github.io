@@ -24,9 +24,6 @@ skills:
     title: Java
     img: /assets/uploads/java.png
   - level: pro
-    title: JSP
-    img: /assets/uploads/007-jsp-open-file-format-with-java-logo.png
-  - level: pro
     title: NodeJS
     img: /assets/uploads/004-nodejs.png
   - title: ReactJS
@@ -41,6 +38,12 @@ skills:
   - level: pro
     title: GraphQL
     img: /assets/uploads/graphql.png
+  - level: fam
+    title: Bootstrap
+    img: /assets/uploads/boots.png
+  - level: fam
+    title: Bulma
+    img: /assets/uploads/bulma.png    
   - level: fam
     title: OpenCV
     img: /assets/uploads/opencv.png
@@ -62,9 +65,3 @@ skills:
   - level: fam
     title: WordPress
     img: /assets/uploads/wordpress.png
-  - level: fam
-    title: Bootstrap
-    img: /assets/uploads/boots.png
-  - level: fam
-    title: Bulma
-    img: /assets/uploads/bulma.png
