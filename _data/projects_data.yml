@@ -1,4 +1,9 @@
 projects:
+  - title: Github Issue Notes
+    img_alt: Github Issue Notes
+    link: https://github.com/sharadcodes/github-issue-notes-theme
+    about: Turn your repository issues into notes with this React & Github REST API based theme with serverless backend.
+    img: /assets/uploads/ghinotes.png
   - title: SharNote
     img_alt: SharNote
     link: https://pypi.org/project/sharnote

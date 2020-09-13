@@ -221,8 +221,9 @@ footer {
     flex-direction: column;
   }
   .left img {
-    width: 50%;
+    width: 100px;
     margin-bottom: 0rem;
+    border-radius: 50%;
   }
   .left h3 {
     font-size: 2rem;
