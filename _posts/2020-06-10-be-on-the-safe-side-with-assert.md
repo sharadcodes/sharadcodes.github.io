@@ -1,5 +1,5 @@
 ---
-title: Be on the safe side with assert.
+title: 'Be on the safe side with assert :mask:'
 date: 2020-06-10T00:00:00.000Z
 tags:
   - assert

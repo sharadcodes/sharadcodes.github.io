@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Top 2 New APIs in Chromium
+title: 'Top 2 New APIs in Chromium :boom:'
 categories: chromium
 author: Sharad Raj
 image: ""

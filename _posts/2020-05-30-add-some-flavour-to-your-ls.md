@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Add some flavour to your ls
+title: 'Add some flavour to your ls :yum:'
 categories: linux
 author: Sharad Raj
-image: ""
+image: ''
 date: 2020-05-30T12:00:00.000Z
 ---
 Most of us use `ls` just the way it is provided by default but today we are going to add some flavour to the boring `ls` using `exa`, as they say `exa` is a modern version of `ls`.

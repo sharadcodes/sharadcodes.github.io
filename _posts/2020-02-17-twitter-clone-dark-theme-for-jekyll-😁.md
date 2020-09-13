@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Twitter Clone (Dark) theme for Jekyll \U0001F601"
+title: 'Twitter Clone (Dark) theme for Jekyll :smiley:'
 categories: UI
 author: Sharad Raj
 image: ''

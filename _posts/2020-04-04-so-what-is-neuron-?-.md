@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "So what is Neuron ?"
+title: "So what is Neuron :fearful: ?"
 categories: DEEP-LEARNING
 author: Sharad Raj
 date: '2020-04-04'

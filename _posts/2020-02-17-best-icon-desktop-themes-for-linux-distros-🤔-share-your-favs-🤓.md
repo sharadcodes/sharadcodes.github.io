@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Best icon & desktop themes for Linux distros \U0001F914, share your favs \U0001F913"
+title: 'Best icon & desktop themes for Linux distros :thinking:, share your favs :sunglasses:'
 categories: LINUX
 author: Sharad Raj
 image: ''
