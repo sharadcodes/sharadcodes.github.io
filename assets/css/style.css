@@ -71,12 +71,21 @@ td {
 .left img {
   width: 160px;
 }
+
+.left > img {
+  border-radius: 50%;
+}
+
 .left h3 {
   margin: 2rem 0 1rem 0;
 }
 
 .left p {
   line-height: 150%;
+}
+
+.left p img {
+  width: 1rem;
 }
 
 nav {
@@ -223,7 +232,6 @@ footer {
   .left img {
     width: 100px;
     margin-bottom: 0rem;
-    border-radius: 50%;
   }
   .left h3 {
     font-size: 2rem;

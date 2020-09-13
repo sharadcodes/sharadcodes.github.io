@@ -1,6 +1,20 @@
 name: Sharad Raj
 dp: https://avatars2.githubusercontent.com/u/36638057?s=460&u=0cbe4fd6b5a3655d91b3eb86db834d0829a0c086&v=4
-description: Full Stack Developer | Open Source Enthusiast | Linux Geek | Final year student | Open to Opportunities
+description: '
+  Full Stack Developer 
+  <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif" alt="" />
+  <img src="https://emojis.slackmojis.com/emojis/images/1473950148/1161/react.png" alt="" />
+  <img src="https://emojis.slackmojis.com/emojis/images/1533426774/4425/nodejs.png" alt="" />
+  <img src="https://emojis.slackmojis.com/emojis/images/1462128189/390/redux.png" alt="" />
+  <img src="https://emojis.slackmojis.com/emojis/images/1479745458/1383/typescript.png" alt="" />
+  <img src="https://emojis.slackmojis.com/emojis/images/1532555621/4296/mongodb.png" alt="" />
+  <img src="https://emojis.slackmojis.com/emojis/images/1462400762/397/docker.png" alt="" />
+  <br />
+  FOSS Enthusiast <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif" alt="" />
+  Linux Geek <img src="https://emojis.slackmojis.com/emojis/images/1469223471/679/charmander_dancing.gif" alt="" />
+  Final year student <img src="https://emojis.slackmojis.com/emojis/images/1531847273/4225/blob-beers.gif" alt="" />
+  Open to Opportunities
+  '
 hire: Want to hire me! Just drop a mail
 address: India
 website: https://sharadcodes.github.io
@@ -10,8 +24,8 @@ contact:
     url: https://www.linkedin.com/in/srsmaurya
   - title: github
     url: https://github.com/sharadcodes
-  - title: dribbble
-    url: https://dribbble.com/dev_sharad    
+  # - title: dribbble
+  #   url: https://dribbble.com/dev_sharad    
   - title: twitter
     url: https://twitter.com/sharadcodes    
   - title: dev
