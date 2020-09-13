@@ -38,10 +38,10 @@ skills:
   - level: pro
     title: GraphQL
     img: /assets/uploads/graphql.png
-  - level: fam
+  - level: pro
     title: Bootstrap
     img: /assets/uploads/boots.png
-  - level: fam
+  - level: pro
     title: Bulma
     img: /assets/uploads/bulma.png    
   - level: fam
