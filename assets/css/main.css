@@ -318,6 +318,11 @@ main {
     cursor: zoom-in !important;
 }
 
+.emoji {
+    height: 1.2rem;
+    display: inline-block;
+}
+
 footer {
     padding: 2rem 0 0;
 }
