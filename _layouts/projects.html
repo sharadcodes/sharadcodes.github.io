@@ -2,30 +2,32 @@
 <html lang="en">
   {% include head.html%}
   <body>
-    <div class="site-wrapper">
-      {% include left.html %}
-      <div class="right">
-        {% include nav.html %}
-        <main class="projects" id="projects">
-          <h1>{{page.title}}</h1>
-          <div class="pgrid">
-            {% for project in site.data.projects_data.projects %}
-            <div class="project">
-              <img
-                src="{{project.img}}"
-                alt="{{project.img_alt}}"
-              />
-              <h2>{{project.title}}</h2>
-              <p>
-                {{project.about}}
-              </p>
-              <a target="_blank" href="{{project.link}}">View Project</a>
-            </div>
-            {% endfor %}
+    {% include nav.html%}
+    <main class="project-list">
+      {% for project in site.data.projects_data.projects %}
+      <div class="project">
+        <div>
+          <h3>{{project.title}}</h3>
+          <small>{{project.about}}</small>          
+        </div>
+        <div>
+          <img src="{{site.url}}{{site.baseurl}}{{project.img}}" class="thumbnail" alt="{{project.img_alt}}" />
+          <div class="links">
+            {% if project.code %}
+              <a target="_blank" href="{{project.code}}">Github</a>
+              {% else %}
+              <a href="#!" style="text-decoration: line-through; cursor: not-allowed;">Github</a>
+            {% endif %}
+            {% if project.link %}
+              <a target="_blank" href="{{project.link}}">Live Demo</a>
+              {% else %}
+              <a href="#!" style="text-decoration: line-through; cursor: not-allowed;">Live Demo</a>
+              {% endif %}
           </div>
-        </main>
+        </div>
       </div>
-    </div>
+      {% endfor %}
+    </main>
     {% include footer.html %}
   </body>
 </html>

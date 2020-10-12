@@ -130,6 +130,7 @@ td:nth-child(1){
     font-weight: 900;
     border-right-color: transparent;
     border-color: #fff;
+    color: #323;
 }
 .darkmode td:nth-child(1){
     color: black;

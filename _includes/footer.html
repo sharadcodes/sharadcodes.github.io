@@ -1,8 +1,14 @@
-<script src="{{site.baseurl}}/assets/js/lbox.js"></script>
-<script src="{{site.baseurl}}/assets/js/dmode.js"></script>
-<script>
-  dload();
-</script>
 <footer>
   &copy; 2018 - {{ 'now' | date: "%Y" }} {{site.title}}
 </footer>
+<!-- scripts -->
+<script defer>
+  const length = window.location.href.split('/').length;
+  const location_arr = window.location.href.split('/');
+  if(location_arr[length-1] === '') {
+    document.getElementById('home').classList.add('active');
+  } else {
+    document.getElementById(location_arr[length-1]) && document.getElementById(location_arr[length-1]).classList.add('active');
+  }
+</script>
+<script defer src="{{site.baseurl}}/assets/js/lbox.js"></script>

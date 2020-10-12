@@ -3,7 +3,6 @@ layout: post
 title: 'Best icon & desktop themes for Linux distros :thinking:, share your favs :sunglasses:'
 categories: LINUX
 author: Sharad Raj
-image: ''
 date: '2020-02-08 12:00:00'
 ---
 I've been using MacOS icons and theme in XFCE desktop environment for a long time.

@@ -3,7 +3,6 @@ layout: post
 title: GET these VSCode EXTENSIONS & THEMES Nowwww !
 categories: VSCODE
 author: Sharad Raj
-image: ''
 date: '2020-02-11 12:00:00'
 ---
 I use VScode a lot, it has been default for me from last 3 years. Here's a list of the best extensions and themes which I came to know about.

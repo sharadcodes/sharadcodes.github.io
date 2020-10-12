@@ -3,7 +3,6 @@ layout: post
 title: 'Top 2 New APIs in Chromium :boom:'
 categories: chromium
 author: Sharad Raj
-image: ""
 date: 2020-07-14 12:00:00
 ---
 ## 1- Screen Wake Lock API

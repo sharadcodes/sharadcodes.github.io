@@ -3,7 +3,6 @@ layout: post
 title: Get these FIREFOX extensions Nowwww ! & Be Superrrrr Productive !
 categories: PRODUCTIVITY
 author: Sharad Raj
-image: ''
 date: '2020-02-17 12:00:00'
 ---
 As far as I know the extensions I'm going to tell you are quite less known 🤫 but extremely useful and will increase you productivity to next level.🤓
