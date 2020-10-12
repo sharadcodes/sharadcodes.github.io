@@ -5,8 +5,6 @@ logo: "assets/uploads/profile.jpg"
 # baseurl: ""
 url: "https://sharadcodes.github.io"
 
-timezone: UTC
-
 collections:
   notes:
     output: true
