@@ -1,6 +1,6 @@
 ---
 title: About
-layout: bio
+layout: page
 ---
 
 Hello World It’s Sharad!, I love making projects, having fun and enjoy playing video games.
