@@ -1,5 +1,5 @@
 ---
-layout: note
+layout: page
 title: DBMS UNIT 1 NOTES PART 1
 categories: DBMS
 author: Sharad Raj
