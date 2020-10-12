@@ -1,7 +1,7 @@
 projects:
   - title: Github Issue Notes
     img_alt: Github Issue Notes
-    link: https://github.com/sharadcodes/github-issue-notes-theme
+    code: https://github.com/sharadcodes/github-issue-notes-theme
     about: Turn your repository issues into notes with this React & Github REST API based theme with serverless backend.
     img: /assets/uploads/ghinotes.png
   - title: SharNote
@@ -17,13 +17,13 @@ projects:
   - about: An open source web component for your daily podcast needs
     title: Shar Pod AudioPlayer
     img: /assets/uploads/shar_pod.png
-    link: https://github.com/sharadcodes/Shar-Pod-AudioPlayer
+    code: https://github.com/sharadcodes/Shar-Pod-AudioPlayer
     img_alt: Shar Pod AudioPlayer
   - title: Shar Audio Player Plugin
     img: /assets/uploads/shar.png
     img_alt: Shar Audio Player Plugin
     about: A minimal audio player written in Vanilla JS
-    link: https://github.com/sharadcodes/Shar-Player
+    code: https://github.com/sharadcodes/Shar-Player
   - title: COVID19-STATS SEARCH ENGINE
     link: https://sharadcodes.github.io/c-data/
     img: /assets/uploads/covidsrch.png
@@ -41,7 +41,7 @@ projects:
     img_alt: Image 2 PDF Action
     about: Action for converting images stored in a folder to pdfs according to the
       specified page size and saving the output pdfs to the specified folder.
-    link: https://github.com/marketplace/actions/image-2-pdf-action
+    code: https://github.com/marketplace/actions/image-2-pdf-action    
   - title: Image Resizer Action
     about: An action for resizing images according to the given resolution for
       resizing , the folder of original images and the output folder for resized
@@ -78,7 +78,7 @@ projects:
   - about: World's smallest static site generator developed by me in Python
     img: /assets/uploads/my_py_site.png
     img_alt: my_py_site
-    link: https://github.com/sharadcodes/my_py_site
+    code: https://github.com/sharadcodes/my_py_site
     title: my_py_site
   - about: A JSP & Servlet based forum web app for asking and answering question
     img: /assets/uploads/dev_chat.png
