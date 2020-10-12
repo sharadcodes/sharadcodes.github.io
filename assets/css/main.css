@@ -364,7 +364,7 @@ pre {
 }
 
 code {
-    color: #a5d6ab;
+    color: var(--light-2);
     border-radius: 2px;
     white-space: pre;
     background-color: var(--dark-2);
