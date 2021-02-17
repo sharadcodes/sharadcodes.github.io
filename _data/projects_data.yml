@@ -46,12 +46,11 @@ projects:
       country easily
     link: https://sharadcodes.github.io/c-data/
 
-  - title: COVID-19 DAILY REPORTS
+  - title: COVID-19 INDIAN STATS
     img: /assets/uploads/cvd19.png
-    img_alt: COVID-19 DAILY REPORTS
-    about: A PWA developed for tracking the COVID19 Daily reports. It has features
-      like Maps, Status of spread in the country, Doughnut charts etc.
-    link: https://novel-coronavirus-reports.netlify.com/
+    img_alt: COVID-19 INDIAN STATS
+    about: A PWA developed for tracking the COVID19 Indian Stats along with other important links.
+    link: https://covid19-indian-stats.netlify.app/
 
   - title: Image 2 PDF Action
     img: /assets/uploads/imgp.png
