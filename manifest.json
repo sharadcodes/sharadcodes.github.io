@@ -1,0 +1,15 @@
+{
+  "background_color": "#151618",
+  "description": "Blog of Sharad Raj AKA sharadcodes",
+  "dir": "ltr",
+  "display": "fullscreen",
+  "name": "sharadcodes",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "sharadcodes",
+  "start_url": "/",
+  "theme_color": "#151618",
+  "categories": [],
+  "screenshots": [],
+  "shortcuts": []
+}
