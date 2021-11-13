@@ -6,4 +6,9 @@
   <link rel="manifest" href="manifest.json" />
   {% seo %}  
   <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/main.css" />
+  <script type="module">
+    import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+    const el = document.createElement('pwa-update');
+    document.body.appendChild(el);
+  </script>
 </head>
