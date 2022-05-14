@@ -39,18 +39,18 @@ projects:
     code: https://github.com/sharadcodes/Shar-Player
     link: https://sharadcodes.github.io/Shar-Player/examples/first/index.html
 
-  - title: COVID19-STATS SEARCH ENGINE
-    img: /assets/uploads/covidsrch.png
-    img_alt: COVID19-STATS SEARCH ENGINE SCREENSHOT
-    about: A Stats Search Engine to get latest statistics of COVID19 for your
-      country easily
-    link: https://sharadcodes.github.io/c-data/
+#   - title: COVID19-STATS SEARCH ENGINE
+#     img: /assets/uploads/covidsrch.png
+#     img_alt: COVID19-STATS SEARCH ENGINE SCREENSHOT
+#     about: A Stats Search Engine to get latest statistics of COVID19 for your
+#       country easily
+#     link: https://sharadcodes.github.io/c-data/
 
-  - title: COVID-19 INDIAN STATS
-    img: /assets/uploads/cvd19.png
-    img_alt: COVID-19 INDIAN STATS
-    about: A PWA developed for tracking the COVID19 Indian Stats along with other important links.
-    link: https://covid19-indian-stats.netlify.app/
+#   - title: COVID-19 INDIAN STATS
+#     img: /assets/uploads/cvd19.png
+#     img_alt: COVID-19 INDIAN STATS
+#     about: A PWA developed for tracking the COVID19 Indian Stats along with other important links.
+#     link: https://covid19-indian-stats.netlify.app/
 
   - title: Image 2 PDF Action
     img: /assets/uploads/imgp.png
@@ -95,17 +95,17 @@ projects:
     about: World's smallest static site generator developed by me in Python
     code: https://github.com/sharadcodes/my_py_site
 
-  - title: Dev Chat (Forum)
-    img: /assets/uploads/dev_chat.png
-    img_alt: Dev Chat Dashboard Image
-    about: A JSP & Servlet based forum web app for asking and answering question
-    link: https://ddevchat.herokuapp.com
+#   - title: Dev Chat (Forum)
+#     img: /assets/uploads/dev_chat.png
+#     img_alt: Dev Chat Dashboard Image
+#     about: A JSP & Servlet based forum web app for asking and answering question
+#     link: https://ddevchat.herokuapp.com
 
   - title: Akash Gramin Mahila Vikash Samiti
     img: /assets/uploads/agmvs.png
     img_alt: AGMVS Image
     about: AGMVS is an NGO from Bihar
-    link: https://agmvs.org.in
+#     link: https://agmvs.org.in
 
   - title: Dark Feeder
     img: /assets/uploads/dark_feeder.png
