@@ -1,4 +1,18 @@
 projects:
+  - title: Material You Jekyll Theme
+    img: /assets/uploads/myjt.png
+    img_alt: Material You Jekyll Theme
+    about: A Jekyll theme for Material You Lovers
+    code: https://github.com/sharadcodes/jekyll-theme-material-you
+    link: https://sharadcodes.github.io/jekyll-theme-material-you/
+
+  - title: Serial Programmer Jekyll Theme
+    img: /assets/uploads/spjt.png
+    img_alt: Serial Programmer Jekyll Theme
+    about: A Jekyll theme for serial programmers
+    code: https://github.com/sharadcodes/jekyll-theme-serial-programmer
+    link: https://sharadcodes.github.io/jekyll-theme-serial-programmer/
+
   - title: Face Recognition Based Online Attendance System
     img: /assets/uploads/afr2.png
     img_alt: AFR DASH IMAGE
@@ -145,10 +159,3 @@ projects:
     img_alt: Snap
     about: Collect the Infinity Stones in this amazing JavaScript game
     link: https://sharadcodes.github.io/the-game-of-infinity-stones/
-
-  - title: Dark Reader Jekyll Theme
-    img: /assets/uploads/1.png
-    img_alt: Dark Reader Jekyll Theme
-    about: A minimal Dark Theme for Jekyll
-    code: https://github.com/sharadcodes/jekyll-theme-dark-reader
-    link: https://sharadcodes.github.io/jekyll-theme-dark-reader/
