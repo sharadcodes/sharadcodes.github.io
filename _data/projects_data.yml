@@ -134,11 +134,11 @@ projects:
       Have Fun !
     link: https://sharadcodes-twee-api.herokuapp.com/
 
-  - title: Github Repo Files Extractor
-    img: /assets/uploads/js.png
-    img_alt: Github Repo Files Extractor
-    about: Get array of specifice type of files or all files in the specific folder.
-    link: https://sharadcodes.github.io/cdn/ghub_files/
+  # - title: Github Repo Files Extractor
+  #   img: /assets/uploads/js.png
+  #   img_alt: Github Repo Files Extractor
+  #   about: Get array of specifice type of files or all files in the specific folder.
+  #   link: https://sharadcodes.github.io/cdn/ghub_files/
 
   - title: GST Based Billing System
     img: /assets/uploads/gstb.png
@@ -147,12 +147,12 @@ projects:
       (Can't share the repo link due to some reasons)
     link: https://sharadcodes.github.io/assets/uploads/gstb.png
 
-  - title: CSV to TABLE
-    about: A tiny library for generating a table dynamically using CSV files. A
-    img: /assets/uploads/js.png
-    img_alt: CSV to TABLE
-      table is generated dynamically from a CSV file on the server.
-    link: https://sharadcodes.github.io/cdn/csv_to_table/
+  # - title: CSV to TABLE
+  #   about: A tiny library for generating a table dynamically using CSV files. A
+  #   img: /assets/uploads/js.png
+  #   img_alt: CSV to TABLE
+  #     table is generated dynamically from a CSV file on the server.
+  #   link: https://sharadcodes.github.io/cdn/csv_to_table/
 
   - title: Game Of Infinity Stones
     img: /assets/uploads/ais.png
