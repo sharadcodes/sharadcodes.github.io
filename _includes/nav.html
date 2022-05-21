@@ -2,8 +2,9 @@
   <img class="profile" src="{{site.data.owner.dp}}" alt="">
   <div class="bio">
     <div>
-      <h2>{{site.data.owner.name}}</h2>
-      {{site.data.owner.description}}
+      <h1 class="owner-name">{{site.data.owner.name}}</h1>
+      <div class="desc">{{site.data.owner.description}}</div>
+      <div class="sub-desc">{{site.data.owner.sub-description}}</div>
     </div>
     <div class="social">
       {% for i in site.data.owner.contact %}
