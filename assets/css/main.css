@@ -131,12 +131,24 @@ main {
   margin-top: 0.2rem;
   display: block;
 }
-
+/* 
 .post .thumbnail {
   width: 100%;
   margin-top: 1rem;
   border-radius: 15px;
-  height: 150px !important;
+  height: auto !important;
+} */
+
+.post .thumbnail {
+  display: block;
+  margin-top: 1rem;
+  border-radius: 15px;
+  aspect-ratio: 16/10;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
 }
 
 /* project */
@@ -172,11 +184,23 @@ main {
   display: block;
 }
 
-.project img {
+/* .project img {
   width: 100%;
   margin-top: 1rem;
   border-radius: 15px;
   height: 150px !important;
+} */
+
+.project .thumbnail {
+  display: block;
+  margin: 1rem 0 6px 0;
+  border-radius: 15px;
+  aspect-ratio: 16/10;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  object-fit: cover;
 }
 
 .project .links {

@@ -10,9 +10,10 @@
             <div>
               <small>{{post.date | date_to_string}}</small>
             {% if post.image %}
-            <img class="thumbnail" src="{{site.url}}{{site.baseurl}}{{post.image}}" alt="" />
+            <!-- <img class="thumbnail" src="{{site.url}}{{site.baseurl}}{{post.image}}" alt="" /> -->
+            <div class="thumbnail" style="background-image: url({{site.url}}{{site.baseurl}}{{post.image}})"></div>
             {% else %}
-            <img class="thumbnail" src="{{site.url}}{{site.baseurl}}/assets/uploads/default.jpg" alt="">
+            <div class="thumbnail" style="background-image: url({{site.url}}{{site.baseurl}}/assets/uploads/default.jpg)"></div>
             {% endif %}
             </div>
         </a>

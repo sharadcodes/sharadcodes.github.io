@@ -11,7 +11,8 @@
           <small>{{project.about}}</small>          
         </div>
         <div>
-          <img src="{{site.url}}{{site.baseurl}}{{project.img}}" class="thumbnail" alt="{{project.img_alt}}" />
+          <div class="thumbnail" style="background-image: url({{site.url}}{{site.baseurl}}{{project.img}})"></div>
+          <!-- <img src="{{site.url}}{{site.baseurl}}{{project.img}}" class="thumbnail" alt="{{project.img_alt}}" /> -->
           <div class="links">
             {% if project.code %}
               <a target="_blank" href="{{project.code}}">Github</a>
