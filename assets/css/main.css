@@ -12,13 +12,13 @@
 } */
 
 :root {
-	--dark-1: #292d3e;
-	--dark-2: #1c1f2d;
-	--dark-3: #292d3e;
-	--light-1: #fff;
-	--light-2: #a9abb3;
-	--light-3: #ffdda7;
-	--light-4: #292d3e;
+  --dark-1: #292d3e;
+  --dark-2: #1c1f2d;
+  --dark-3: #292d3e;
+  --light-1: #fff;
+  --light-2: #a9abb3;
+  --light-3: #ffdda7;
+  --light-4: #292d3e;
 }
 
 * {
@@ -125,10 +125,11 @@ main {
 .post {
   background-color: var(--dark-2);
   min-height: 150px;
-  box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.24);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
   font-size: 0.8rem;
   padding: 1rem;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   border-radius: 15px;
   color: var(--light-2);
   display: flex;
@@ -137,8 +138,7 @@ main {
 }
 
 .post:hover {
-  border: 1px solid var(--light-3);
-  box-shadow: 0 16px 34px 0 rgba(0, 0, 0, 0.44);
+  border: 2px dashed var(--light-2);
 }
 
 .post small {
@@ -178,10 +178,11 @@ main {
 .project {
   background-color: var(--dark-2);
   min-height: 150px;
-  box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.24);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
   font-size: 0.8rem;
   padding: 1rem 1rem 0.3rem 1rem;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -189,8 +190,7 @@ main {
 }
 
 .project:hover {
-  border: 1px solid var(--light-3);
-  box-shadow: 0 16px 34px 0 rgba(0, 0, 0, 0.44);
+  border: 2px dashed var(--light-2);
 }
 
 .project small {
