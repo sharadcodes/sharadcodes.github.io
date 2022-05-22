@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap");
 
 :root {
@@ -275,6 +275,17 @@ main {
   font-family: "Poppins", sans-serif;
 }
 
+.page .page-title {
+  color: var(--light-1);
+  font-weight: bolder;
+}
+
+.page .page-date {
+  color: var(--light-1);
+  font-weight: bolder;
+  display: inline-block;
+}
+
 .page h1,
 .page h2,
 .page h3,
@@ -297,7 +308,6 @@ main {
   margin-bottom: 1rem;
   color: var(--light-2);
 }
-
 .page hr {
   margin-bottom: 1rem;
   border-color: var(--light-2);
