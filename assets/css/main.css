@@ -141,11 +141,25 @@ main {
   border: 2px dashed var(--light-2);
 }
 
-.post small {
+.post .post-date {
   color: var(--light-2);
-  margin-top: 0.2rem;
   display: block;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  border-radius: 15px 0 0 0;
+  padding: 5px 15px;
+  background-color: var(--light-1);
+  color: var(--dark-2);
+  border-right: 4px solid var(--light-2);
+  border-bottom: 4px solid var(--light-2);
 }
+
+.post .post-title {
+  font-weight: bolder;
+  margin-top: 1.5rem;
+}
+
 /* 
 .post .thumbnail {
   width: 100%;

@@ -6,9 +6,9 @@
     <main class="post-list">
       {% for post in site.posts %}
         <a href="{{site.url}}{{site.baseurl}}{{post.url}}" class="post">
-            <p>{{post.title}}</p>
-            <div>
-              <small>{{post.date | date_to_string}}</small>
+            <p class="post-title">{{post.title}}</p>
+            <div class="post-bottom">
+              <small class="post-date">{{post.date | date_to_string}}</small>
             {% if post.image %}
             <!-- <img class="thumbnail" src="{{site.url}}{{site.baseurl}}{{post.image}}" alt="" /> -->
             <div class="thumbnail" style="background-image: url({{site.url}}{{site.baseurl}}{{post.image}})"></div>
