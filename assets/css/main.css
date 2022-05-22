@@ -80,6 +80,10 @@ header .social .icon:hover {
 
 nav {
   margin-top: 1.4rem;
+  display: flex;
+  column-gap: 1rem;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 nav a {
@@ -97,7 +101,7 @@ nav a.active {
 }
 
 main {
-  margin-top: 1.4rem;
+  margin-top: 2rem;
   color: var(--light-2);
 }
 
