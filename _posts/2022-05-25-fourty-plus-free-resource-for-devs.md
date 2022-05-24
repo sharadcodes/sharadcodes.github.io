@@ -2,7 +2,7 @@
 layout: post
 title: 40+ Free Resources for Web Development
 categories: WEBDEV
-date: 2022-05-25
+date: 2022-05-24
 ---
 
 As a programmer we always look for high quality free resources for our projects, so here is my list of **50+** free resource.
