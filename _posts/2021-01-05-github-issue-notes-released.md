@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Turn your Github issues into Notes ... Yay 👨‍💻👩‍💻🤟✌
-date: 2018-10-17 03:40:00 Z
+date: 2021-01-04 03:40:00 Z
 categories: WEBDEV
 ---
 
