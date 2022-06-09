@@ -4,7 +4,19 @@ projects:
     img_alt: Naya Tab Extension
     about: A new tab extension for Chrome/Brave/Firefox/Edge or any chromium based browser. Search for "Naya Tab" on webstore/mozilla addons/edge webstore to install it.
     link: https://addons.mozilla.org/en-US/firefox/addon/naya-tab/
+  
+  - title: AnjaniBooks Vendor Hub
+    img: /assets/uploads/abvh.png
+    img_alt: AnjaniBooks Vendor Hub
+    about: A freelance project for a customer with an online bookstore platform to manage their book vendors across India.
+    link: https://vh.anjanibooks.com
     
+  - title: Akash Gramin Mahila Vikash Samiti
+    img: /assets/uploads/agmvs.png
+    img_alt: AGMVS Image
+    about: AGMVS is an NGO from Bihar
+#     link: https://agmvs.org.in
+
   - title: Material You Jekyll Theme
     img: /assets/uploads/myjt.png
     img_alt: Material You Jekyll Theme
@@ -120,12 +132,6 @@ projects:
 #     img_alt: Dev Chat Dashboard Image
 #     about: A JSP & Servlet based forum web app for asking and answering question
 #     link: https://ddevchat.herokuapp.com
-
-  - title: Akash Gramin Mahila Vikash Samiti
-    img: /assets/uploads/agmvs.png
-    img_alt: AGMVS Image
-    about: AGMVS is an NGO from Bihar
-#     link: https://agmvs.org.in
 
   - title: Dark Feeder
     img: /assets/uploads/dark_feeder.png
