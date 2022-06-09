@@ -1,15 +1,21 @@
 projects:
+  - title: Naya Tab Extension
+    img: /assets/uploads/nte.png
+    img_alt: Naya Tab Extension
+    about: A new tab extension for Chrome/Brave/Firefox/Edge or any chromium based browser. Search for "Naya Tab" on webstore/mozilla addons/edge webstore to install it.
+    link: https://addons.mozilla.org/en-US/firefox/addon/naya-tab/
+    
   - title: Material You Jekyll Theme
     img: /assets/uploads/myjt.png
     img_alt: Material You Jekyll Theme
-    about: A Jekyll theme for Material You Lovers
+    about: A Jekyll theme for Material You Lovers.
     code: https://github.com/sharadcodes/jekyll-theme-material-you
     link: https://sharadcodes.github.io/jekyll-theme-material-you/
 
   - title: Serial Programmer Jekyll Theme
     img: /assets/uploads/spjt.png
     img_alt: Serial Programmer Jekyll Theme
-    about: A Jekyll theme for serial programmers
+    about: A Jekyll theme for serial programmers.
     code: https://github.com/sharadcodes/jekyll-theme-serial-programmer
     link: https://sharadcodes.github.io/jekyll-theme-serial-programmer/
 
