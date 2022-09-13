@@ -3,7 +3,7 @@ projects:
     img: /assets/uploads/nte.png
     img_alt: Naya Tab Extension
     about: A new tab extension for Chrome/Brave/Firefox/Edge or any chromium based browser. Search for "Naya Tab" on webstore/mozilla addons/edge webstore to install it.
-    link: https://addons.mozilla.org/en-US/firefox/addon/naya-tab/
+    link: https://sharadcodes.github.io/web_extensions/2022/09/13/naya-tab.html
   
   - title: AnjaniBooks Vendor Hub
     img: /assets/uploads/abvh.png
