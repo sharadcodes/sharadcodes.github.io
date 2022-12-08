@@ -35,7 +35,7 @@ projects:
     img: /assets/uploads/afr2.png
     img_alt: AFR DASH IMAGE
     about: This project uses OpenCV for Face Detection, Flask and JS for handling camera stream.
-    link: https://frbas-sharad.herokuapp.com
+    link: https://frbas.onrender.com
 
   - title: Github Issue Notes
     img: /assets/uploads/ghinotes.png
@@ -55,7 +55,7 @@ projects:
     img: /assets/uploads/rest_api.png
     img_alt: Sentim REST API
     about: A free REST API for sentiment analysis of the text.
-    link: https://sentim-api.herokuapp.com/
+    link: https://sentim-api.onrender.com
 
   - title: Shar Pod AudioPlayer
     img: /assets/uploads/shar_pod.png
