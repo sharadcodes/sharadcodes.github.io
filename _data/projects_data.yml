@@ -1,4 +1,16 @@
 projects:
+  - title: ICYYA Index of Papers
+    img: /assets/uploads/icyya_iop.png
+    img_alt: ICYYA Index of Papers
+    about: A website for Index of papers submitted in the 4th International Conference by scholars, researchers, scientists, yogis, spiritual gurus, professionals and practitioners.
+    link: https://icyya-sypas.github.io
+  
+  - title: DSVV CS Events
+    img: /assets/uploads/dsvv_cs.png
+    img_alt: DSVV CS Events
+    about: Website for events held in Dev Sanskriti Vishwavidyalaya Computer Science department.
+    link: https://dsvv-cs.github.io
+    
   - title: Naya Tab Extension
     img: /assets/uploads/nte.png
     img_alt: Naya Tab Extension
@@ -8,8 +20,8 @@ projects:
   - title: AnjaniBooks Vendor Hub
     img: /assets/uploads/abvh.png
     img_alt: AnjaniBooks Vendor Hub
-    about: A freelance project for a client with an online bookstore platform to manage their book vendors across India.
-    link: https://vh.anjanibooks.com
+    about: A freelance MERN stack project for a client with an online bookstore platform to manage their book vendors across India.
+    link: https://vh-anjanibooks.netlify.app
     
   - title: Akash Gramin Mahila Vikash Samiti
     img: /assets/uploads/agmvs.png
