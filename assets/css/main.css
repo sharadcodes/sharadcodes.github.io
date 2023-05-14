@@ -64,6 +64,7 @@ header img.profile {
 
 header .bio .owner-name {
   font-size: 4rem;
+  font-weight: 900;
 }
 
 header .desc {
