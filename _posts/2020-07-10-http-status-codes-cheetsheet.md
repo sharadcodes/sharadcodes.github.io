@@ -1,46 +1,52 @@
 ---
-title: 'Http status codes cheetsheet :neckbeard:'
+title: "Http status codes cheetsheet :neckbeard:"
 date: 2020-07-10T00:00:00.000Z
 tags:
   - http
 categories:
   - cheetsheet
+image: /assets/uploads/http-pexels-miguel-á-padriñán-2882570.jpg
 ---
 
 ## 1xx :bowtie:
-  * For getting **Information** about the API.
-    <details>
-        <summary>Read More</summary>
-        Request has been received and the server is continuing the process.
-    </details>
+
+- For getting **Information** about the API.
+  <details>
+      <summary>Read More</summary>
+      Request has been received and the server is continuing the process.
+  </details>
 
 ## 2xx :smile:
-  * Used in case of **Success**
-    <details>
-        <summary>Read More</summary>
-        Request was received successfully and is completely understandable by the server and is accepted.
-    </details>
+
+- Used in case of **Success**
+  <details>
+      <summary>Read More</summary>
+      Request was received successfully and is completely understandable by the server and is accepted.
+  </details>
 
 ## 3xx :fearful:
-  * Used for **Redirection**
-    <details>
-        <summary>Read More</summary>
-        Further action must be taken for completing the request.
-    </details>  
+
+- Used for **Redirection**
+  <details>
+      <summary>Read More</summary>
+      Further action must be taken for completing the request.
+  </details>
 
 ## 4xx :sob:
-  * For showing **Client Error**
-    <details>
-        <summary>Read More</summary>
-        Syntax of the request was not right or the request cannot be fullfilled.
-    </details>  
+
+- For showing **Client Error**
+  <details>
+      <summary>Read More</summary>
+      Syntax of the request was not right or the request cannot be fullfilled.
+  </details>
 
 ## 5xx :scream:
-  * For showing **Server Error**
-    <details>
-        <summary>Read More</summary>
-        Server failed to fulfill a valid request from client.
-    </details>  
+
+- For showing **Server Error**
+  <details>
+      <summary>Read More</summary>
+      Server failed to fulfill a valid request from client.
+  </details>
 
 | Status Code | Description                     |
 | ----------- | ------------------------------- |
@@ -117,8 +123,6 @@ categories:
 | 510         | Not Extended                    |
 | 511         | Network Authentication Required |
 | 512-599     | Unassigned                      |
-
-
 
 <style>
 .cy{ background: #33bfff; }

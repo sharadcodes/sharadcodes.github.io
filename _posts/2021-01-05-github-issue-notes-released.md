@@ -3,6 +3,7 @@ layout: post
 title: Turn your Github issues into Notes ... Yay 👨‍💻👩‍💻🤟✌
 date: 2021-01-04 03:40:00 Z
 categories: WEBDEV
+image: /assets/uploads/github_thumb.png
 ---
 
 This theme will turn your repository issues into notes.
@@ -25,16 +26,17 @@ First of all make sure you use a private repo because in a public repo anyone wi
 
 ![](https://dev-to-uploads.s3.amazonaws.com/i/m8aflgb3mgn4e7qiovac.png)
 
-* First step is to change the labels for issues, because you probably dont wanna use the existing labels for your notes, your lables will be used as tags in the notes.
-* Now Fork the project or download
-* Open theme.config.js file and change username and repo name
-* Get a personal access token from github
-* Deploy on vercel and add personal access token as environment variable TOKEN.
-* That's it now your lables will apprear on the sidebar and the issues will apprear on right.
+- First step is to change the labels for issues, because you probably dont wanna use the existing labels for your notes, your lables will be used as tags in the notes.
+- Now Fork the project or download
+- Open theme.config.js file and change username and repo name
+- Get a personal access token from github
+- Deploy on vercel and add personal access token as environment variable TOKEN.
+- That's it now your lables will apprear on the sidebar and the issues will apprear on right.
 
 ---
 
 Github Repo: [https://github.com/sharadcodes/github-issue-notes-theme](https://github.com/sharadcodes/github-issue-notes-theme)
 
 ---
+
 PS: Don't forget to star :smile:

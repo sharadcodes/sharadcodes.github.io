@@ -1,8 +1,8 @@
 ---
-title: 'Docker :ship: MySQL setup'
+title: "Docker :ship: MySQL setup"
 date: 2020-10-12
 categories: DOCKER
-image: /assets/uploads/ship.jpg
+image: /assets/uploads/docker_thumb.jpg
 ---
 
 #### Step 1
@@ -10,7 +10,8 @@ image: /assets/uploads/ship.jpg
 ```bash
 docker pull mysql/mysql-server:latest
 ```
-and check 
+
+and check
 
 ```
 docker images
@@ -73,7 +74,7 @@ docker rm [name-of-container]
 
 ### Errors
 
-In case of 
+In case of
 
 ```
 dial unix /var/run/docker.sock: connect: permission denied

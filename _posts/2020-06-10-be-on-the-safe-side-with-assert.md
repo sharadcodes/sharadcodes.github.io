@@ -1,11 +1,11 @@
 ---
-title: 'Be on the safe side with assert :mask:'
+title: "Be on the safe side with assert :mask:"
 date: 2020-06-10T00:00:00.000Z
 tags:
   - assert
   - tips
-categories:
-  - python
+categories: PYTHON
+image: /assets/uploads/assert-pexels-karolina-grabowska-5993648.jpg
 ---
 
 We all have faced that situation when there was a bug in someone else's code or a third-party library and as a result your production build failed to deploy. The reasons are endless, it may be due to a non-declared method, class, or even due to the data type of the variable.
@@ -35,8 +35,8 @@ if not the_condition:
 
 Let us see what it does, we'll take two code bases for simulating the situations in real life.
 
-* First one is the Library code.
-* Second one is your code in which you import and use that library code.
+- First one is the Library code.
+- Second one is your code in which you import and use that library code.
 
 We'll take a basic example just to keep the things simple.
 
@@ -71,7 +71,7 @@ if __name__ == "__main__":
 
 ![Result of assert](/assets/uploads/post_01_assert_example.png)
 
-You can see here we have got the same error that we have provided in the assert statement, also observe that the assert was tested even before the 
+You can see here we have got the same error that we have provided in the assert statement, also observe that the assert was tested even before the
 
 ```py
 if __name__ == "__main__":

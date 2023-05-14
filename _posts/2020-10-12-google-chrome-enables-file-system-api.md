@@ -3,6 +3,7 @@ layout: post
 title: Google Chrome enables file system API ... Super Cool 😁
 date: 2020-10-12
 categories: WEBDEV
+image: /assets/uploads/chrome_api.jpg
 ---
 
 A new release of Google Chrome enables Native File System API so the developers can build web apps that interact with files on the user’s local device.

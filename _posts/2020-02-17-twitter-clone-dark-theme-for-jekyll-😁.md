@@ -1,12 +1,13 @@
 ---
 layout: post
-title: 'Twitter Clone (Dark) theme for Jekyll :smiley:'
+title: "Twitter Clone (Dark) theme for Jekyll :smiley:"
 categories: UI
 author: Sharad Raj
-date: '2020-01-30 12:00:00'
+date: "2020-01-30 12:00:00"
+image: /assets/uploads/twitter-pexels-brett-jordan-5417837.jpg
 ---
-I've created many clones of Popular website and apps, here's the Twitter clone for the community.
 
+I've created many clones of Popular website and apps, here's the Twitter clone for the community.
 
 It's about to be completed.
 

@@ -3,17 +3,19 @@ layout: post
 title: Get these FIREFOX extensions Nowwww ! & Be Superrrrr Productive !
 categories: PRODUCTIVITY
 author: Sharad Raj
-date: '2020-02-17 12:00:00'
+date: "2020-02-17 12:00:00"
+image: /assets/uploads/firefox.jpg
 ---
+
 As far as I know the extensions I'm going to tell you are quite less known 🤫 but extremely useful and will increase you productivity to next level.🤓
 
 Today I decided to share my complete list of **11** Firefox extensions/addons with you guys, so that everyone can gain benefits.
 
-Here it goes ... 
+Here it goes ...
 
 ## 1. Dark Reader
 
-This forces every website to be in dark mode. It also has 5+ color schemes and custom CSS editing facility for dark mode. 
+This forces every website to be in dark mode. It also has 5+ color schemes and custom CSS editing facility for dark mode.
 
 You all will love it !
 
@@ -23,7 +25,7 @@ It is very handy for knowing the font used, the weight,line height etc etc about
 
 ## 3. ColorZilla
 
-Best color picker till date (*\-*)
+Best color picker till date (_\-_)
 
 ## 4. Download All Images
 
@@ -42,7 +44,7 @@ As the name says, refreshes the page after given time intervals
 
 ## 7. Ruler
 
-It seriously places a big  ruler on the web page for you.
+It seriously places a big ruler on the web page for you.
 
 ## 8. Web Developer
 
@@ -64,6 +66,6 @@ Just download it now! You will regret otherwise :)
 
 Extracts every single link from the webpage
 
-- - -
+---
 
 🙋🏻‍♂️🙋🏻‍♂️🙋🏻‍♂️🙋🏻‍♂️🙋🏻‍♂️🙋🏻‍♂️🙋🏻‍♂️🙋🏻‍♂️🙋🏻‍♂️🙋🏻‍♂️🙋🏻‍♂️🙋🏻‍♂️🙋🏻‍♂️ Thank you all and be productive!!!😎
