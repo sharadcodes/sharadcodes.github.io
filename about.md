@@ -1,9 +1,7 @@
 ---
-title: About
+title: Welcome to my world of exploration and innovation! 👋
 layout: page
 ---
-
-# Welcome to my world of exploration and innovation! 👋
 
 I am **Sharad**, a passionate individual currently embarking on a captivating journey pursuing my **MCA in Data Science** at **Dev Sanskriti Vishwavidyalaya** in the serene city of Haridwar, nestled in the majestic landscapes of Uttarakhand, India.
 
