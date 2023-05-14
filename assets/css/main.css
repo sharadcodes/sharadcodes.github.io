@@ -57,7 +57,7 @@ header {
 }
 
 header img.profile {
-  max-width: 200px;
+  max-width: 250px;
   border-radius: 50%;
   margin-right: 2rem;
 }
@@ -78,13 +78,15 @@ header .sub-desc {
 }
 
 header .social {
-  margin-top: 1rem;
+  margin-top: 1.2rem;
+  display: flex;
+  column-gap: 0.8rem;
 }
 
 header .social .icon {
   filter: invert() !important;
-  width: 25px;
-  height: 25px;
+  width: 35px;
+  height: 35px;
 }
 
 header .social .icon:hover {
@@ -414,6 +416,7 @@ footer {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 20px 0;
   }
   header div img.profile {
     max-width: 100px;
@@ -436,6 +439,12 @@ footer {
   }
   header div.social {
     text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  header .social .icon {
+    width: 25px;
+    height: 25px;
   }
   nav {
     margin: 2rem 0;
