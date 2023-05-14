@@ -3,7 +3,7 @@ title: "Genetic Algorithms: Unleashing the Power of Nature in Problem Solving"
 layout: post
 date: 2023-05-14
 categories: DATA_SCIENCE
-image: /assets/uploads/genetic_thumb.jpg
+image: /assets/uploads/dna-ga.jpg
 ---
 
 Genetic Algorithms (GAs) are powerful problem-solving techniques inspired by the principles of natural evolution and genetics. They provide a way to search for optimal solutions to complex problems by imitating the process of natural selection. In this article, we will explore the origins of genetic algorithms and understand the essential components such as crossover, mutation, and fitness functions that make them effective tools for problem-solving.
