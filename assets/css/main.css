@@ -67,8 +67,14 @@ header .bio .owner-name {
 }
 
 header .desc {
-  font-size: 1.2rem;
-  font-weight: bolder;
+  font-size: 1rem;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+  /* font-style: italic; */
 }
 
 header .sub-desc {
