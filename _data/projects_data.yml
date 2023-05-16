@@ -1,4 +1,10 @@
 projects:
+  - title: Acche Quotes
+    img: /assets/uploads/aq.png
+    img_alt: Acche Quotes
+    about: Generates & download wallpapers with quotes from Bhagavad Gita & many other sources(pending).
+    link: https://sharadcodes.github.io/acche-quotes/
+    
   - title: ICYYA Index of Papers
     img: /assets/uploads/icyya_iop.png
     img_alt: ICYYA Index of Papers
