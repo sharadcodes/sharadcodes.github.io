@@ -4,36 +4,55 @@ projects:
     img_alt: Acche Quotes
     about: Create personalized wallpapers with inspirational quotes from the Bhagavad Gita and more. Customize text and background colors for a unique touch. Stay inspired with Acche Quotes, where wisdom meets creativity.
     link: https://sharadcodes.github.io/acche-quotes/
-    
+    tags: [HTML, CSS, JS, Github Pages]
+
   - title: ICYYA Index of Papers
     img: /assets/uploads/icyya_iop.png
     img_alt: ICYYA Index of Papers
     about: A website for Index of papers submitted in the 4th International Conference by scholars, researchers, scientists, yogis, spiritual gurus, professionals and practitioners.
     link: https://icyya-sypas.github.io
+    tags: [HTML, CSS, JS, Google Cloud, Github Pages]
 
   - title: DSVV CS Events
     img: /assets/uploads/dsvv_cs.png
     img_alt: DSVV CS Events
     about: Website for events held in Dev Sanskriti Vishwavidyalaya Computer Science department.
     link: https://cs-dsvv.github.io/cybersecurity-awareness-subsite/
+    tags: [HTML, CSS, JS, ParticlesJS, Swiffy Slider, Github Pages]
 
   - title: Naya Tab Extension
     img: /assets/uploads/nte.png
     img_alt: Naya Tab Extension
     about: A new tab extension for Chrome/Brave/Firefox/Edge or any chromium based browser. Search for "Naya Tab" on webstore/mozilla addons/edge webstore to install it.
     link: https://sharadcodes.github.io/web_extensions/2022/09/13/naya-tab.html
+    tags: [HTML, CSS, JS, Svelte, Web Extensions]
 
   - title: AnjaniBooks Vendor Hub
     img: /assets/uploads/abvh.png
     img_alt: AnjaniBooks Vendor Hub
     about: A freelance MERN stack project for a client with an online bookstore platform to manage their book vendors across India.
     link: https://vh-anjanibooks.netlify.app
+    tags:
+      [
+        HTML,
+        CSS,
+        JS,
+        React,
+        NodeJS,
+        Express,
+        MongoDB,
+        MERN,
+        REST,
+        Heroku,
+        Netlify,
+      ]
 
-  - title: Akash Gramin Mahila Vikash Samiti
+  - title: Akash Gramin Mahila Vikash Samiti Website
     img: /assets/uploads/agmvs.png
     img_alt: AGMVS Image
-    about: AGMVS is an NGO from Bihar. The website is currently not working because the NGO faced some financial issues during the COVID-19 pandemic.
+    about: A custom wordpress theme for AGMVS, an NGO from Bihar. The website is currently not working because the NGO faced some financial issues during the COVID-19 pandemic.
     link: https://agmvs.org.in
+    tags: [HTML, CSS, JS, Bulma, PHP, MySQL, Wordpress]
 
   - title: Material You Jekyll Theme
     img: /assets/uploads/myjt.png
@@ -41,6 +60,7 @@ projects:
     about: A Jekyll theme for Material You Lovers.
     code: https://github.com/sharadcodes/jekyll-theme-material-you
     link: https://sharadcodes.github.io/jekyll-theme-material-you/
+    tags: [HTML, CSS, JS, Jekyll]
 
   - title: Serial Programmer Jekyll Theme
     img: /assets/uploads/spjt.png
@@ -48,12 +68,15 @@ projects:
     about: A Jekyll theme for serial programmers.
     code: https://github.com/sharadcodes/jekyll-theme-serial-programmer
     link: https://sharadcodes.github.io/jekyll-theme-serial-programmer/
+    tags: [HTML, CSS, JS, Jekyll]
 
   - title: Face Recognition Based Online Attendance System
     img: /assets/uploads/afr2.png
     img_alt: AFR DASH IMAGE
     about: This project uses OpenCV for Face Detection, Flask and JS for handling camera stream.
     link: https://frbas.onrender.com
+    tags:
+      [HTML, CSS, JS, Bootstrap, Python, Flask, OpenCV, Heroku, Render, SQLite]
 
   - title: Github Issue Notes
     img: /assets/uploads/ghinotes.png
@@ -61,6 +84,7 @@ projects:
     about: Turn your repository issues into notes with this React & Github REST API based theme with serverless backend.
     code: https://github.com/sharadcodes/github-issue-notes-theme
     link: https://github-issue-notes-theme.vercel.app
+    tags: [HTML, CSS, JS, React, Github REST API, Vercel, Serverless]
 
   - title: SharNote
     img: /assets/uploads/sharnote.png
@@ -68,12 +92,28 @@ projects:
     about: A command line utility in Python for taking notes.
     code: https://github.com/sharadcodes/sharnote
     link: https://pypi.org/project/sharnote
+    tags: [Python, PyPI]
 
   - title: Sentim REST API
     img: /assets/uploads/rest_api.png
     img_alt: Sentim REST API
     about: A free REST API for sentiment analysis of the text.
     link: https://sentim-api.onrender.com
+    tags:
+      [
+        HTML,
+        CSS,
+        JS,
+        Bootstrap,
+        Python,
+        Flask,
+        Heroku,
+        Render,
+        SQLite,
+        NLTK,
+        TextBlob,
+        REST,
+      ]
 
   - title: Shar Pod AudioPlayer
     img: /assets/uploads/shar_pod.png
@@ -81,6 +121,7 @@ projects:
     about: An open source web component for your daily podcast needs
     code: https://github.com/sharadcodes/Shar-Pod-AudioPlayer
     link: https://sharadcodes.github.io/Shar-Pod-AudioPlayer/example/
+    tags: [HTML, CSS, JS, Web Components]
 
   - title: Shar Audio Player Plugin
     img: /assets/uploads/shar.png
@@ -88,6 +129,7 @@ projects:
     about: A minimal audio player written in Vanilla JS
     code: https://github.com/sharadcodes/Shar-Player
     link: https://sharadcodes.github.io/Shar-Player/examples/first/index.html
+    tags: [HTML, CSS, JS]
 
   #   - title: COVID19-STATS SEARCH ENGINE
   #     img: /assets/uploads/covidsrch.png
@@ -109,6 +151,7 @@ projects:
       Action for converting images stored in a folder to pdfs according to the
       specified page size and saving the output pdfs to the specified folder.
     code: https://github.com/marketplace/actions/image-2-pdf-action
+    tags: [GitHub Actions, Docker, Linux]
 
   - title: Image Resizer Action
     img: /assets/uploads/imgrs.png
@@ -117,6 +160,7 @@ projects:
       resizing , the folder of original images and the output folder for resized
       images.
     code: https://github.com/marketplace/actions/image-resizer-action
+    tags: [GitHub Actions, Docker, Linux]
 
   - title: LINKSHARE
     img: /assets/uploads/linkshare.png
@@ -125,7 +169,8 @@ projects:
       An online platform to save url links. It has features like categories,
       sharing categories with other users and much more. Tech stack includes
       Python, Flask and MongoDB.
-    link: https://linkkshare.herokuapp.com
+    # link: https://linkkshare.herokuapp.com
+    tags: [Python, Flask, MongoDB, Heroku]
 
   - title: Digi Class
     img: /assets/uploads/digiclassj.png
@@ -133,7 +178,8 @@ projects:
     about:
       A web based class assignment management webapp built in Python & Flask
       using MongoDB.
-    link: https://digi-class.herokuapp.com
+    # link: https://digi-class.herokuapp.com
+    tags: [Python, Flask, MongoDB, Heroku]
 
   - title: Minimal Notes
     img: /assets/uploads/minimal_notes.png
@@ -142,12 +188,14 @@ projects:
       "A Minimal note taking PWA app that uses IndexDB to store notes in the
       browser. "
     link: https://sharadcodes.github.io/minimal-notes/
+    tags: [HTML, CSS, JS, PWA, IndexedDB]
 
   - title: my_py_site
     img: /assets/uploads/my_py_site.png
     img_alt: my_py_site
     about: World's smallest static site generator developed by me in Python
     code: https://github.com/sharadcodes/my_py_site
+    tags: [Python, Static Site Generator]
 
   #   - title: Dev Chat (Forum)
   #     img: /assets/uploads/dev_chat.png
@@ -160,6 +208,7 @@ projects:
     img_alt: Dark Feeder
     about: A Java Swing Based RSS, Atom Feed reader made for Dark Mode Lovers
     link: https://sharadcodes.github.io/Dark_Feeder/
+    tags: [Java, Swing]
 
   - title: Twitter Feed Images Scrapping API
     img: /assets/uploads/twitter_api.png
@@ -168,6 +217,7 @@ projects:
       An API that returns the links of the feed images of any public account.
       Have Fun !
     link: https://sharadcodes-twee-api.herokuapp.com/
+    tags: [Python, Flask, Selenium]
 
   # - title: Github Repo Files Extractor
   #   img: /assets/uploads/js.png
@@ -180,7 +230,8 @@ projects:
     img_alt: Snap
     about: This was my summer training project developed in Java, Swing, MySQL.
       (Can't share the repo link due to some reasons)
-    link: https://sharadcodes.github.io/assets/uploads/gstb.png
+    # link: https://sharadcodes.github.io/assets/uploads/gstb.png
+    tags: [Java, Swing, MySQL]
 
   # - title: CSV to TABLE
   #   about: A tiny library for generating a table dynamically using CSV files. A
@@ -194,3 +245,4 @@ projects:
     img_alt: Snap
     about: Collect the Infinity Stones in this amazing JavaScript game
     link: https://sharadcodes.github.io/the-game-of-infinity-stones/
+    tags: [HTML, CSS, JS]
