@@ -5,11 +5,20 @@
     {% include nav.html%}
     <br />
     <h1 class="page-title">Projects</h1>
+    <div id="tags"></div>
+    <div id="clear-btn-wrapper">
+      <button id="clear">Clear Filters 🧹</button>
+    </div>
     <main class="project-list">
       {% for project in site.data.projects_data.projects %}
       <div class="project">
         <div>
           <h3>{{project.title}}</h3>
+          <div class="tags">
+            {% for tag in project.tags %}
+            <span class="tag">{{tag}}</span>
+            {% endfor %}
+          </div>
           <small>{{project.about}}</small>
         </div>
         <div>
@@ -42,5 +51,6 @@
       {% endfor %}
     </main>
     {% include footer.html %}
+    <script src="{{site.url}}{{site.baseurl}}/assets/js/tags.js"></script>
   </body>
 </html>
