@@ -146,11 +146,13 @@ tagsInTagsContainer2.forEach((tag) => {
     const projects = document.querySelectorAll(".project");
     projects.forEach((project) => {
       if (project.innerHTML.includes(tag.innerHTML)) {
-        project.style.display = "block";
+        project.style.display = "flex";
       } else {
         project.style.display = "none";
       }
     });
+    countProjects();
+    toast(`Filtered by: ${tag.innerText}`, "success");
   });
 });
 
@@ -162,4 +164,47 @@ clearButton.addEventListener("click", () => {
   projects.forEach((project) => {
     project.style.display = "flex";
   });
+  countProjects();
+  toast("Filter cleared", "success");
 });
+
+// utility function to count projects
+
+function countProjects() {
+  // only count projects that are visible
+  const projects = document.querySelectorAll(
+    ".project-list .project:not([style*='display: none'])"
+  );
+  const projectsCount = projects.length;
+  const projectsCountText = document.querySelector("#projects-count");
+  projectsCountText.innerText = `(${projectsCount})`;
+}
+
+countProjects();
+
+// notifcation
+
+function toast(message, type = "info") {
+  const toast = document.createElement("div");
+  switch (type) {
+    case "success":
+      toast.style.backgroundColor = "#4caf50";
+      toast.style.color = "#fff";
+      break;
+    case "error":
+      toast.style.backgroundColor = "#f44336";
+      toast.style.color = "#fff";
+      break;
+    case "info":
+      toast.style.backgroundColor = "#2196f3";
+      toast.style.color = "#fff";
+    default:
+      break;
+  }
+  toast.classList.add("toast");
+  toast.textContent = message;
+  document.body.appendChild(toast);
+  setTimeout(() => {
+    document.body.removeChild(toast);
+  }, 1000);
+}
