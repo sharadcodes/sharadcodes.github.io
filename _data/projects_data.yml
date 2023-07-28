@@ -1,4 +1,10 @@
 projects:
+  - title: DSVV Complaints Portal
+    img: /assets/uploads/dsvv_cp_app.png
+    img_alt: DSVV Complaints Portal
+    about: Developed for Dev Sanskriti Vishwavidyalaya. <br/> <br/> A versatile platform available on Android and web, catering to different user roles - Complainer, Resolver, Department Admin, and Super Admin. Features like Lodging complains with GPS location, Image upload, Push notifications and status tracking are available. <br/> <br/> The app is currently in beta testing phase.
+    # link: https://sharadcodes.github.io/
+    tags: [Flutter, Dart, REST, MongoDB, Express, NodeJS]
   - title: Acche Quotes
     img: /assets/uploads/aq.png
     img_alt: Acche Quotes
