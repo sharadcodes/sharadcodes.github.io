@@ -36,7 +36,8 @@ const colorSchemes = {
   wordpress: { color: "#fff", bgColor: "#21759b" },
   jekyll: { color: "#fff", bgColor: "#cc0000" },
   // mobile dev
-  flutter: { color: "#02569b", bgColor: "#02569b" },
+  flutter: { color: "#fff", bgColor: "#027cff" },
+  dart: { color: "#fff", bgColor: "#027cff" },
   // pc frameworks
   electron: { color: "#fff", bgColor: "#47848f" },
   swing: { color: "#fff", bgColor: "#47848f" },
