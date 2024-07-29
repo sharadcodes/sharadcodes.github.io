@@ -3,13 +3,12 @@ projects:
     img: /assets/uploads/dsvv_cp_app.png
     img_alt: DSVV Complaints Portal
     about: Developed for Dev Sanskriti Vishwavidyalaya. <br/> <br/> A versatile platform available on Android and web, catering to different user roles - Complainer, Resolver, Department Admin, and Super Admin. Features like Lodging complains with GPS location, Image upload, Push notifications and status tracking are available. <br/> <br/> The app is currently in beta testing phase.
-    # link: https://sharadcodes.github.io/
     tags: [Flutter, Dart, REST, MongoDB, Express, NodeJS]
   - title: Acche Quotes
     img: /assets/uploads/aq.png
     img_alt: Acche Quotes
     about: Create personalized wallpapers with inspirational quotes from the Bhagavad Gita and more. Customize text and background colors for a unique touch. Stay inspired with Acche Quotes, where wisdom meets creativity.
-    link: https://sharadcodes.github.io/acche-quotes/
+    link: /acche-quotes/
     tags: [HTML, CSS, JS, Github Pages]
 
   - title: ICYYA Index of Papers
@@ -30,7 +29,7 @@ projects:
     img: /assets/uploads/nte.png
     img_alt: Naya Tab Extension
     about: A new tab extension for Chrome/Brave/Firefox/Edge or any chromium based browser. Search for "Naya Tab" on webstore/mozilla addons/edge webstore to install it.
-    link: https://sharadcodes.github.io/web_extensions/2022/09/13/naya-tab.html
+    link: /web_extensions/2022/09/13/naya-tab.html
     tags: [HTML, CSS, JS, Svelte, Web Extensions]
 
   - title: AnjaniBooks Vendor Hub
@@ -65,7 +64,7 @@ projects:
     img_alt: Material You Jekyll Theme
     about: A Jekyll theme for Material You Lovers.
     code: https://github.com/sharadcodes/jekyll-theme-material-you
-    link: https://sharadcodes.github.io/jekyll-theme-material-you/
+    link: /jekyll-theme-material-you/
     tags: [HTML, CSS, JS, Jekyll]
 
   - title: Serial Programmer Jekyll Theme
@@ -73,7 +72,7 @@ projects:
     img_alt: Serial Programmer Jekyll Theme
     about: A Jekyll theme for serial programmers.
     code: https://github.com/sharadcodes/jekyll-theme-serial-programmer
-    link: https://sharadcodes.github.io/jekyll-theme-serial-programmer/
+    link: /jekyll-theme-serial-programmer/
     tags: [HTML, CSS, JS, Jekyll]
 
   - title: Face Recognition Based Online Attendance System
@@ -126,7 +125,7 @@ projects:
     img_alt: Shar Pod AudioPlayer
     about: An open source web component for your daily podcast needs
     code: https://github.com/sharadcodes/Shar-Pod-AudioPlayer
-    link: https://sharadcodes.github.io/Shar-Pod-AudioPlayer/example/
+    link: /Shar-Pod-AudioPlayer/example/
     tags: [HTML, CSS, JS, Web Components]
 
   - title: Shar Audio Player Plugin
@@ -134,7 +133,7 @@ projects:
     img_alt: Shar Audio Player Plugin
     about: A minimal audio player written in Vanilla JS
     code: https://github.com/sharadcodes/Shar-Player
-    link: https://sharadcodes.github.io/Shar-Player/examples/first/index.html
+    link: /Shar-Player/examples/first/index.html
     tags: [HTML, CSS, JS]
 
   #   - title: COVID19-STATS SEARCH ENGINE
@@ -142,7 +141,7 @@ projects:
   #     img_alt: COVID19-STATS SEARCH ENGINE SCREENSHOT
   #     about: A Stats Search Engine to get latest statistics of COVID19 for your
   #       country easily
-  #     link: https://sharadcodes.github.io/c-data/
+  #     link: /c-data/
 
   #   - title: COVID-19 INDIAN STATS
   #     img: /assets/uploads/cvd19.png
@@ -193,7 +192,7 @@ projects:
     about:
       "A Minimal note taking PWA app that uses IndexDB to store notes in the
       browser. "
-    link: https://sharadcodes.github.io/minimal-notes/
+    link: /minimal-notes/
     tags: [HTML, CSS, JS, PWA, IndexedDB]
 
   - title: my_py_site
@@ -213,7 +212,7 @@ projects:
     img: /assets/uploads/dark_feeder.png
     img_alt: Dark Feeder
     about: A Java Swing Based RSS, Atom Feed reader made for Dark Mode Lovers
-    link: https://sharadcodes.github.io/Dark_Feeder/
+    link: /Dark_Feeder/
     tags: [Java, Swing]
 
   - title: Twitter Feed Images Scrapping API
@@ -222,21 +221,21 @@ projects:
     about:
       An API that returns the links of the feed images of any public account.
       Have Fun !
-    link: https://sharadcodes-twee-api.herokuapp.com/
+    # link: https://sharadcodes-twee-api.herokuapp.com/
     tags: [Python, Flask, Selenium]
 
   # - title: Github Repo Files Extractor
   #   img: /assets/uploads/js.png
   #   img_alt: Github Repo Files Extractor
   #   about: Get array of specifice type of files or all files in the specific folder.
-  #   link: https://sharadcodes.github.io/cdn/ghub_files/
+  #   link: /cdn/ghub_files/
 
   - title: GST Based Billing System
     img: /assets/uploads/gstb.png
     img_alt: Snap
     about: This was my summer training project developed in Java, Swing, MySQL.
       (Can't share the repo link due to some reasons)
-    # link: https://sharadcodes.github.io/assets/uploads/gstb.png
+    # link: /assets/uploads/gstb.png
     tags: [Java, Swing, MySQL]
 
   # - title: CSV to TABLE
@@ -244,11 +243,11 @@ projects:
   #   img: /assets/uploads/js.png
   #   img_alt: CSV to TABLE
   #     table is generated dynamically from a CSV file on the server.
-  #   link: https://sharadcodes.github.io/cdn/csv_to_table/
+  #   link: /cdn/csv_to_table/
 
   - title: Game Of Infinity Stones
     img: /assets/uploads/ais.png
     img_alt: Snap
     about: Collect the Infinity Stones in this amazing JavaScript game
-    link: https://sharadcodes.github.io/the-game-of-infinity-stones/
+    link: /the-game-of-infinity-stones/
     tags: [HTML, CSS, JS]

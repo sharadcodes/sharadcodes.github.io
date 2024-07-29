@@ -11,6 +11,6 @@ I've created many clones of Popular website and apps, here's the Twitter clone f
 
 It's about to be completed.
 
-[Live demo](https://sharadcodes.github.io/jekyll-theme-twetr/)
+[Live demo](/jekyll-theme-twetr/)
 
 ## Enjoy
