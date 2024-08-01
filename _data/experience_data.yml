@@ -1,0 +1,37 @@
+experience:
+  - title: Software Developer (Intern)
+    company: Indian Institute of Remote Sensing (ISRO) & UCOST
+    dates: February 2024 – Current
+    location: Dehradun, India
+    responsibilities:
+      - Deployed by Uttarakhand State Council for Science and Technology (UCOST) to develop a WebGIS platform for the Adarsh Champawat project.
+      - Responsible for software development as well as integration of AI capabilities into the Adarsh Champawat Geospatial Dashboard.
+      - Leveraged skills in WebGIS, OpenLayers, Leaflet, MERN stack, PostGIS, Large Language Models (LLMs), Vector Databases, and Retrieval Augmented Generation (RAG).
+      - Configured servers for backend and frontend applications and deployed Large Language Models (LLMs) for access via REST API.
+
+  - title: Full Stack Software Developer (Part Time)
+    company: Shriram Yoga Society
+    dates: Sept 2022 – Jan 2024
+    location: India
+    responsibilities:
+      - Responsible for developing full-stack web & mobile apps.
+      - Designed and implemented various REST APIs and serverless functions.
+
+  - title: Mentor – Artificial Intelligence & Machine Learning
+    company: National Institute of Electronics & Information Technology (NIELIT)
+    dates: Jan 2024
+    location: Haridwar, Uttarakhand, India
+    responsibilities:
+      - Mentored and provided AI/ML training to students of PMSHRI Jawahar Navodaya Vidyalaya, Rudraprayag, Uttrakhand.
+      - Developed curriculum and training materials for AI/ML courses.
+      - Assisted students in hands-on projects and practical applications of AI/ML concepts.
+      - Evaluated student performance and provided feedback for improvement.
+  - title: Speaker – Artificial Intelligence & Machine Learning
+    company: ICAR-Indian Institute of Soil and Water Conservation
+    dates: Oct 2023
+    location: Dehradun, Uttarakhand, India
+    responsibilities:
+      - Invited speaker for training programme on AI and Machine Learning Applications in Natural Resource Management.
+      - Delivered lectures on the fundamentals and advanced topics of AI and Machine Learning.
+      - Conducted workshops and interactive sessions to demonstrate AI/ML tools and techniques.
+      - Collaborated with other experts to design the training programme agenda and content.
