@@ -3,7 +3,7 @@ title: Welcome to my world of exploration and innovation! 👋
 layout: page
 ---
 
-I am **Sharad**, a passionate individual currently embarking on a captivating journey pursuing my **MCA in Data Science** at **Dev Sanskriti Vishwavidyalaya** in the serene city of Haridwar, nestled in the majestic landscapes of Uttarakhand, India.
+I am **Sharad**, a passionate individual who has recently completed my **MCA in Data Science** from **Dev Sanskriti Vishwavidyalaya** in the serene city of Haridwar, nestled in the majestic landscapes of Uttarakhand, India. I'm proud to have achieved an impressive CGPA of 9.06 in my master's program.
 
 As an ardent learner, I find immense fascination in the realms of **Large Language Models (LLMs)**, **Internet of Things (IoT)**, **Computer Vision**, and the remarkable world of **MERN** (MongoDB, Express.js, React, and Node.js). These cutting-edge fields fuel my curiosity and inspire me to unravel the endless possibilities they offer.
 
