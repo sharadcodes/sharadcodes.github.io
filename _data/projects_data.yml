@@ -21,7 +21,7 @@ projects:
   - title: DSVV CS Events
     img: /assets/uploads/dsvv_cs.png
     img_alt: DSVV CS Events
-    about: Website for events held in Dev Sanskriti Vishwavidyalaya Computer Science department.
+    about: A dynamic website showcasing Computer Science department events at Dev Sanskriti Vishwavidyalaya. Features interactive particle animations, smooth event carousels, and responsive event galleries. Includes event registration, schedules, and resources.
     link: https://cs-dsvv.github.io/cybersecurity-awareness-subsite/
     tags: [HTML, CSS, JS, ParticlesJS, Swiffy Slider, Github Pages]
 
@@ -36,7 +36,6 @@ projects:
     img: /assets/uploads/abvh.png
     img_alt: AnjaniBooks Vendor Hub
     about: A freelance MERN stack project for a client with an online bookstore platform to manage their book vendors across India.
-    link: https://vh-anjanibooks.netlify.app
     tags:
       [
         HTML,
@@ -208,21 +207,21 @@ projects:
   #     about: A JSP & Servlet based forum web app for asking and answering question
   #     link: https://ddevchat.herokuapp.com
 
-  - title: Dark Feeder
-    img: /assets/uploads/dark_feeder.png
-    img_alt: Dark Feeder
-    about: A Java Swing Based RSS, Atom Feed reader made for Dark Mode Lovers
-    link: /Dark_Feeder/
-    tags: [Java, Swing]
+  # - title: Dark Feeder
+  #   img: /assets/uploads/dark_feeder.png
+  #   img_alt: Dark Feeder
+  #   about: A Java Swing Based RSS, Atom Feed reader made for Dark Mode Lovers
+  #   link: /Dark_Feeder/
+  #   tags: [Java, Swing]
 
-  - title: Twitter Feed Images Scrapping API
-    img: /assets/uploads/twitter_api.png
-    img_alt: Twitter Feed Images Scrapping API
-    about:
-      An API that returns the links of the feed images of any public account.
-      Have Fun !
-    # link: https://sharadcodes-twee-api.herokuapp.com/
-    tags: [Python, Flask, Selenium]
+  # - title: Twitter Feed Images Scrapping API
+  #   img: /assets/uploads/twitter_api.png
+  #   img_alt: Twitter Feed Images Scrapping API
+  #   about:
+  #     An API that returns the links of the feed images of any public account.
+  #     Have Fun !
+  #   # link: https://sharadcodes-twee-api.herokuapp.com/
+  #   tags: [Python, Flask, Selenium]
 
   # - title: Github Repo Files Extractor
   #   img: /assets/uploads/js.png
@@ -233,8 +232,7 @@ projects:
   - title: GST Based Billing System
     img: /assets/uploads/gstb.png
     img_alt: Snap
-    about: This was my summer training project developed in Java, Swing, MySQL.
-      (Can't share the repo link due to some reasons)
+    about: A comprehensive billing system developed during summer training. Features include GST calculation, invoice generation, customer management, and sales reporting. Built with Java Swing for the desktop interface and MySQL for robust data storage.
     # link: /assets/uploads/gstb.png
     tags: [Java, Swing, MySQL]
 
