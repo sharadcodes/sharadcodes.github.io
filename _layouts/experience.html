@@ -12,16 +12,14 @@
         {% for block in site.data.experience_data.experience %}
         <div class="timeline-item">
           <div class="timeline-item-content">
-            <time> {{block.dates}} </time>
-            <!-- <img src="https://picsum.photos/200/300" alt="" /> -->
-            <h3>{{block.company}}</h3>
-            <h4>{{block.title}}</h4>
-            <ul>
+            <span class="timeline-date">{{block.dates}}{% if block.is_current %} - Current {% endif %}</span>
+            <h3 class="timeline-company">{{block.company}}</h3>
+            <h4 class="timeline-title">{{block.location}} | {{block.title}}</h4>
+            <ul class="timeline-responsibilities">
               {% for point in block.responsibilities %}
               <li>{{point}}</li>
               {% endfor %}
             </ul>
-            <!-- <a href="#" class="btn">Read more</a> -->
           </div>
         </div>
         {% endfor %}
@@ -31,37 +29,151 @@
     <style>
       .timeline {
         position: relative;
-        border-left: 2px dashed #777777;
-        margin-left: 4rem;
+        max-width: 800px;
+        margin: 2rem auto;
+        padding-left: 2rem;
       }
-      .timeline-item {
-        padding: 1rem 0;
-        margin-left: 1rem;
-        position: relative;
-      }
-      .timeline-item-content {
-        padding: 20px;
-        background: #1c1f2d;
-        color: #fff;
-        border-radius: 5px;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-        position: relative;
-      }
-      time {
+
+      .timeline::before {
+        content: '';
         position: absolute;
-        bottom: -2.3rem;
-        left: -5rem;
-        font-size: 0.8rem;
-        display: inline-block;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 1px;
+        background: #444;
+      }
+
+      .timeline-item {
+        position: relative;
+        margin-bottom: 2.5rem;
+      }
+
+      .timeline-item::before {
+        content: '';
+        position: absolute;
+        left: -2rem;
+        top: 0.5rem;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
         background: #fff;
-        font-weight: 900;
-        color: #1c1f2d;
-        padding: 5px 10px;
-        z-index: 1000;
-        border-radius: 15px;
-        /* rotate */
-        transform: rotate(-90deg);
-        transform-origin: 0 0;
+        border: 2px solid #444;
+      }
+
+      .timeline-item-content {
+        background: #1c1f2d;
+        padding: 1.5rem;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .timeline-date {
+        display: block;
+        font-size: 0.9rem;
+        color: #888;
+        margin-bottom: 0.5rem;
+      }
+
+      .timeline-company {
+        margin: 0 0 0.5rem 0;
+        color: #fff;
+        font-size: 1.2rem;
+      }
+
+      .timeline-title {
+        margin: 0 0 1rem 0;
+        color: #ccc;
+        font-size: 1rem;
+        font-weight: normal;
+      }
+
+      .timeline-responsibilities {
+        margin: 0;
+        padding-left: 1.2rem;
+        color: #aaa;
+        font-size: 0.95rem;
+        line-height: 1.5;
+      }
+
+      .timeline-responsibilities li {
+        margin-bottom: 0.5rem;
+      }
+
+      .timeline-responsibilities li:last-child {
+        margin-bottom: 0;
+      }
+
+      @media (max-width: 768px) {
+        .timeline {
+          padding-left: 1.5rem;
+          margin: 1.5rem 1rem;
+        }
+
+        .timeline-item::before {
+          left: -1.5rem;
+          width: 6px;
+          height: 6px;
+        }
+
+        .timeline-item-content {
+          padding: 1.25rem;
+        }
+
+        .timeline-company {
+          font-size: 1.1rem;
+        }
+
+        .timeline-title {
+          font-size: 0.95rem;
+        }
+
+        .timeline-date {
+          font-size: 0.85rem;
+        }
+
+        .timeline-responsibilities {
+          font-size: 0.9rem;
+          padding-left: 1rem;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .timeline {
+          padding-left: 1.25rem;
+          margin: 1rem 0.75rem;
+        }
+
+        .timeline-item::before {
+          left: -1.25rem;
+          width: 5px;
+          height: 5px;
+        }
+
+        .timeline-item-content {
+          padding: 1rem;
+        }
+
+        .timeline-company {
+          font-size: 1rem;
+        }
+
+        .timeline-title {
+          font-size: 0.9rem;
+        }
+
+        .timeline-date {
+          font-size: 0.8rem;
+        }
+
+        .timeline-responsibilities {
+          font-size: 0.85rem;
+          line-height: 1.4;
+        }
+
+        .timeline-responsibilities li {
+          margin-bottom: 0.4rem;
+        }
       }
     </style>
     {% include footer.html %}

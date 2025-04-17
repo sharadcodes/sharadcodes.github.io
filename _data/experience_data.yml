@@ -1,37 +1,40 @@
 experience:
+  - title: AI + Backend
+    company: Studio137 Digital Media Solutions
+    dates: Aug 2024
+    is_current: true
+    location: South Africa · Remote
+    responsibilities:
+      - AI + backend focused role. Scaling and optimizing AI solutions and backend systems for cutting-edge Generative AI products.
+      - Currently contributing to various Gloo AI products.
+
   - title: Software Developer
-    company: Indian Institute of Remote Sensing (ISRO) & UCOST
-    dates: February 2024 – August 2024
-    location: Dehradun, India
+    company: IIRS - Indian Space Research Organization (ISRO)
+    dates: Feb 2024 - Aug 2024
+    location: Dehradun, India · On-site
     responsibilities:
-      - Deployed by Uttarakhand State Council for Science and Technology (UCOST) to develop a WebGIS platform for the Adarsh Champawat project.
-      - Responsible for software development as well as integration of AI capabilities into the Adarsh Champawat Geospatial Dashboard.
-      - Leveraged skills in WebGIS, OpenLayers, Leaflet, MERN stack, PostGIS, Large Language Models (LLMs), Vector Databases, and Retrieval Augmented Generation (RAG).
-      - Configured servers for backend and frontend applications and deployed Large Language Models (LLMs) for access via REST API.
+      - Deployed by Uttarakhand State Council for Science and Technology (UCOST) for the development of the project titled "Adarsh Champawat Geospatial Dashboard" for the Champawat District of Uttarakhand, India.
+      - Developed advanced Geospatial Dashboards (Web GIS) and led the integration of cutting-edge AI/ML techniques into geospatial systems, incorporating LLMs and RAG to enhance data processing and user interaction.
+      - Architected and implemented CI/CD pipelines for improved development, testing, and deployment processes.
+      - Conducted R&D on spatial data management, leveraging PostgreSQL and GeoServer's REST APIs to optimize data handling and worked on adding features to existing applications.
+      - Collaborated with multidisciplinary teams to address Geo-Spatial data challenges.
+      - Guided and mentored students during their internship, B.Tech & M.Tech projects focused on Gen AI integration.
 
-  - title: Full Stack Software Developer (Part Time)
-    company: Shriram Yoga Society
-    dates: Sept 2022 – Jan 2024
-    location: India
-    responsibilities:
-      - Responsible for developing full-stack web & mobile apps.
-      - Designed and implemented various REST APIs and serverless functions.
-
-  - title: Mentor – Artificial Intelligence & Machine Learning
+  - title: AI/ML Mentor
     company: National Institute of Electronics & Information Technology (NIELIT)
-    dates: Jan 2024
-    location: Haridwar, Uttarakhand, India
+    dates: Jan 2024 - Feb 2024
+    location: Rudraprayag, Uttarakhand, India · On-site
     responsibilities:
-      - Mentored and provided AI/ML training to students of PMSHRI Jawahar Navodaya Vidyalaya, Rudraprayag, Uttrakhand.
-      - Developed curriculum and training materials for AI/ML courses.
-      - Assisted students in hands-on projects and practical applications of AI/ML concepts.
-      - Evaluated student performance and provided feedback for improvement.
-  - title: Speaker – Artificial Intelligence & Machine Learning
-    company: ICAR-Indian Institute of Soil and Water Conservation
-    dates: Oct 2023
-    location: Dehradun, Uttarakhand, India
+      - Designed and delivered comprehensive AI/ML curriculum for 100+ students at PM SHRI Jawahar Navodaya Vidyalaya, Rudraprayag, Uttarakhand, focusing on practical applications and hands-on learning.
+      - Conducted workshops on Python programming, data analysis, and machine learning algorithms, focusing on real-world problem-solving to enhance students' understanding and application of these technologies.
+      - Designed engaging learning materials and programming exercises, resulting in a 100% success rate for students completing their first machine learning project.
+      - Mentored students in developing innovative AI-based solutions for local community challenges, fostering practical application of theoretical concepts.
+
+  - title: AI/ML Trainer
+    company: ICAR-Indian Council of Agricultural Research
+    dates: Oct 2023 - Oct 2023
+    location: Dehradun, Uttarakhand, India · On-site
     responsibilities:
-      - Invited speaker for training programme on AI and Machine Learning Applications in Natural Resource Management.
-      - Delivered lectures on the fundamentals and advanced topics of AI and Machine Learning.
-      - Conducted workshops and interactive sessions to demonstrate AI/ML tools and techniques.
-      - Collaborated with other experts to design the training programme agenda and content.
+      - Trainer for training programme on AI & Machine Learning Applications in Natural Resource Management.
+      - Delivered expert talks & training on cutting-edge AI & ML applications in natural resource management to an audience of 50+ senior scientists and professionals from pan India.
+      - Conducted hands-on sessions with real world data provided by the scientists demonstrating the use of deep learning models for environmental monitoring.
