@@ -1,5 +1,5 @@
 ---
-title: "Genetic Algorithms: Unleashing the Power of Nature in Problem Solving"
+title: "Genetic Algorithms"
 layout: post
 date: 2023-05-14
 categories: DATA_SCIENCE
