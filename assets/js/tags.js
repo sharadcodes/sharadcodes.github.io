@@ -107,7 +107,7 @@ function generateTagColors() {
   });
 }
 
-generateTagColors();
+// generateTagColors(); // Disabled to remove tag colors
 
 // add .tags tp #tags
 
