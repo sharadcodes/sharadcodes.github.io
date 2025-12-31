@@ -65,13 +65,13 @@ projects:
 #     link: https://agmvs.org.in
 #     tags: [HTML, CSS, JS, Bulma, PHP, MySQL, Wordpress]
 
-  - title: Material You Jekyll Theme
-    img: /assets/uploads/myjt.png
-    img_alt: Material You Jekyll Theme
-    about: A Jekyll theme for Material You Lovers.
-    code: https://github.com/sharadcodes/jekyll-theme-material-you
-    link: /jekyll-theme-material-you/
-    tags: [HTML, CSS, JS, Jekyll]
+  # - title: Material You Jekyll Theme
+  #   img: /assets/uploads/myjt.png
+  #   img_alt: Material You Jekyll Theme
+  #   about: A Jekyll theme for Material You Lovers.
+  #   code: https://github.com/sharadcodes/jekyll-theme-material-you
+  #   link: /jekyll-theme-material-you/
+  #   tags: [HTML, CSS, JS, Jekyll]
 
   - title: Serial Programmer Jekyll Theme
     img: /assets/uploads/spjt.png
