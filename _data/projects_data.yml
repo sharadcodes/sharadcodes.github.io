@@ -2,7 +2,7 @@ projects:
   - title: Face Recognition Based Online Attendance System
     img: /assets/uploads/afr2.png
     img_alt: AFR DASH IMAGE
-    about: This project uses OpenCV for Face Detection, Flask and JS for handling camera stream.
+    about: A robust automated attendance system leveraging computer vision. It utilizes OpenCV for real-time face detection and recognition, with a Flask backend and JavaScript frontend to manage camera streams and attendance logs efficiently.
     link: https://frbas.onrender.com
     tags:
       [HTML, CSS, JS, Bootstrap, Python, Flask, OpenCV, Heroku, Render, SQLite]
@@ -10,7 +10,7 @@ projects:
   - title: Sentim REST API
     img: /assets/uploads/rest_api.png
     img_alt: Sentim REST API
-    about: A free REST API for sentiment analysis of the text.
+    about: A high-performance REST API designed for real-time sentiment analysis. It processes text input to determine emotional tone (positive, negative, or neutral) using NLTK and TextBlob, making it easy to integrate sentiment intelligence into any application.
     link: https://sentim-api.onrender.com
     tags:
       [
@@ -30,7 +30,7 @@ projects:
 
 
   - title: ElevenManager
-    img: /assets/uploads/elevenmanager.png
+    img: /assets/uploads/11m.png
     img_alt: ElevenManager
     about: Effortlessly send URLs, manage collections, and organize your reading list for ElevenReader. Features include batch sending multiple URLs, file upload support, and collection management.
     link: https://chromewebstore.google.com/detail/elevenmanager/ogikmcebfbcmlbjpchfijnjjjefnnemh
@@ -39,7 +39,7 @@ projects:
   - title: Naya Tab Extension
     img: /assets/uploads/nte.png
     img_alt: Naya Tab Extension
-    about: A new tab extension for Chrome/Brave/Firefox/Edge or any chromium based browser. Search for "Naya Tab" on webstore/mozilla addons/edge webstore to install it.
+    about: A highly customizable and productivity-focused new tab extension for all Chromium-based browsers. It offers a clean interface, quick access to bookmarks, and personalized widgets to enhance your daily browsing experience. Available on Chrome Web Store, Mozilla Add-ons, and Edge Add-ons.
     link: /web_extensions/2022/09/13/naya-tab.html
     tags: [HTML, CSS, JS, Svelte, Web Extensions]
 
@@ -52,7 +52,7 @@ projects:
   - title: Serial Programmer Jekyll Theme
     img: /assets/uploads/spjt.png
     img_alt: Serial Programmer Jekyll Theme
-    about: A Jekyll theme for serial programmers.
+    about: A sleek, minimalist Jekyll theme specifically designed for developers and 'serial programmers'. It features a clean layout, syntax highlighting, and easy navigation, perfect for showcasing technical blogs and project portfolios.
     code: https://github.com/sharadcodes/jekyll-theme-serial-programmer
     link: /jekyll-theme-serial-programmer/
     tags: [HTML, CSS, JS, Jekyll]
@@ -68,18 +68,14 @@ projects:
   - title: Image 2 PDF Action
     img: /assets/uploads/imgp.png
     img_alt: Image 2 PDF Action
-    about:
-      Action for converting images stored in a folder to pdfs according to the
-      specified page size and saving the output pdfs to the specified folder.
+    about: A powerful GitHub Action that automates the conversion of image collections into professional PDF documents. It supports custom page sizing, maintains image quality, and allows for flexible output directory configuration within your CI/CD pipeline.
     code: https://github.com/marketplace/actions/image-2-pdf-action
     tags: [GitHub Actions, Docker, Linux]
 
   - title: Image Resizer Action
     img: /assets/uploads/imgrs.png
     img_alt: Image Resizer Action
-    about: An action for resizing images according to the given resolution for
-      resizing , the folder of original images and the output folder for resized
-      images.
+    about: A versatile GitHub Action for automated image processing. It enables bulk resizing of images to specific resolutions, streamlining asset management for web development and ensuring consistent image dimensions across your repository.
     code: https://github.com/marketplace/actions/image-resizer-action
     tags: [GitHub Actions, Docker, Linux]
 
@@ -133,7 +129,7 @@ projects:
   # - title: Material You Jekyll Theme
   #   img: /assets/uploads/myjt.png
   #   img_alt: Material You Jekyll Theme
-  #   about: A Jekyll theme for Material You Lovers.
+  #   about: A modern Jekyll theme inspired by Google's Material You design language. It features dynamic color palettes, responsive layouts, and a clean aesthetic that adapts beautifully to different screen sizes and user preferences.
   #   code: https://github.com/sharadcodes/jekyll-theme-material-you
   #   link: /jekyll-theme-material-you/
   #   tags: [HTML, CSS, JS, Jekyll]
@@ -141,7 +137,7 @@ projects:
   # - title: SharNote
   #   img: /assets/uploads/sharnote.png
   #   img_alt: SharNote
-  #   about: A command line utility in Python for taking notes.
+  #   about: A lightweight and efficient command-line interface (CLI) utility built with Python for quick note-taking. It allows users to create, search, and manage notes directly from the terminal, perfect for developers who prefer staying in their command-line environment.
   #   code: https://github.com/sharadcodes/sharnote
   #   link: https://pypi.org/project/sharnote
   #   tags: [Python, PyPI]
@@ -149,7 +145,7 @@ projects:
 #   - title: Shar Pod AudioPlayer
 #     img: /assets/uploads/shar_pod.png
 #     img_alt: Shar Pod AudioPlayer
-#     about: An open source web component for your daily podcast needs
+#     about: A feature-rich, open-source web component designed for seamless podcast playback. It provides a customizable and responsive audio interface that can be easily integrated into any website or web application.
 #     code: https://github.com/sharadcodes/Shar-Pod-AudioPlayer
 #     link: /Shar-Pod-AudioPlayer/example/
 #     tags: [HTML, CSS, JS, Web Components]
@@ -157,7 +153,7 @@ projects:
 #   - title: Shar Audio Player Plugin
 #     img: /assets/uploads/shar.png
 #     img_alt: Shar Audio Player Plugin
-#     about: A minimal audio player written in Vanilla JS
+#     about: A lightweight, dependency-free audio player plugin crafted with Vanilla JavaScript. It offers a clean UI and essential playback controls, ensuring fast load times and easy integration for any web project.
 #     code: https://github.com/sharadcodes/Shar-Player
 #     link: /Shar-Player/examples/first/index.html
 #     tags: [HTML, CSS, JS]
@@ -206,7 +202,7 @@ projects:
 #   - title: my_py_site
 #     img: /assets/uploads/my_py_site.png
 #     img_alt: my_py_site
-#     about: World's smallest static site generator developed by me in Python
+#     about: An ultra-minimalist static site generator built in Python. Designed for simplicity and speed, it demonstrates the core principles of SSGs by converting Markdown files into a fully functional website in just a few lines of code.
 #     code: https://github.com/sharadcodes/my_py_site
 #     tags: [Python, Static Site Generator]
 
@@ -226,16 +222,14 @@ projects:
   # - title: Twitter Feed Images Scrapping API
   #   img: /assets/uploads/twitter_api.png
   #   img_alt: Twitter Feed Images Scrapping API
-  #   about:
-  #     An API that returns the links of the feed images of any public account.
-  #     Have Fun !
+  #   about: A specialized web scraping API built with Python and Selenium that extracts image URLs from public Twitter feeds. It provides a structured way to programmatically access media content from any public profile for research or integration purposes.
   #   # link: https://sharadcodes-twee-api.herokuapp.com/
   #   tags: [Python, Flask, Selenium]
 
   # - title: Github Repo Files Extractor
   #   img: /assets/uploads/js.png
   #   img_alt: Github Repo Files Extractor
-  #   about: Get array of specifice type of files or all files in the specific folder.
+  #   about: A handy utility for developers to programmatically retrieve specific file types or entire directory contents from GitHub repositories. It simplifies the process of gathering assets or source files for CDN usage or automated analysis.
   #   link: /cdn/ghub_files/
 
 #   - title: GST Based Billing System
@@ -248,6 +242,6 @@ projects:
 #   - title: Game Of Infinity Stones
 #     img: /assets/uploads/ais.png
 #     img_alt: Snap
-#     about: Collect the Infinity Stones in this amazing JavaScript game
+#     about: An engaging browser-based game where players embark on a quest to collect all six Infinity Stones. Built with HTML5, CSS3, and Vanilla JavaScript, it features interactive gameplay mechanics and responsive design.
 #     link: /the-game-of-infinity-stones/
 #     tags: [HTML, CSS, JS]

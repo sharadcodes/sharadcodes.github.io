@@ -1,94 +1,93 @@
 const colorSchemes = {
   // terminologies & concepts
-  rest: { color: "#000", bgColor: "#f89820" },
-  serverless: { color: "#fff", bgColor: "#f89820" },
-  static_site_generator: { color: "#fff", bgColor: "#f89820" },
-  web_components: { color: "#fff", bgColor: "#f89820" },
+  rest: { color: "rgba(255, 180, 100, 0.95)", bgColor: "rgba(248, 152, 32, 0.2)" },
+  serverless: { color: "rgba(255, 180, 100, 0.95)", bgColor: "rgba(248, 152, 32, 0.2)" },
+  static_site_generator: { color: "rgba(255, 180, 100, 0.95)", bgColor: "rgba(248, 152, 32, 0.2)" },
+  web_components: { color: "rgba(255, 180, 100, 0.95)", bgColor: "rgba(248, 152, 32, 0.2)" },
   // languages
-  html: { color: "#fff", bgColor: "#f16529" },
-  css: { color: "#fff", bgColor: "#2965f1" },
-  javascript: { color: "#f0db4f", bgColor: "#f7df1e" },
-  js: { color: "#000", bgColor: "#f7df1e" },
-  python: { color: "#000", bgColor: "#ffe873" },
-  java: { color: "#000", bgColor: "#f89820" },
-  cpp: { color: "#00599c", bgColor: "#00599c" },
-  c: { color: "#00599c", bgColor: "#00599c" },
-  dart: { color: "#02569b", bgColor: "#02569b" },
-  php: { color: "#000", bgColor: "#8993be" },
+  html: { color: "rgba(255, 140, 100, 0.95)", bgColor: "rgba(241, 101, 41, 0.2)" },
+  css: { color: "rgba(100, 160, 255, 0.95)", bgColor: "rgba(41, 101, 241, 0.2)" },
+  javascript: { color: "rgba(255, 235, 100, 0.95)", bgColor: "rgba(247, 223, 30, 0.2)" },
+  js: { color: "rgba(255, 235, 100, 0.95)", bgColor: "rgba(247, 223, 30, 0.2)" },
+  python: { color: "rgba(255, 240, 150, 0.95)", bgColor: "rgba(255, 232, 115, 0.2)" },
+  java: { color: "rgba(255, 180, 100, 0.95)", bgColor: "rgba(248, 152, 32, 0.2)" },
+  cpp: { color: "rgba(100, 160, 220, 0.95)", bgColor: "rgba(0, 89, 156, 0.2)" },
+  c: { color: "rgba(100, 160, 220, 0.95)", bgColor: "rgba(0, 89, 156, 0.2)" },
+  dart: { color: "rgba(100, 160, 220, 0.95)", bgColor: "rgba(2, 124, 255, 0.2)" },
+  php: { color: "rgba(180, 190, 230, 0.95)", bgColor: "rgba(137, 147, 190, 0.2)" },
   //   stacks
-  mevn: { color: "#fff", bgColor: "#00d1b2" },
-  mern: { color: "#fff", bgColor: "#00d1b2" },
-  mean: { color: "#fff", bgColor: "#00d1b2" },
+  mevn: { color: "rgba(100, 230, 210, 0.95)", bgColor: "rgba(0, 209, 178, 0.2)" },
+  mern: { color: "rgba(100, 230, 210, 0.95)", bgColor: "rgba(0, 209, 178, 0.2)" },
+  mean: { color: "rgba(100, 230, 210, 0.95)", bgColor: "rgba(0, 209, 178, 0.2)" },
   // web dev
-  pwa: { color: "#000", bgColor: "#5ebeff" },
-  react: { color: "#000", bgColor: "#00d8ff" },
-  nodejs: { color: "#fff", bgColor: "#026e00" },
-  express: { color: "#000", bgColor: "#fff" },
-  django: { color: "#0c4b33", bgColor: "#0c4b33" },
-  flask: { color: "#fff", bgColor: "#000" },
-  svelte: { color: "#fff", bgColor: "#ff3e00" },
-  web_extensions: { color: "#000", bgColor: "lawngreen" },
-  bootstrap: { color: "#fff", bgColor: "#7952b3" },
-  bulma: { color: "#fff", bgColor: "#00d1b2" },
-  jquery: { color: "#fff", bgColor: "#0769ad" },
-  particlesjs: { color: "#333", bgColor: "#ccc" },
-  swiffy_slider: { color: "#fff", bgColor: "#000" },
-  wordpress: { color: "#fff", bgColor: "#21759b" },
-  jekyll: { color: "#fff", bgColor: "#cc0000" },
+  pwa: { color: "rgba(140, 210, 255, 0.95)", bgColor: "rgba(94, 190, 255, 0.2)" },
+  react: { color: "rgba(100, 230, 255, 0.95)", bgColor: "rgba(0, 216, 255, 0.2)" },
+  nodejs: { color: "rgba(100, 200, 100, 0.95)", bgColor: "rgba(2, 110, 0, 0.2)" },
+  express: { color: "rgba(200, 200, 210, 0.95)", bgColor: "rgba(150, 150, 150, 0.15)" },
+  django: { color: "rgba(100, 180, 140, 0.95)", bgColor: "rgba(12, 75, 51, 0.2)" },
+  flask: { color: "rgba(200, 200, 210, 0.95)", bgColor: "rgba(150, 150, 150, 0.15)" },
+  svelte: { color: "rgba(255, 130, 80, 0.95)", bgColor: "rgba(255, 62, 0, 0.2)" },
+  web_extensions: { color: "rgba(160, 255, 100, 0.95)", bgColor: "rgba(124, 252, 0, 0.2)" },
+  bootstrap: { color: "rgba(170, 140, 220, 0.95)", bgColor: "rgba(121, 82, 179, 0.2)" },
+  bulma: { color: "rgba(100, 230, 210, 0.95)", bgColor: "rgba(0, 209, 178, 0.2)" },
+  jquery: { color: "rgba(100, 160, 220, 0.95)", bgColor: "rgba(7, 105, 173, 0.2)" },
+  particlesjs: { color: "rgba(180, 180, 190, 0.95)", bgColor: "rgba(150, 150, 150, 0.15)" },
+  swiffy_slider: { color: "rgba(200, 200, 210, 0.95)", bgColor: "rgba(150, 150, 150, 0.15)" },
+  wordpress: { color: "rgba(100, 170, 200, 0.95)", bgColor: "rgba(33, 117, 155, 0.2)" },
+  jekyll: { color: "rgba(255, 100, 100, 0.95)", bgColor: "rgba(204, 0, 0, 0.2)" },
   // mobile dev
-  flutter: { color: "#fff", bgColor: "#027cff" },
-  dart: { color: "#fff", bgColor: "#027cff" },
+  flutter: { color: "rgba(100, 170, 255, 0.95)", bgColor: "rgba(2, 124, 255, 0.2)" },
   // pc frameworks
-  electron: { color: "#fff", bgColor: "#47848f" },
-  swing: { color: "#fff", bgColor: "#47848f" },
+  electron: { color: "rgba(120, 180, 190, 0.95)", bgColor: "rgba(71, 132, 143, 0.2)" },
+  swing: { color: "rgba(120, 180, 190, 0.95)", bgColor: "rgba(71, 132, 143, 0.2)" },
   //   automation frameworks
-  selenium: { color: "#fff", bgColor: "#47848f" },
-  puppeteer: { color: "#fff", bgColor: "#47848f" },
+  selenium: { color: "rgba(120, 180, 190, 0.95)", bgColor: "rgba(71, 132, 143, 0.2)" },
+  puppeteer: { color: "rgba(120, 180, 190, 0.95)", bgColor: "rgba(71, 132, 143, 0.2)" },
   // cloud
-  aws: { color: "#ff9900", bgColor: "#ff9900" },
-  amazon_web_services: { color: "#ff9900", bgColor: "#ff9900" },
-  gcp: { color: "#fff", bgColor: "#4285f4" },
-  google_cloud: { color: "#fff", bgColor: "#4285f4" },
-  azure: { color: "#0089d6", bgColor: "#0089d6" },
-  heroku: { color: "#fff", bgColor: "#430098" },
-  render: { color: "#fff", bgColor: "#f24c4e" },
-  netlify: { color: "#fff", bgColor: "#00c7b7" },
-  vercel: { color: "#fff", bgColor: "#000000" },
-  github_pages: { color: "#fff", bgColor: "#4078c0" },
+  aws: { color: "rgba(255, 180, 80, 0.95)", bgColor: "rgba(255, 153, 0, 0.2)" },
+  amazon_web_services: { color: "rgba(255, 180, 80, 0.95)", bgColor: "rgba(255, 153, 0, 0.2)" },
+  gcp: { color: "rgba(120, 170, 255, 0.95)", bgColor: "rgba(66, 133, 244, 0.2)" },
+  google_cloud: { color: "rgba(120, 170, 255, 0.95)", bgColor: "rgba(66, 133, 244, 0.2)" },
+  azure: { color: "rgba(100, 180, 240, 0.95)", bgColor: "rgba(0, 137, 214, 0.2)" },
+  heroku: { color: "rgba(160, 120, 220, 0.95)", bgColor: "rgba(67, 0, 152, 0.2)" },
+  render: { color: "rgba(255, 130, 130, 0.95)", bgColor: "rgba(242, 76, 78, 0.2)" },
+  netlify: { color: "rgba(100, 220, 210, 0.95)", bgColor: "rgba(0, 199, 183, 0.2)" },
+  vercel: { color: "rgba(200, 200, 210, 0.95)", bgColor: "rgba(150, 150, 150, 0.15)" },
+  github_pages: { color: "rgba(120, 170, 230, 0.95)", bgColor: "rgba(64, 120, 192, 0.2)" },
   // tools & clis
-  pypi: { color: "#fff", bgColor: "#3775a9" },
-  git: { color: "#f34f29", bgColor: "#f34f29" },
-  github: { color: "#4078c0", bgColor: "#4078c0" },
+  pypi: { color: "rgba(100, 160, 210, 0.95)", bgColor: "rgba(55, 117, 169, 0.2)" },
+  git: { color: "rgba(255, 130, 100, 0.95)", bgColor: "rgba(243, 79, 41, 0.2)" },
+  github: { color: "rgba(120, 170, 230, 0.95)", bgColor: "rgba(64, 120, 192, 0.2)" },
   // devops
-  docker: { color: "#fff", bgColor: "#0db7ed" },
-  kubernetes: { color: "#fff", bgColor: "#326ce5" },
-  github_actions: { color: "#fff", bgColor: "#2088ff" },
+  docker: { color: "rgba(100, 210, 255, 0.95)", bgColor: "rgba(13, 183, 237, 0.2)" },
+  kubernetes: { color: "rgba(110, 160, 255, 0.95)", bgColor: "rgba(50, 108, 229, 0.2)" },
+  github_actions: { color: "rgba(100, 170, 255, 0.95)", bgColor: "rgba(32, 136, 255, 0.2)" },
   // data science
-  tensorflow: { color: "#ffffff", bgColor: "#ff6f00" },
-  pytorch: { color: "#ffffff", bgColor: "#ee4c2c" },
-  scikit_learn: { color: "#ffffff", bgColor: "#f7931e" },
-  keras: { color: "#ffffff", bgColor: "#d00000" },
-  pandas: { color: "#ffffff", bgColor: "#150458" },
-  numpy: { color: "#ffffff", bgColor: "#013243" },
-  nltk: { color: "#ffffff", bgColor: "#4bae8c" },
-  opencv: { color: "#ffffff", bgColor: "#5c3ee8" },
-  textblob: { color: "#000", bgColor: "#ffce00" },
+  tensorflow: { color: "rgba(255, 160, 80, 0.95)", bgColor: "rgba(255, 111, 0, 0.2)" },
+  pytorch: { color: "rgba(255, 130, 100, 0.95)", bgColor: "rgba(238, 76, 44, 0.2)" },
+  scikit_learn: { color: "rgba(255, 180, 100, 0.95)", bgColor: "rgba(247, 147, 30, 0.2)" },
+  keras: { color: "rgba(255, 100, 100, 0.95)", bgColor: "rgba(208, 0, 0, 0.2)" },
+  pandas: { color: "rgba(140, 120, 200, 0.95)", bgColor: "rgba(21, 4, 88, 0.2)" },
+  numpy: { color: "rgba(100, 160, 180, 0.95)", bgColor: "rgba(1, 50, 67, 0.2)" },
+  nltk: { color: "rgba(120, 210, 180, 0.95)", bgColor: "rgba(75, 174, 140, 0.2)" },
+  opencv: { color: "rgba(150, 130, 255, 0.95)", bgColor: "rgba(92, 62, 232, 0.2)" },
+  textblob: { color: "rgba(255, 220, 80, 0.95)", bgColor: "rgba(255, 206, 0, 0.2)" },
   //   data visualization softwares
-  tableau: { color: "#ffffff", bgColor: "#e97627" },
-  powerbi: { color: "#ffffff", bgColor: "#f2c811" },
+  tableau: { color: "rgba(255, 160, 100, 0.95)", bgColor: "rgba(233, 118, 39, 0.2)" },
+  powerbi: { color: "rgba(255, 220, 100, 0.95)", bgColor: "rgba(242, 200, 17, 0.2)" },
   // databases
-  mongodb: { color: "#fff", bgColor: "#13aa52" },
-  firebase: { color: "#f5820b", bgColor: "#f5820b" },
-  mysql: { color: "#fff", bgColor: "#00758f" },
-  postgresql: { color: "#fff", bgColor: "#336791" },
-  sqlite: { color: "#fff", bgColor: "#003b57" },
-  indexeddb: { color: "#fff", bgColor: "#003b57" },
+  mongodb: { color: "rgba(100, 210, 140, 0.95)", bgColor: "rgba(19, 170, 82, 0.2)" },
+  firebase: { color: "rgba(255, 170, 80, 0.95)", bgColor: "rgba(245, 130, 11, 0.2)" },
+  mysql: { color: "rgba(100, 170, 190, 0.95)", bgColor: "rgba(0, 117, 143, 0.2)" },
+  postgresql: { color: "rgba(110, 160, 200, 0.95)", bgColor: "rgba(51, 103, 145, 0.2)" },
+  sqlite: { color: "rgba(100, 160, 180, 0.95)", bgColor: "rgba(0, 59, 87, 0.2)" },
+  indexeddb: { color: "rgba(100, 160, 180, 0.95)", bgColor: "rgba(0, 59, 87, 0.2)" },
   // os
-  linux: { color: "#000", bgColor: "#f1bf00" },
-  windows: { color: "#fff", bgColor: "#0078d6" },
-  macos: { color: "#fff", bgColor: "#000000" },
+  linux: { color: "rgba(255, 210, 80, 0.95)", bgColor: "rgba(241, 191, 0, 0.2)" },
+  windows: { color: "rgba(100, 170, 240, 0.95)", bgColor: "rgba(0, 120, 214, 0.2)" },
+  macos: { color: "rgba(200, 200, 210, 0.95)", bgColor: "rgba(150, 150, 150, 0.15)" },
   // rest apis
-  github_rest_api: { color: "#fff", bgColor: "#4078c0" },
+  github_rest_api: { color: "rgba(120, 170, 230, 0.95)", bgColor: "rgba(64, 120, 192, 0.2)" },
 };
 
 function generateTagColors() {
@@ -107,7 +106,7 @@ function generateTagColors() {
   });
 }
 
-// generateTagColors(); // Disabled to remove tag colors
+generateTagColors();
 
 // add .tags tp #tags
 
@@ -138,6 +137,8 @@ tagsContainer.innerHTML = "";
 tagsInTagsContainerArray.forEach((tag) => {
   tagsContainer.innerHTML += tag.outerHTML;
 });
+
+generateTagColors();
 
 // add ability to filter projects by tags
 

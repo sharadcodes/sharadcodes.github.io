@@ -3,17 +3,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>{{page.title}} | {{site.title}}</title>
-  <link rel="manifest" href="{{site.url}}{{site.baseurl}}/manifest.json" />
+  <link rel="manifest" href="{{ '/manifest.json' | relative_url }}" />
   <!-- favicon png -->
   <link
     rel="icon"
     type="image/png"
-    href="{{site.url}}{{site.baseurl}}/assets/icons/android/android-launchericon-48-48.png"
+    href="{{ '/assets/icons/android/android-launchericon-48-48.png' | relative_url }}"
   />
   {% seo %}
   <link
     rel="stylesheet"
-    href="{{site.url}}{{site.baseurl}}/assets/css/main.css"
+    href="{{ '/assets/css/main.css' | relative_url }}"
   />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
   <!--   <script type="module">

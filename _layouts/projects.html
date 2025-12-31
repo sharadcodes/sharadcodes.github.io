@@ -27,9 +27,9 @@
         <div>
           <div
             class="thumbnail"
-            style="background-image: url({{site.url}}{{site.baseurl}}{{project.img}})"
+            style="background-image: url({{ project.img | relative_url }})"
           ></div>
-          <!-- <img src="{{site.url}}{{site.baseurl}}{{project.img}}" class="thumbnail" alt="{{project.img_alt}}" /> -->
+          <!-- <img src="{{ project.img | relative_url }}" class="thumbnail" alt="{{project.img_alt}}" /> -->
           <div class="links">
             {% if project.code %}
             <a target="_blank" href="{{project.code}}">Github</a>
@@ -54,6 +54,6 @@
       {% endfor %}
     </main>
     {% include footer.html %}
-    <script src="{{site.url}}{{site.baseurl}}/assets/js/tags.js"></script>
+    <script src="{{ '/assets/js/tags.js' | relative_url }}"></script>
   </body>
 </html>

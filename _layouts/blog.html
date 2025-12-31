@@ -7,20 +7,20 @@
     <h1 class="page-title">Posts</h1>
     <main class="post-list">
       {% for post in site.posts %}
-      <a href="{{site.url}}{{site.baseurl}}{{post.url}}" class="post">
+      <a href="{{ post.url | relative_url }}" class="post">
         <p class="post-title">{{post.title}}</p>
         <div class="post-bottom">
           <small class="post-date">{{post.date | date_to_string}}</small>
           {% if post.image %}
-          <!-- <img class="thumbnail" src="{{site.url}}{{site.baseurl}}{{post.image}}" alt="" /> -->
+          <!-- <img class="thumbnail" src="{{ post.image | relative_url }}" alt="" /> -->
           <div
             class="thumbnail"
-            style="background-image: url({{site.url}}{{site.baseurl}}{{post.image}})"
+            style="background-image: url({{ post.image | relative_url }})"
           ></div>
           {% else %}
           <div
             class="thumbnail"
-            style="background-image: url({{site.url}}{{site.baseurl}}/assets/uploads/default.jpg)"
+            style="background-image: url({{ '/assets/uploads/default.jpg' | relative_url }})"
           ></div>
           {% endif %}
         </div>

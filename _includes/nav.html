@@ -8,7 +8,7 @@
       {% for i in site.data.owner.contact %}
       <a href="{{i.url}}" target="_blank">
         <img
-          src="{{site.url}}{{site.baseurl}}/assets/png/{{i.title}}.png"
+          src="{{ '/assets/png/' | append: i.title | append: '.png' | relative_url }}"
           alt=""
           class="icon"
         />
@@ -20,11 +20,11 @@
 
 <nav>
   {% for i in site.data.nav.toc %}
-  <a id="{{i.title | downcase}}" href="{{site.url}}{{site.baseurl}}{{i.url}}"
+  <a id="{{i.title | downcase}}" href="{{ i.url | relative_url }}"
     >{{i.title}}</a
   >
   {% endfor %}
-<!--   <a href="{{site.url}}{{site.baseurl}}/assets/docs/sharadcodes_resume_wm.pdf"
+<!--   <a href="{{ '/assets/docs/sharadcodes_resume_wm.pdf' | relative_url }}"
     >RESUME</a
   > -->
 </nav>
